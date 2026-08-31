@@ -1,0 +1,9 @@
+NODE_VERSION=24.18.0
+NODE_PACKAGE_MANAGER=npm --include=dev --ignore-scripts
+NPM_CONFIG_AUDIT=false
+NPM_CONFIG_FUND=false
+OBSERVABLE_TELEMETRY_DISABLE=true
+
+NGINX_INCLUDE_FILE=nginx.conf
+NGINX_HTTPS_ONLY=true
+ACME_ROOT_CA=letsencrypt.org

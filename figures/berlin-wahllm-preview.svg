@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Berlin WahLLM – Ergebnis der Modellstichprobe</title>
+  <desc id="description">Sieben von acht Modellläufen liegen bei SPD, Grünen oder Linken vorn. Grok liegt bei der FDP.</desc>
+  <rect width="1200" height="630" fill="#f6fafb"/>
+  <circle cx="1110" cy="-40" r="250" fill="#d9ebef"/>
+  <circle cx="1180" cy="610" r="180" fill="#f2e4da"/>
+  <rect x="48" y="44" width="1104" height="542" rx="24" fill="#ffffff" stroke="#b9c5ce" stroke-width="2"/>
+  <rect x="48" y="44" width="12" height="542" rx="6" fill="#075b71"/>
+
+  <text x="94" y="102" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="800" letter-spacing="1.5">BERLIN WAHLLM</text>
+  <text x="94" y="177" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="780" letter-spacing="-1.8">Wen würde KI wählen?</text>
+
+  <text x="94" y="267" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="760">7 von 8 Modellläufen:</text>
+  <text x="94" y="324" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="760">SPD, Grüne oder Linke vorn</text>
+
+  <rect x="775" y="220" width="325" height="186" rx="18" fill="#f8eee7" stroke="#c88961" stroke-width="2"/>
+  <text x="806" y="260" fill="#8d441c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800" letter-spacing="1.2">AUSREISSER: GROK</text>
+  <text x="806" y="318" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="780">FDP 89,5 %</text>
+  <text x="806" y="363" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="600">CDU 78,9 % · AfD 76,3 %</text>
+
+  <line x1="94" y1="450" x2="1100" y2="450" stroke="#b9c5ce" stroke-width="2"/>
+  <text x="94" y="499" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">Einzelne Modellstichproben · voreingestellte Parteienauswahl</text>
+  <text x="94" y="541" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">38 Wahl-O-Mat-Thesen · Abgeordnetenhauswahl Berlin 2026</text>
+</svg>

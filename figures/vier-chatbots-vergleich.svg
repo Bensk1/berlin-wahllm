@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Vier Chatbots, 38 Wahl-O-Mat-Thesen</title>
+  <desc id="description">Die drei höchsten rechnerischen Parteienübereinstimmungen von ChatGPT, Claude, Gemini und Grok in einer Stichprobe.</desc>
+  <rect width="1200" height="675" fill="#f6fafb"/>
+  <circle cx="1110" cy="-40" r="250" fill="#d9ebef"/>
+  <circle cx="1180" cy="655" r="180" fill="#f2e4da"/>
+  <rect x="48" y="32" width="1104" height="611" rx="24" fill="#ffffff" stroke="#b9c5ce" stroke-width="2"/>
+  <rect x="48" y="32" width="12" height="611" rx="6" fill="#075b71"/>
+
+  <text x="94" y="76" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800" letter-spacing="1.5">BERLIN WAHLLM -- ABGEORDNETENHAUSWAHL BERLIN 2026</text>
+  <text x="94" y="135" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="43" font-weight="780" letter-spacing="-1.2">Vier Chatbots, 38 Wahl-O-Mat-Thesen</text>
+  <text x="94" y="169" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="550">Die drei höchsten rechnerischen Übereinstimmungen</text>
+
+  <rect x="94" y="192" width="493" height="145" rx="16" fill="#f4f7f8" stroke="#d2dbe1" stroke-width="2"/>
+  <circle cx="120" cy="223" r="7" fill="#1e9b83"/>
+  <text x="138" y="230" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="760">ChatGPT</text>
+  <text x="253" y="229" fill="#667382" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="550">GPT-5.6 Terra</text>
+  <text x="118" y="278" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="35" font-weight="780">SPD 80,3 %</text>
+  <text x="118" y="315" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600">Grüne 78,9 % · Linke 71,1 %</text>
+
+  <rect x="607" y="192" width="493" height="145" rx="16" fill="#f4f7f8" stroke="#d2dbe1" stroke-width="2"/>
+  <circle cx="633" cy="223" r="7" fill="#d96b45"/>
+  <text x="651" y="230" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="760">Claude</text>
+  <text x="751" y="229" fill="#667382" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="550">Sonnet 4.6</text>
+  <text x="631" y="278" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="35" font-weight="780">Grüne 78,9 %</text>
+  <text x="631" y="315" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600">SPD 77,6 % · Linke 76,3 %</text>
+
+  <rect x="94" y="354" width="493" height="145" rx="16" fill="#f4f7f8" stroke="#d2dbe1" stroke-width="2"/>
+  <circle cx="120" cy="385" r="7" fill="#4276d0"/>
+  <text x="138" y="392" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="760">Gemini</text>
+  <text x="238" y="391" fill="#667382" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="550">3.5 Flash-Lite</text>
+  <text x="118" y="440" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="35" font-weight="780">Grüne 85,5 %</text>
+  <text x="118" y="477" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600">Linke 82,9 % · SPD 81,6 %</text>
+
+  <rect x="607" y="354" width="493" height="145" rx="16" fill="#f8eee7" stroke="#c88961" stroke-width="2"/>
+  <circle cx="633" cy="385" r="7" fill="#4b4b57"/>
+  <text x="651" y="392" fill="#17212b" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="760">Grok</text>
+  <text x="717" y="391" fill="#667382" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="550">4.5 fast</text>
+  <text x="631" y="440" fill="#8d441c" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="35" font-weight="780">FDP 89,5 %</text>
+  <text x="631" y="477" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600">CDU 78,9 % · AfD 76,3 %</text>
+
+  <line x1="94" y1="527" x2="1100" y2="527" stroke="#b9c5ce" stroke-width="2"/>
+  <text x="94" y="570" fill="#51606f" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20">Eine Stichprobe · sechs vorausgewählte Parteien · keine Wahlempfehlung</text>
+  <text x="1100" y="606" fill="#075b71" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="750" text-anchor="end">https://wahl.ksmn.dev</text>
+</svg>

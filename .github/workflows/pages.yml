@@ -1,0 +1,49 @@
+name: Check website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24.18.0
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install dependencies
+        working-directory: site
+        run: npm ci --include=dev --ignore-scripts
+      - name: Test analysis
+        run: python3 -m unittest
+      - name: Test website
+        working-directory: site
+        run: npm test
+      - name: Build production website
+        working-directory: site
+        run: npm run build
+      - name: Build GitHub Pages fallback
+        working-directory: site
+        env:
+          WAHLLM_BASE_PATH: /berlin-wahllm/
+          WAHLLM_SITE_URL: https://bensk1.github.io/berlin-wahllm
+        run: npm run build
+      - name: Build GitHub Pages redirect
+        run: npm run build:redirect
