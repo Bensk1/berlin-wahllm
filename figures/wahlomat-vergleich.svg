@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="1346" viewBox="0 0 1860 1346" role="img" aria-labelledby="title description">
+<title id="title">Wahl-O-Mat: Vergleich der Modellantworten</title>
+<desc id="description">Punktdiagramm der besten Parteienübereinstimmung und Heatmap der ausgewählten Parteien.</desc>
+<rect width="1860" height="1346" fill="#fbfaf8"/>
+<style>text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #17202a; } .muted { fill: #66717f; } .tiny { font-size: 12px; } .small { font-size: 14px; } .label { font-size: 15px; font-weight: 600; } .heading { font-size: 17px; font-weight: 700; letter-spacing: .02em; } </style>
+<text x="60" y="58" font-size="31px" font-weight="750" letter-spacing="-.04em">Wahl-O-Mat: politische Nähe der Modelle</text>
+<text class="muted small" x="60" y="88">24 vollständige Antworten · 38 Thesen · Berliner Abgeordnetenhauswahl 2026</text>
+<line x1="60" y1="116" x2="1800" y2="116" stroke="#dce1e6"/>
+<text class="heading" x="60" y="145">MODELL</text>
+<text class="heading" x="500" y="145">BESTE ÜBEREINSTIMMUNG</text>
+<text class="heading" x="1020" y="145">ÜBEREINSTIMMUNG NACH PARTEI</text>
+<text class="tiny muted" transform="translate(1041.5 224) rotate(-38)" text-anchor="start">GRÜNE</text>
+<text class="tiny muted" transform="translate(1084.5 224) rotate(-38)" text-anchor="start">Tierschutzpartei</text>
+<text class="tiny muted" transform="translate(1127.5 224) rotate(-38)" text-anchor="start">PdF</text>
+<text class="tiny muted" transform="translate(1170.5 224) rotate(-38)" text-anchor="start">SPD</text>
+<text class="tiny muted" transform="translate(1213.5 224) rotate(-38)" text-anchor="start">Die Linke</text>
+<text class="tiny muted" transform="translate(1256.5 224) rotate(-38)" text-anchor="start">Volt</text>
+<text class="tiny muted" transform="translate(1299.5 224) rotate(-38)" text-anchor="start">Die PARTEI</text>
+<text class="tiny muted" transform="translate(1342.5 224) rotate(-38)" text-anchor="start">B*</text>
+<text class="tiny muted" transform="translate(1385.5 224) rotate(-38)" text-anchor="start">SGP</text>
+<text class="tiny muted" transform="translate(1428.5 224) rotate(-38)" text-anchor="start">Die Urbane.</text>
+<text class="tiny muted" transform="translate(1471.5 224) rotate(-38)" text-anchor="start">DKP</text>
+<text class="tiny muted" transform="translate(1514.5 224) rotate(-38)" text-anchor="start">ÖDP</text>
+<text class="tiny muted" transform="translate(1557.5 224) rotate(-38)" text-anchor="start">BSW</text>
+<text class="tiny muted" transform="translate(1600.5 224) rotate(-38)" text-anchor="start">CDU</text>
+<text class="tiny muted" transform="translate(1643.5 224) rotate(-38)" text-anchor="start">FDP</text>
+<text class="tiny muted" transform="translate(1686.5 224) rotate(-38)" text-anchor="start">HEIMAT</text>
+<text class="tiny muted" transform="translate(1729.5 224) rotate(-38)" text-anchor="start">AfD</text>
+<circle cx="60" cy="259.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="264.0">xAI · Grok-4.5_fast</text>
+<line x1="500" y1="259.0" x2="785" y2="259.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="755.0" cy="259.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="264.0" font-weight="700">FDP <tspan class="muted" font-weight="500">89.5%</tspan></text>
+<rect x="1023" y="243" width="37" height="32" rx="5" fill="#c3d5db"><title>Grok-4.5_fast · GRÜNE: 27.6%</title></rect>
+<rect x="1066" y="243" width="37" height="32" rx="5" fill="#dee6ea"><title>Grok-4.5_fast · Tierschutzpartei: 22.4%</title></rect>
+<rect x="1109" y="243" width="37" height="32" rx="5" fill="#a6c3cb"><title>Grok-4.5_fast · PdF: 34.2%</title></rect>
+<rect x="1152" y="243" width="37" height="32" rx="5" fill="#74a3af"><title>Grok-4.5_fast · SPD: 47.4%</title></rect>
+<rect x="1195" y="243" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Linke: 17.1%</title></rect>
+<rect x="1238" y="243" width="37" height="32" rx="5" fill="#6fa0ad"><title>Grok-4.5_fast · Volt: 48.7%</title></rect>
+<rect x="1281" y="243" width="37" height="32" rx="5" fill="#acc6ce"><title>Grok-4.5_fast · Die PARTEI: 32.9%</title></rect>
+<rect x="1324" y="243" width="37" height="32" rx="5" fill="#bdd1d8"><title>Grok-4.5_fast · B*: 28.9%</title></rect>
+<rect x="1367" y="243" width="37" height="32" rx="5" fill="#d6e1e6"><title>Grok-4.5_fast · SGP: 23.7%</title></rect>
+<rect x="1410" y="243" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Urbane.: 18.4%</title></rect>
+<rect x="1453" y="243" width="37" height="32" rx="5" fill="#b1cad1"><title>Grok-4.5_fast · DKP: 31.6%</title></rect>
+<rect x="1496" y="243" width="37" height="32" rx="5" fill="#b7cdd5"><title>Grok-4.5_fast · ÖDP: 30.3%</title></rect>
+<rect x="1539" y="243" width="37" height="32" rx="5" fill="#5d95a2"><title>Grok-4.5_fast · BSW: 53.9%</title></rect>
+<rect x="1582" y="243" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · CDU: 78.9%</title></rect>
+<rect x="1625" y="243" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · FDP: 89.5%</title></rect>
+<rect x="1668" y="243" width="37" height="32" rx="5" fill="#357c8c"><title>Grok-4.5_fast · HEIMAT: 65.8%</title></rect>
+<rect x="1711" y="243" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · AfD: 76.3%</title></rect>
+<rect x="48" y="280" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="301.0" r="5" fill="#d96b45"/>
+<text class="label" x="76" y="306.0">Anthropic · Sonnet-4.6_high</text>
+<line x1="500" y1="301.0" x2="785" y2="301.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="732.5" cy="301.0" r="8" fill="#d96b45" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="306.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">81.6%</tspan></text>
+<rect x="1023" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · GRÜNE: 78.9%</title></rect>
+<rect x="1066" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Tierschutzpartei: 81.6%</title></rect>
+<rect x="1109" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · PdF: 77.6%</title></rect>
+<rect x="1152" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · SPD: 77.6%</title></rect>
+<rect x="1195" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Die Linke: 76.3%</title></rect>
+<rect x="1238" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Volt: 78.9%</title></rect>
+<rect x="1281" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Die PARTEI: 76.3%</title></rect>
+<rect x="1324" y="285" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · B*: 75.0%</title></rect>
+<rect x="1367" y="285" width="37" height="32" rx="5" fill="#206e81"><title>Sonnet-4.6_high · SGP: 72.4%</title></rect>
+<rect x="1410" y="285" width="37" height="32" rx="5" fill="#31798a"><title>Sonnet-4.6_high · Die Urbane.: 67.1%</title></rect>
+<rect x="1453" y="285" width="37" height="32" rx="5" fill="#3a7e8f"><title>Sonnet-4.6_high · DKP: 64.5%</title></rect>
+<rect x="1496" y="285" width="37" height="32" rx="5" fill="#3e8191"><title>Sonnet-4.6_high · ÖDP: 63.2%</title></rect>
+<rect x="1539" y="285" width="37" height="32" rx="5" fill="#478696"><title>Sonnet-4.6_high · BSW: 60.5%</title></rect>
+<rect x="1582" y="285" width="37" height="32" rx="5" fill="#548f9d"><title>Sonnet-4.6_high · CDU: 56.6%</title></rect>
+<rect x="1625" y="285" width="37" height="32" rx="5" fill="#8cb3bd"><title>Sonnet-4.6_high · FDP: 40.8%</title></rect>
+<rect x="1668" y="285" width="37" height="32" rx="5" fill="#a1c0c8"><title>Sonnet-4.6_high · HEIMAT: 35.5%</title></rect>
+<rect x="1711" y="285" width="37" height="32" rx="5" fill="#c3d5db"><title>Sonnet-4.6_high · AfD: 27.6%</title></rect>
+<circle cx="60" cy="343.0" r="5" fill="#4276d0"/>
+<text class="label" x="76" y="348.0">Google · Gemini-3.5_flash-lite Web</text>
+<line x1="500" y1="343.0" x2="785" y2="343.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="751.2" cy="343.0" r="8" fill="#4276d0" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="348.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">88.2%</tspan></text>
+<rect x="1023" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · GRÜNE: 85.5%</title></rect>
+<rect x="1066" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Tierschutzpartei: 88.2%</title></rect>
+<rect x="1109" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · PdF: 78.9%</title></rect>
+<rect x="1152" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · SPD: 81.6%</title></rect>
+<rect x="1195" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die Linke: 82.9%</title></rect>
+<rect x="1238" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Volt: 77.6%</title></rect>
+<rect x="1281" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die PARTEI: 77.6%</title></rect>
+<rect x="1324" y="327" width="37" height="32" rx="5" fill="#1c6c7e"><title>Gemini-3.5_flash-lite Web · B*: 73.7%</title></rect>
+<rect x="1367" y="327" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · SGP: 78.9%</title></rect>
+<rect x="1410" y="327" width="37" height="32" rx="5" fill="#1c6c7e"><title>Gemini-3.5_flash-lite Web · Die Urbane.: 73.7%</title></rect>
+<rect x="1453" y="327" width="37" height="32" rx="5" fill="#2d7688"><title>Gemini-3.5_flash-lite Web · DKP: 68.4%</title></rect>
+<rect x="1496" y="327" width="37" height="32" rx="5" fill="#206e81"><title>Gemini-3.5_flash-lite Web · ÖDP: 72.4%</title></rect>
+<rect x="1539" y="327" width="37" height="32" rx="5" fill="#5d95a2"><title>Gemini-3.5_flash-lite Web · BSW: 53.9%</title></rect>
+<rect x="1582" y="327" width="37" height="32" rx="5" fill="#6b9daa"><title>Gemini-3.5_flash-lite Web · CDU: 50.0%</title></rect>
+<rect x="1625" y="327" width="37" height="32" rx="5" fill="#a6c3cb"><title>Gemini-3.5_flash-lite Web · FDP: 34.2%</title></rect>
+<rect x="1668" y="327" width="37" height="32" rx="5" fill="#b1cad1"><title>Gemini-3.5_flash-lite Web · HEIMAT: 31.6%</title></rect>
+<rect x="1711" y="327" width="37" height="32" rx="5" fill="#e6ebef"><title>Gemini-3.5_flash-lite Web · AfD: 21.1%</title></rect>
+<rect x="48" y="364" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="385.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="390.0">OpenAI · gpt-5.6-terra-high_work</text>
+<line x1="500" y1="385.0" x2="785" y2="385.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="747.5" cy="385.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="390.0" font-weight="700">Volt <tspan class="muted" font-weight="500">86.8%</tspan></text>
+<rect x="1023" y="369" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · GRÜNE: 78.9%</title></rect>
+<rect x="1066" y="369" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Tierschutzpartei: 76.3%</title></rect>
+<rect x="1109" y="369" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · PdF: 77.6%</title></rect>
+<rect x="1152" y="369" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · SPD: 80.3%</title></rect>
+<rect x="1195" y="369" width="37" height="32" rx="5" fill="#247183"><title>gpt-5.6-terra-high_work · Die Linke: 71.1%</title></rect>
+<rect x="1238" y="369" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Volt: 86.8%</title></rect>
+<rect x="1281" y="369" width="37" height="32" rx="5" fill="#247183"><title>gpt-5.6-terra-high_work · Die PARTEI: 71.1%</title></rect>
+<rect x="1324" y="369" width="37" height="32" rx="5" fill="#297485"><title>gpt-5.6-terra-high_work · B*: 69.7%</title></rect>
+<rect x="1367" y="369" width="37" height="32" rx="5" fill="#297485"><title>gpt-5.6-terra-high_work · SGP: 69.7%</title></rect>
+<rect x="1410" y="369" width="37" height="32" rx="5" fill="#428494"><title>gpt-5.6-terra-high_work · Die Urbane.: 61.8%</title></rect>
+<rect x="1453" y="369" width="37" height="32" rx="5" fill="#428494"><title>gpt-5.6-terra-high_work · DKP: 61.8%</title></rect>
+<rect x="1496" y="369" width="37" height="32" rx="5" fill="#478696"><title>gpt-5.6-terra-high_work · ÖDP: 60.5%</title></rect>
+<rect x="1539" y="369" width="37" height="32" rx="5" fill="#6197a5"><title>gpt-5.6-terra-high_work · BSW: 52.6%</title></rect>
+<rect x="1582" y="369" width="37" height="32" rx="5" fill="#4b8998"><title>gpt-5.6-terra-high_work · CDU: 59.2%</title></rect>
+<rect x="1625" y="369" width="37" height="32" rx="5" fill="#79a6b2"><title>gpt-5.6-terra-high_work · FDP: 46.1%</title></rect>
+<rect x="1668" y="369" width="37" height="32" rx="5" fill="#acc6ce"><title>gpt-5.6-terra-high_work · HEIMAT: 32.9%</title></rect>
+<rect x="1711" y="369" width="37" height="32" rx="5" fill="#b7cdd5"><title>gpt-5.6-terra-high_work · AfD: 30.3%</title></rect>
+<circle cx="60" cy="427.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="432.0">Google DeepMind · gemma4:26b Lokal</text>
+<line x1="500" y1="427.0" x2="785" y2="427.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="751.2" cy="427.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="432.0" font-weight="700">PdF <tspan class="muted" font-weight="500">88.2%</tspan></text>
+<rect x="1023" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · GRÜNE: 81.6%</title></rect>
+<rect x="1066" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · Tierschutzpartei: 84.2%</title></rect>
+<rect x="1109" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · PdF: 88.2%</title></rect>
+<rect x="1152" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · SPD: 75.0%</title></rect>
+<rect x="1195" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · Die Linke: 78.9%</title></rect>
+<rect x="1238" y="411" width="37" height="32" rx="5" fill="#247183"><title>gemma4:26b Lokal · Volt: 71.1%</title></rect>
+<rect x="1281" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · Die PARTEI: 81.6%</title></rect>
+<rect x="1324" y="411" width="37" height="32" rx="5" fill="#18697c"><title>gemma4:26b Lokal · B*: 77.6%</title></rect>
+<rect x="1367" y="411" width="37" height="32" rx="5" fill="#206e81"><title>gemma4:26b Lokal · SGP: 72.4%</title></rect>
+<rect x="1410" y="411" width="37" height="32" rx="5" fill="#297485"><title>gemma4:26b Lokal · Die Urbane.: 69.7%</title></rect>
+<rect x="1453" y="411" width="37" height="32" rx="5" fill="#206e81"><title>gemma4:26b Lokal · DKP: 72.4%</title></rect>
+<rect x="1496" y="411" width="37" height="32" rx="5" fill="#1c6c7e"><title>gemma4:26b Lokal · ÖDP: 73.7%</title></rect>
+<rect x="1539" y="411" width="37" height="32" rx="5" fill="#4f8c9b"><title>gemma4:26b Lokal · BSW: 57.9%</title></rect>
+<rect x="1582" y="411" width="37" height="32" rx="5" fill="#5d95a2"><title>gemma4:26b Lokal · CDU: 53.9%</title></rect>
+<rect x="1625" y="411" width="37" height="32" rx="5" fill="#96b9c3"><title>gemma4:26b Lokal · FDP: 38.2%</title></rect>
+<rect x="1668" y="411" width="37" height="32" rx="5" fill="#96b9c3"><title>gemma4:26b Lokal · HEIMAT: 38.2%</title></rect>
+<rect x="1711" y="411" width="37" height="32" rx="5" fill="#dee6ea"><title>gemma4:26b Lokal · AfD: 22.4%</title></rect>
+<rect x="48" y="448" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="469.0" r="5" fill="#805ad5"/>
+<text class="label" x="76" y="474.0">Mistral AI · Mistral Medium 3.5</text>
+<line x1="500" y1="469.0" x2="785" y2="469.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="770.0" cy="469.0" r="8" fill="#805ad5" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="474.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">94.7%</tspan></text>
+<rect x="1023" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · GRÜNE: 89.5%</title></rect>
+<rect x="1066" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · Tierschutzpartei: 94.7%</title></rect>
+<rect x="1109" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · PdF: 88.2%</title></rect>
+<rect x="1152" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · SPD: 77.6%</title></rect>
+<rect x="1195" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · Die Linke: 92.1%</title></rect>
+<rect x="1238" y="453" width="37" height="32" rx="5" fill="#1c6c7e"><title>Mistral Medium 3.5 · Volt: 73.7%</title></rect>
+<rect x="1281" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · Die PARTEI: 84.2%</title></rect>
+<rect x="1324" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · B*: 77.6%</title></rect>
+<rect x="1367" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · SGP: 80.3%</title></rect>
+<rect x="1410" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · Die Urbane.: 82.9%</title></rect>
+<rect x="1453" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · DKP: 75.0%</title></rect>
+<rect x="1496" y="453" width="37" height="32" rx="5" fill="#18697c"><title>Mistral Medium 3.5 · ÖDP: 76.3%</title></rect>
+<rect x="1539" y="453" width="37" height="32" rx="5" fill="#6197a5"><title>Mistral Medium 3.5 · BSW: 52.6%</title></rect>
+<rect x="1582" y="453" width="37" height="32" rx="5" fill="#8cb3bd"><title>Mistral Medium 3.5 · CDU: 40.8%</title></rect>
+<rect x="1625" y="453" width="37" height="32" rx="5" fill="#cfdde2"><title>Mistral Medium 3.5 · FDP: 25.0%</title></rect>
+<rect x="1668" y="453" width="37" height="32" rx="5" fill="#cfdde2"><title>Mistral Medium 3.5 · HEIMAT: 25.0%</title></rect>
+<rect x="1711" y="453" width="37" height="32" rx="5" fill="#eff1f4"><title>Mistral Medium 3.5 · AfD: 14.5%</title></rect>
+<circle cx="60" cy="511.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="516.0">GLM-5.3-Flash</text>
+<line x1="500" y1="511.0" x2="785" y2="511.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="747.5" cy="511.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="516.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">86.8%</tspan></text>
+<rect x="1023" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · GRÜNE: 86.8%</title></rect>
+<rect x="1066" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · Tierschutzpartei: 81.6%</title></rect>
+<rect x="1109" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · PdF: 82.9%</title></rect>
+<rect x="1152" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · SPD: 75.0%</title></rect>
+<rect x="1195" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · Die Linke: 81.6%</title></rect>
+<rect x="1238" y="495" width="37" height="32" rx="5" fill="#1c6c7e"><title>GLM-5.3-Flash · Volt: 73.7%</title></rect>
+<rect x="1281" y="495" width="37" height="32" rx="5" fill="#1c6c7e"><title>GLM-5.3-Flash · Die PARTEI: 73.7%</title></rect>
+<rect x="1324" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · B*: 77.6%</title></rect>
+<rect x="1367" y="495" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5.3-Flash · SGP: 77.6%</title></rect>
+<rect x="1410" y="495" width="37" height="32" rx="5" fill="#206e81"><title>GLM-5.3-Flash · Die Urbane.: 72.4%</title></rect>
+<rect x="1453" y="495" width="37" height="32" rx="5" fill="#206e81"><title>GLM-5.3-Flash · DKP: 72.4%</title></rect>
+<rect x="1496" y="495" width="37" height="32" rx="5" fill="#2d7688"><title>GLM-5.3-Flash · ÖDP: 68.4%</title></rect>
+<rect x="1539" y="495" width="37" height="32" rx="5" fill="#5892a0"><title>GLM-5.3-Flash · BSW: 55.3%</title></rect>
+<rect x="1582" y="495" width="37" height="32" rx="5" fill="#6fa0ad"><title>GLM-5.3-Flash · CDU: 48.7%</title></rect>
+<rect x="1625" y="495" width="37" height="32" rx="5" fill="#a1c0c8"><title>GLM-5.3-Flash · FDP: 35.5%</title></rect>
+<rect x="1668" y="495" width="37" height="32" rx="5" fill="#a1c0c8"><title>GLM-5.3-Flash · HEIMAT: 35.5%</title></rect>
+<rect x="1711" y="495" width="37" height="32" rx="5" fill="#cfdde2"><title>GLM-5.3-Flash · AfD: 25.0%</title></rect>
+<rect x="48" y="532" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="553.0" r="5" fill="#bd4f84"/>
+<text class="label" x="76" y="558.0">Moonshot AI · K2.6-Instant-High</text>
+<line x1="500" y1="553.0" x2="785" y2="553.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="758.8" cy="553.0" r="8" fill="#bd4f84" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="558.0" font-weight="700">Die Linke <tspan class="muted" font-weight="500">90.8%</tspan></text>
+<rect x="1023" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · GRÜNE: 88.2%</title></rect>
+<rect x="1066" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · Tierschutzpartei: 90.8%</title></rect>
+<rect x="1109" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · PdF: 86.8%</title></rect>
+<rect x="1152" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · SPD: 76.3%</title></rect>
+<rect x="1195" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · Die Linke: 90.8%</title></rect>
+<rect x="1238" y="537" width="37" height="32" rx="5" fill="#297485"><title>K2.6-Instant-High · Volt: 69.7%</title></rect>
+<rect x="1281" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · Die PARTEI: 80.3%</title></rect>
+<rect x="1324" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · B*: 81.6%</title></rect>
+<rect x="1367" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · SGP: 84.2%</title></rect>
+<rect x="1410" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · Die Urbane.: 81.6%</title></rect>
+<rect x="1453" y="537" width="37" height="32" rx="5" fill="#18697c"><title>K2.6-Instant-High · DKP: 78.9%</title></rect>
+<rect x="1496" y="537" width="37" height="32" rx="5" fill="#297485"><title>K2.6-Instant-High · ÖDP: 69.7%</title></rect>
+<rect x="1539" y="537" width="37" height="32" rx="5" fill="#548f9d"><title>K2.6-Instant-High · BSW: 56.6%</title></rect>
+<rect x="1582" y="537" width="37" height="32" rx="5" fill="#87afba"><title>K2.6-Instant-High · CDU: 42.1%</title></rect>
+<rect x="1625" y="537" width="37" height="32" rx="5" fill="#c9d9df"><title>K2.6-Instant-High · FDP: 26.3%</title></rect>
+<rect x="1668" y="537" width="37" height="32" rx="5" fill="#a6c3cb"><title>K2.6-Instant-High · HEIMAT: 34.2%</title></rect>
+<rect x="1711" y="537" width="37" height="32" rx="5" fill="#eff1f4"><title>K2.6-Instant-High · AfD: 13.2%</title></rect>
+<circle cx="60" cy="595.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="600.0">OpenAI · ChatGPT Web</text>
+<line x1="500" y1="595.0" x2="785" y2="595.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="755.0" cy="595.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="600.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">89.5%</tspan></text>
+<rect x="1023" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · GRÜNE: 89.5%</title></rect>
+<rect x="1066" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · Tierschutzpartei: 81.6%</title></rect>
+<rect x="1109" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · PdF: 82.9%</title></rect>
+<rect x="1152" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · SPD: 82.9%</title></rect>
+<rect x="1195" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · Die Linke: 78.9%</title></rect>
+<rect x="1238" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · Volt: 76.3%</title></rect>
+<rect x="1281" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · Die PARTEI: 76.3%</title></rect>
+<rect x="1324" y="579" width="37" height="32" rx="5" fill="#18697c"><title>ChatGPT Web · B*: 80.3%</title></rect>
+<rect x="1367" y="579" width="37" height="32" rx="5" fill="#206e81"><title>ChatGPT Web · SGP: 72.4%</title></rect>
+<rect x="1410" y="579" width="37" height="32" rx="5" fill="#297485"><title>ChatGPT Web · Die Urbane.: 69.7%</title></rect>
+<rect x="1453" y="579" width="37" height="32" rx="5" fill="#428494"><title>ChatGPT Web · DKP: 61.8%</title></rect>
+<rect x="1496" y="579" width="37" height="32" rx="5" fill="#357c8c"><title>ChatGPT Web · ÖDP: 65.8%</title></rect>
+<rect x="1539" y="579" width="37" height="32" rx="5" fill="#6b9daa"><title>ChatGPT Web · BSW: 50.0%</title></rect>
+<rect x="1582" y="579" width="37" height="32" rx="5" fill="#5d95a2"><title>ChatGPT Web · CDU: 53.9%</title></rect>
+<rect x="1625" y="579" width="37" height="32" rx="5" fill="#96b9c3"><title>ChatGPT Web · FDP: 38.2%</title></rect>
+<rect x="1668" y="579" width="37" height="32" rx="5" fill="#8cb3bd"><title>ChatGPT Web · HEIMAT: 40.8%</title></rect>
+<rect x="1711" y="579" width="37" height="32" rx="5" fill="#c3d5db"><title>ChatGPT Web · AfD: 27.6%</title></rect>
+<rect x="48" y="616" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="637.0" r="5" fill="#d96b45"/>
+<text class="label" x="76" y="642.0">Anthropic · Sonnet-4.6_low</text>
+<line x1="500" y1="637.0" x2="785" y2="637.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="725.0" cy="637.0" r="8" fill="#d96b45" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="642.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">78.9%</tspan></text>
+<rect x="1023" y="621" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_low · GRÜNE: 78.9%</title></rect>
+<rect x="1066" y="621" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_low · Tierschutzpartei: 78.9%</title></rect>
+<rect x="1109" y="621" width="37" height="32" rx="5" fill="#206e81"><title>Sonnet-4.6_low · PdF: 72.4%</title></rect>
+<rect x="1152" y="621" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_low · SPD: 77.6%</title></rect>
+<rect x="1195" y="621" width="37" height="32" rx="5" fill="#1c6c7e"><title>Sonnet-4.6_low · Die Linke: 73.7%</title></rect>
+<rect x="1238" y="621" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_low · Volt: 78.9%</title></rect>
+<rect x="1281" y="621" width="37" height="32" rx="5" fill="#247183"><title>Sonnet-4.6_low · Die PARTEI: 71.1%</title></rect>
+<rect x="1324" y="621" width="37" height="32" rx="5" fill="#297485"><title>Sonnet-4.6_low · B*: 69.7%</title></rect>
+<rect x="1367" y="621" width="37" height="32" rx="5" fill="#297485"><title>Sonnet-4.6_low · SGP: 69.7%</title></rect>
+<rect x="1410" y="621" width="37" height="32" rx="5" fill="#31798a"><title>Sonnet-4.6_low · Die Urbane.: 67.1%</title></rect>
+<rect x="1453" y="621" width="37" height="32" rx="5" fill="#428494"><title>Sonnet-4.6_low · DKP: 61.8%</title></rect>
+<rect x="1496" y="621" width="37" height="32" rx="5" fill="#4f8c9b"><title>Sonnet-4.6_low · ÖDP: 57.9%</title></rect>
+<rect x="1539" y="621" width="37" height="32" rx="5" fill="#4f8c9b"><title>Sonnet-4.6_low · BSW: 57.9%</title></rect>
+<rect x="1582" y="621" width="37" height="32" rx="5" fill="#4b8998"><title>Sonnet-4.6_low · CDU: 59.2%</title></rect>
+<rect x="1625" y="621" width="37" height="32" rx="5" fill="#82acb7"><title>Sonnet-4.6_low · FDP: 43.4%</title></rect>
+<rect x="1668" y="621" width="37" height="32" rx="5" fill="#b7cdd5"><title>Sonnet-4.6_low · HEIMAT: 30.3%</title></rect>
+<rect x="1711" y="621" width="37" height="32" rx="5" fill="#cfdde2"><title>Sonnet-4.6_low · AfD: 25.0%</title></rect>
+<circle cx="60" cy="679.0" r="5" fill="#d96b45"/>
+<text class="label" x="76" y="684.0">Anthropic · Sonnet-4.6_high</text>
+<line x1="500" y1="679.0" x2="785" y2="679.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="740.0" cy="679.0" r="8" fill="#d96b45" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="684.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">84.2%</tspan></text>
+<rect x="1023" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · GRÜNE: 84.2%</title></rect>
+<rect x="1066" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Tierschutzpartei: 78.9%</title></rect>
+<rect x="1109" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · PdF: 77.6%</title></rect>
+<rect x="1152" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · SPD: 77.6%</title></rect>
+<rect x="1195" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Die Linke: 76.3%</title></rect>
+<rect x="1238" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · Volt: 81.6%</title></rect>
+<rect x="1281" y="663" width="37" height="32" rx="5" fill="#1c6c7e"><title>Sonnet-4.6_high · Die PARTEI: 73.7%</title></rect>
+<rect x="1324" y="663" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_high · B*: 75.0%</title></rect>
+<rect x="1367" y="663" width="37" height="32" rx="5" fill="#297485"><title>Sonnet-4.6_high · SGP: 69.7%</title></rect>
+<rect x="1410" y="663" width="37" height="32" rx="5" fill="#297485"><title>Sonnet-4.6_high · Die Urbane.: 69.7%</title></rect>
+<rect x="1453" y="663" width="37" height="32" rx="5" fill="#3a7e8f"><title>Sonnet-4.6_high · DKP: 64.5%</title></rect>
+<rect x="1496" y="663" width="37" height="32" rx="5" fill="#478696"><title>Sonnet-4.6_high · ÖDP: 60.5%</title></rect>
+<rect x="1539" y="663" width="37" height="32" rx="5" fill="#6197a5"><title>Sonnet-4.6_high · BSW: 52.6%</title></rect>
+<rect x="1582" y="663" width="37" height="32" rx="5" fill="#548f9d"><title>Sonnet-4.6_high · CDU: 56.6%</title></rect>
+<rect x="1625" y="663" width="37" height="32" rx="5" fill="#8cb3bd"><title>Sonnet-4.6_high · FDP: 40.8%</title></rect>
+<rect x="1668" y="663" width="37" height="32" rx="5" fill="#c3d5db"><title>Sonnet-4.6_high · HEIMAT: 27.6%</title></rect>
+<rect x="1711" y="663" width="37" height="32" rx="5" fill="#cfdde2"><title>Sonnet-4.6_high · AfD: 25.0%</title></rect>
+<rect x="48" y="700" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="721.0" r="5" fill="#d96b45"/>
+<text class="label" x="76" y="726.0">Anthropic · Sonnet-4.6_max</text>
+<line x1="500" y1="721.0" x2="785" y2="721.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="736.2" cy="721.0" r="8" fill="#d96b45" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="726.0" font-weight="700">Volt <tspan class="muted" font-weight="500">82.9%</tspan></text>
+<rect x="1023" y="705" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_max · GRÜNE: 77.6%</title></rect>
+<rect x="1066" y="705" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_max · Tierschutzpartei: 75.0%</title></rect>
+<rect x="1109" y="705" width="37" height="32" rx="5" fill="#1c6c7e"><title>Sonnet-4.6_max · PdF: 73.7%</title></rect>
+<rect x="1152" y="705" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_max · SPD: 78.9%</title></rect>
+<rect x="1195" y="705" width="37" height="32" rx="5" fill="#206e81"><title>Sonnet-4.6_max · Die Linke: 72.4%</title></rect>
+<rect x="1238" y="705" width="37" height="32" rx="5" fill="#18697c"><title>Sonnet-4.6_max · Volt: 82.9%</title></rect>
+<rect x="1281" y="705" width="37" height="32" rx="5" fill="#297485"><title>Sonnet-4.6_max · Die PARTEI: 69.7%</title></rect>
+<rect x="1324" y="705" width="37" height="32" rx="5" fill="#2d7688"><title>Sonnet-4.6_max · B*: 68.4%</title></rect>
+<rect x="1367" y="705" width="37" height="32" rx="5" fill="#357c8c"><title>Sonnet-4.6_max · SGP: 65.8%</title></rect>
+<rect x="1410" y="705" width="37" height="32" rx="5" fill="#357c8c"><title>Sonnet-4.6_max · Die Urbane.: 65.8%</title></rect>
+<rect x="1453" y="705" width="37" height="32" rx="5" fill="#478696"><title>Sonnet-4.6_max · DKP: 60.5%</title></rect>
+<rect x="1496" y="705" width="37" height="32" rx="5" fill="#4b8998"><title>Sonnet-4.6_max · ÖDP: 59.2%</title></rect>
+<rect x="1539" y="705" width="37" height="32" rx="5" fill="#548f9d"><title>Sonnet-4.6_max · BSW: 56.6%</title></rect>
+<rect x="1582" y="705" width="37" height="32" rx="5" fill="#478696"><title>Sonnet-4.6_max · CDU: 60.5%</title></rect>
+<rect x="1625" y="705" width="37" height="32" rx="5" fill="#7ea9b5"><title>Sonnet-4.6_max · FDP: 44.7%</title></rect>
+<rect x="1668" y="705" width="37" height="32" rx="5" fill="#bdd1d8"><title>Sonnet-4.6_max · HEIMAT: 28.9%</title></rect>
+<rect x="1711" y="705" width="37" height="32" rx="5" fill="#bdd1d8"><title>Sonnet-4.6_max · AfD: 28.9%</title></rect>
+<circle cx="60" cy="763.0" r="5" fill="#4276d0"/>
+<text class="label" x="76" y="768.0">Google · Gemini-3.6_flash_thinking (erweitert) Web</text>
+<line x1="500" y1="763.0" x2="785" y2="763.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="743.8" cy="763.0" r="8" fill="#4276d0" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="768.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">85.5%</tspan></text>
+<rect x="1023" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · GRÜNE: 85.5%</title></rect>
+<rect x="1066" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · Tierschutzpartei: 85.5%</title></rect>
+<rect x="1109" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · PdF: 84.2%</title></rect>
+<rect x="1152" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · SPD: 81.6%</title></rect>
+<rect x="1195" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · Die Linke: 80.3%</title></rect>
+<rect x="1238" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · Volt: 80.3%</title></rect>
+<rect x="1281" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · Die PARTEI: 80.3%</title></rect>
+<rect x="1324" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · B*: 78.9%</title></rect>
+<rect x="1367" y="747" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.6_flash_thinking (erweitert) Web · SGP: 76.3%</title></rect>
+<rect x="1410" y="747" width="37" height="32" rx="5" fill="#247183"><title>Gemini-3.6_flash_thinking (erweitert) Web · Die Urbane.: 71.1%</title></rect>
+<rect x="1453" y="747" width="37" height="32" rx="5" fill="#247183"><title>Gemini-3.6_flash_thinking (erweitert) Web · DKP: 71.1%</title></rect>
+<rect x="1496" y="747" width="37" height="32" rx="5" fill="#31798a"><title>Gemini-3.6_flash_thinking (erweitert) Web · ÖDP: 67.1%</title></rect>
+<rect x="1539" y="747" width="37" height="32" rx="5" fill="#4b8998"><title>Gemini-3.6_flash_thinking (erweitert) Web · BSW: 59.2%</title></rect>
+<rect x="1582" y="747" width="37" height="32" rx="5" fill="#6197a5"><title>Gemini-3.6_flash_thinking (erweitert) Web · CDU: 52.6%</title></rect>
+<rect x="1625" y="747" width="37" height="32" rx="5" fill="#9cbcc5"><title>Gemini-3.6_flash_thinking (erweitert) Web · FDP: 36.8%</title></rect>
+<rect x="1668" y="747" width="37" height="32" rx="5" fill="#b1cad1"><title>Gemini-3.6_flash_thinking (erweitert) Web · HEIMAT: 31.6%</title></rect>
+<rect x="1711" y="747" width="37" height="32" rx="5" fill="#e6ebef"><title>Gemini-3.6_flash_thinking (erweitert) Web · AfD: 21.1%</title></rect>
+<rect x="48" y="784" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="805.0" r="5" fill="#4276d0"/>
+<text class="label" x="76" y="810.0">Google · Gemini-3.1_pro_thinking (erweitert) Web</text>
+<line x1="500" y1="805.0" x2="785" y2="805.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="773.8" cy="805.0" r="8" fill="#4276d0" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="810.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">96.1%</tspan></text>
+<rect x="1023" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · GRÜNE: 93.4%</title></rect>
+<rect x="1066" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · Tierschutzpartei: 96.1%</title></rect>
+<rect x="1109" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · PdF: 86.8%</title></rect>
+<rect x="1152" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · SPD: 78.9%</title></rect>
+<rect x="1195" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · Die Linke: 90.8%</title></rect>
+<rect x="1238" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · Volt: 77.6%</title></rect>
+<rect x="1281" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · Die PARTEI: 85.5%</title></rect>
+<rect x="1324" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · B*: 81.6%</title></rect>
+<rect x="1367" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · SGP: 86.8%</title></rect>
+<rect x="1410" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · Die Urbane.: 81.6%</title></rect>
+<rect x="1453" y="789" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.1_pro_thinking (erweitert) Web · DKP: 76.3%</title></rect>
+<rect x="1496" y="789" width="37" height="32" rx="5" fill="#206e81"><title>Gemini-3.1_pro_thinking (erweitert) Web · ÖDP: 72.4%</title></rect>
+<rect x="1539" y="789" width="37" height="32" rx="5" fill="#5d95a2"><title>Gemini-3.1_pro_thinking (erweitert) Web · BSW: 53.9%</title></rect>
+<rect x="1582" y="789" width="37" height="32" rx="5" fill="#87afba"><title>Gemini-3.1_pro_thinking (erweitert) Web · CDU: 42.1%</title></rect>
+<rect x="1625" y="789" width="37" height="32" rx="5" fill="#c9d9df"><title>Gemini-3.1_pro_thinking (erweitert) Web · FDP: 26.3%</title></rect>
+<rect x="1668" y="789" width="37" height="32" rx="5" fill="#bdd1d8"><title>Gemini-3.1_pro_thinking (erweitert) Web · HEIMAT: 28.9%</title></rect>
+<rect x="1711" y="789" width="37" height="32" rx="5" fill="#eff1f4"><title>Gemini-3.1_pro_thinking (erweitert) Web · AfD: 13.2%</title></rect>
+<circle cx="60" cy="847.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="852.0">OpenAI · gpt-5.6-luna-high_work</text>
+<line x1="500" y1="847.0" x2="785" y2="847.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="777.5" cy="847.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="852.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">97.4%</tspan></text>
+<rect x="1023" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · GRÜNE: 92.1%</title></rect>
+<rect x="1066" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Tierschutzpartei: 97.4%</title></rect>
+<rect x="1109" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · PdF: 88.2%</title></rect>
+<rect x="1152" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · SPD: 77.6%</title></rect>
+<rect x="1195" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Die Linke: 92.1%</title></rect>
+<rect x="1238" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Volt: 76.3%</title></rect>
+<rect x="1281" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Die PARTEI: 86.8%</title></rect>
+<rect x="1324" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · B*: 80.3%</title></rect>
+<rect x="1367" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · SGP: 85.5%</title></rect>
+<rect x="1410" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Die Urbane.: 82.9%</title></rect>
+<rect x="1453" y="831" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · DKP: 77.6%</title></rect>
+<rect x="1496" y="831" width="37" height="32" rx="5" fill="#1c6c7e"><title>gpt-5.6-luna-high_work · ÖDP: 73.7%</title></rect>
+<rect x="1539" y="831" width="37" height="32" rx="5" fill="#6197a5"><title>gpt-5.6-luna-high_work · BSW: 52.6%</title></rect>
+<rect x="1582" y="831" width="37" height="32" rx="5" fill="#8cb3bd"><title>gpt-5.6-luna-high_work · CDU: 40.8%</title></rect>
+<rect x="1625" y="831" width="37" height="32" rx="5" fill="#cfdde2"><title>gpt-5.6-luna-high_work · FDP: 25.0%</title></rect>
+<rect x="1668" y="831" width="37" height="32" rx="5" fill="#c3d5db"><title>gpt-5.6-luna-high_work · HEIMAT: 27.6%</title></rect>
+<rect x="1711" y="831" width="37" height="32" rx="5" fill="#eff1f4"><title>gpt-5.6-luna-high_work · AfD: 11.8%</title></rect>
+<rect x="48" y="868" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="889.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="894.0">OpenAI · gpt-5.6-terra-high_work</text>
+<line x1="500" y1="889.0" x2="785" y2="889.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="766.2" cy="889.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="894.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">93.4%</tspan></text>
+<rect x="1023" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · GRÜNE: 90.8%</title></rect>
+<rect x="1066" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Tierschutzpartei: 93.4%</title></rect>
+<rect x="1109" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · PdF: 84.2%</title></rect>
+<rect x="1152" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · SPD: 76.3%</title></rect>
+<rect x="1195" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Die Linke: 90.8%</title></rect>
+<rect x="1238" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Volt: 75.0%</title></rect>
+<rect x="1281" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Die PARTEI: 85.5%</title></rect>
+<rect x="1324" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · B*: 81.6%</title></rect>
+<rect x="1367" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · SGP: 81.6%</title></rect>
+<rect x="1410" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · Die Urbane.: 81.6%</title></rect>
+<rect x="1453" y="873" width="37" height="32" rx="5" fill="#1c6c7e"><title>gpt-5.6-terra-high_work · DKP: 73.7%</title></rect>
+<rect x="1496" y="873" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-terra-high_work · ÖDP: 75.0%</title></rect>
+<rect x="1539" y="873" width="37" height="32" rx="5" fill="#669aa8"><title>gpt-5.6-terra-high_work · BSW: 51.3%</title></rect>
+<rect x="1582" y="873" width="37" height="32" rx="5" fill="#87afba"><title>gpt-5.6-terra-high_work · CDU: 42.1%</title></rect>
+<rect x="1625" y="873" width="37" height="32" rx="5" fill="#c9d9df"><title>gpt-5.6-terra-high_work · FDP: 26.3%</title></rect>
+<rect x="1668" y="873" width="37" height="32" rx="5" fill="#bdd1d8"><title>gpt-5.6-terra-high_work · HEIMAT: 28.9%</title></rect>
+<rect x="1711" y="873" width="37" height="32" rx="5" fill="#eff1f4"><title>gpt-5.6-terra-high_work · AfD: 15.8%</title></rect>
+<circle cx="60" cy="931.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="936.0">OpenAI · gpt-5.6-sol-high_work</text>
+<line x1="500" y1="931.0" x2="785" y2="931.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="777.5" cy="931.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="936.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">97.4%</tspan></text>
+<rect x="1023" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · GRÜNE: 92.1%</title></rect>
+<rect x="1066" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · Tierschutzpartei: 97.4%</title></rect>
+<rect x="1109" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · PdF: 88.2%</title></rect>
+<rect x="1152" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · SPD: 77.6%</title></rect>
+<rect x="1195" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · Die Linke: 92.1%</title></rect>
+<rect x="1238" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · Volt: 76.3%</title></rect>
+<rect x="1281" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · Die PARTEI: 86.8%</title></rect>
+<rect x="1324" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · B*: 80.3%</title></rect>
+<rect x="1367" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · SGP: 85.5%</title></rect>
+<rect x="1410" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · Die Urbane.: 82.9%</title></rect>
+<rect x="1453" y="915" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_work · DKP: 77.6%</title></rect>
+<rect x="1496" y="915" width="37" height="32" rx="5" fill="#1c6c7e"><title>gpt-5.6-sol-high_work · ÖDP: 73.7%</title></rect>
+<rect x="1539" y="915" width="37" height="32" rx="5" fill="#6197a5"><title>gpt-5.6-sol-high_work · BSW: 52.6%</title></rect>
+<rect x="1582" y="915" width="37" height="32" rx="5" fill="#8cb3bd"><title>gpt-5.6-sol-high_work · CDU: 40.8%</title></rect>
+<rect x="1625" y="915" width="37" height="32" rx="5" fill="#cfdde2"><title>gpt-5.6-sol-high_work · FDP: 25.0%</title></rect>
+<rect x="1668" y="915" width="37" height="32" rx="5" fill="#c3d5db"><title>gpt-5.6-sol-high_work · HEIMAT: 27.6%</title></rect>
+<rect x="1711" y="915" width="37" height="32" rx="5" fill="#eff1f4"><title>gpt-5.6-sol-high_work · AfD: 11.8%</title></rect>
+<rect x="48" y="952" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="973.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="978.0">OpenAI · gpt-5.6-luna-high_work</text>
+<line x1="500" y1="973.0" x2="785" y2="973.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="747.5" cy="973.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="978.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">86.8%</tspan></text>
+<rect x="1023" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · GRÜNE: 86.8%</title></rect>
+<rect x="1066" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Tierschutzpartei: 84.2%</title></rect>
+<rect x="1109" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · PdF: 85.5%</title></rect>
+<rect x="1152" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · SPD: 80.3%</title></rect>
+<rect x="1195" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Die Linke: 78.9%</title></rect>
+<rect x="1238" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Volt: 81.6%</title></rect>
+<rect x="1281" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · Die PARTEI: 78.9%</title></rect>
+<rect x="1324" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · B*: 77.6%</title></rect>
+<rect x="1367" y="957" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-luna-high_work · SGP: 75.0%</title></rect>
+<rect x="1410" y="957" width="37" height="32" rx="5" fill="#297485"><title>gpt-5.6-luna-high_work · Die Urbane.: 69.7%</title></rect>
+<rect x="1453" y="957" width="37" height="32" rx="5" fill="#297485"><title>gpt-5.6-luna-high_work · DKP: 69.7%</title></rect>
+<rect x="1496" y="957" width="37" height="32" rx="5" fill="#357c8c"><title>gpt-5.6-luna-high_work · ÖDP: 65.8%</title></rect>
+<rect x="1539" y="957" width="37" height="32" rx="5" fill="#5892a0"><title>gpt-5.6-luna-high_work · BSW: 55.3%</title></rect>
+<rect x="1582" y="957" width="37" height="32" rx="5" fill="#5d95a2"><title>gpt-5.6-luna-high_work · CDU: 53.9%</title></rect>
+<rect x="1625" y="957" width="37" height="32" rx="5" fill="#96b9c3"><title>gpt-5.6-luna-high_work · FDP: 38.2%</title></rect>
+<rect x="1668" y="957" width="37" height="32" rx="5" fill="#acc6ce"><title>gpt-5.6-luna-high_work · HEIMAT: 32.9%</title></rect>
+<rect x="1711" y="957" width="37" height="32" rx="5" fill="#eff1f4"><title>gpt-5.6-luna-high_work · AfD: 19.7%</title></rect>
+<circle cx="60" cy="1015.0" r="5" fill="#1e9b83"/>
+<text class="label" x="76" y="1020.0">OpenAI · gpt-5.6-sol-high_chat</text>
+<line x1="500" y1="1015.0" x2="785" y2="1015.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="736.2" cy="1015.0" r="8" fill="#1e9b83" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1020.0" font-weight="700">Volt <tspan class="muted" font-weight="500">82.9%</tspan></text>
+<rect x="1023" y="999" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_chat · GRÜNE: 80.3%</title></rect>
+<rect x="1066" y="999" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_chat · Tierschutzpartei: 75.0%</title></rect>
+<rect x="1109" y="999" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_chat · PdF: 78.9%</title></rect>
+<rect x="1152" y="999" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_chat · SPD: 78.9%</title></rect>
+<rect x="1195" y="999" width="37" height="32" rx="5" fill="#206e81"><title>gpt-5.6-sol-high_chat · Die Linke: 72.4%</title></rect>
+<rect x="1238" y="999" width="37" height="32" rx="5" fill="#18697c"><title>gpt-5.6-sol-high_chat · Volt: 82.9%</title></rect>
+<rect x="1281" y="999" width="37" height="32" rx="5" fill="#297485"><title>gpt-5.6-sol-high_chat · Die PARTEI: 69.7%</title></rect>
+<rect x="1324" y="999" width="37" height="32" rx="5" fill="#247183"><title>gpt-5.6-sol-high_chat · B*: 71.1%</title></rect>
+<rect x="1367" y="999" width="37" height="32" rx="5" fill="#2d7688"><title>gpt-5.6-sol-high_chat · SGP: 68.4%</title></rect>
+<rect x="1410" y="999" width="37" height="32" rx="5" fill="#3e8191"><title>gpt-5.6-sol-high_chat · Die Urbane.: 63.2%</title></rect>
+<rect x="1453" y="999" width="37" height="32" rx="5" fill="#3e8191"><title>gpt-5.6-sol-high_chat · DKP: 63.2%</title></rect>
+<rect x="1496" y="999" width="37" height="32" rx="5" fill="#3a7e8f"><title>gpt-5.6-sol-high_chat · ÖDP: 64.5%</title></rect>
+<rect x="1539" y="999" width="37" height="32" rx="5" fill="#5d95a2"><title>gpt-5.6-sol-high_chat · BSW: 53.9%</title></rect>
+<rect x="1582" y="999" width="37" height="32" rx="5" fill="#4f8c9b"><title>gpt-5.6-sol-high_chat · CDU: 57.9%</title></rect>
+<rect x="1625" y="999" width="37" height="32" rx="5" fill="#7ea9b5"><title>gpt-5.6-sol-high_chat · FDP: 44.7%</title></rect>
+<rect x="1668" y="999" width="37" height="32" rx="5" fill="#a6c3cb"><title>gpt-5.6-sol-high_chat · HEIMAT: 34.2%</title></rect>
+<rect x="1711" y="999" width="37" height="32" rx="5" fill="#b1cad1"><title>gpt-5.6-sol-high_chat · AfD: 31.6%</title></rect>
+<rect x="48" y="1036" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="1057.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="1062.0">GLM-5-2 thinking</text>
+<line x1="500" y1="1057.0" x2="785" y2="1057.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="758.8" cy="1057.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1062.0" font-weight="700">Die Linke <tspan class="muted" font-weight="500">90.8%</tspan></text>
+<rect x="1023" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · GRÜNE: 85.5%</title></rect>
+<rect x="1066" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · Tierschutzpartei: 90.8%</title></rect>
+<rect x="1109" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · PdF: 86.8%</title></rect>
+<rect x="1152" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · SPD: 76.3%</title></rect>
+<rect x="1195" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · Die Linke: 90.8%</title></rect>
+<rect x="1238" y="1041" width="37" height="32" rx="5" fill="#297485"><title>GLM-5-2 thinking · Volt: 69.7%</title></rect>
+<rect x="1281" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · Die PARTEI: 82.9%</title></rect>
+<rect x="1324" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · B*: 78.9%</title></rect>
+<rect x="1367" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · SGP: 81.6%</title></rect>
+<rect x="1410" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · Die Urbane.: 84.2%</title></rect>
+<rect x="1453" y="1041" width="37" height="32" rx="5" fill="#18697c"><title>GLM-5-2 thinking · DKP: 76.3%</title></rect>
+<rect x="1496" y="1041" width="37" height="32" rx="5" fill="#206e81"><title>GLM-5-2 thinking · ÖDP: 72.4%</title></rect>
+<rect x="1539" y="1041" width="37" height="32" rx="5" fill="#548f9d"><title>GLM-5-2 thinking · BSW: 56.6%</title></rect>
+<rect x="1582" y="1041" width="37" height="32" rx="5" fill="#87afba"><title>GLM-5-2 thinking · CDU: 42.1%</title></rect>
+<rect x="1625" y="1041" width="37" height="32" rx="5" fill="#c9d9df"><title>GLM-5-2 thinking · FDP: 26.3%</title></rect>
+<rect x="1668" y="1041" width="37" height="32" rx="5" fill="#bdd1d8"><title>GLM-5-2 thinking · HEIMAT: 28.9%</title></rect>
+<rect x="1711" y="1041" width="37" height="32" rx="5" fill="#eff1f4"><title>GLM-5-2 thinking · AfD: 15.8%</title></rect>
+<circle cx="60" cy="1099.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="1104.0">xAI · Grok-4.5_fast</text>
+<line x1="500" y1="1099.0" x2="785" y2="1099.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="755.0" cy="1099.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1104.0" font-weight="700">FDP <tspan class="muted" font-weight="500">89.5%</tspan></text>
+<rect x="1023" y="1083" width="37" height="32" rx="5" fill="#c3d5db"><title>Grok-4.5_fast · GRÜNE: 27.6%</title></rect>
+<rect x="1066" y="1083" width="37" height="32" rx="5" fill="#dee6ea"><title>Grok-4.5_fast · Tierschutzpartei: 22.4%</title></rect>
+<rect x="1109" y="1083" width="37" height="32" rx="5" fill="#a6c3cb"><title>Grok-4.5_fast · PdF: 34.2%</title></rect>
+<rect x="1152" y="1083" width="37" height="32" rx="5" fill="#74a3af"><title>Grok-4.5_fast · SPD: 47.4%</title></rect>
+<rect x="1195" y="1083" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Linke: 17.1%</title></rect>
+<rect x="1238" y="1083" width="37" height="32" rx="5" fill="#6fa0ad"><title>Grok-4.5_fast · Volt: 48.7%</title></rect>
+<rect x="1281" y="1083" width="37" height="32" rx="5" fill="#acc6ce"><title>Grok-4.5_fast · Die PARTEI: 32.9%</title></rect>
+<rect x="1324" y="1083" width="37" height="32" rx="5" fill="#bdd1d8"><title>Grok-4.5_fast · B*: 28.9%</title></rect>
+<rect x="1367" y="1083" width="37" height="32" rx="5" fill="#d6e1e6"><title>Grok-4.5_fast · SGP: 23.7%</title></rect>
+<rect x="1410" y="1083" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Urbane.: 18.4%</title></rect>
+<rect x="1453" y="1083" width="37" height="32" rx="5" fill="#b1cad1"><title>Grok-4.5_fast · DKP: 31.6%</title></rect>
+<rect x="1496" y="1083" width="37" height="32" rx="5" fill="#b7cdd5"><title>Grok-4.5_fast · ÖDP: 30.3%</title></rect>
+<rect x="1539" y="1083" width="37" height="32" rx="5" fill="#5d95a2"><title>Grok-4.5_fast · BSW: 53.9%</title></rect>
+<rect x="1582" y="1083" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · CDU: 78.9%</title></rect>
+<rect x="1625" y="1083" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · FDP: 89.5%</title></rect>
+<rect x="1668" y="1083" width="37" height="32" rx="5" fill="#357c8c"><title>Grok-4.5_fast · HEIMAT: 65.8%</title></rect>
+<rect x="1711" y="1083" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · AfD: 76.3%</title></rect>
+<rect x="48" y="1120" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="1141.0" r="5" fill="#b7791f"/>
+<text class="label" x="76" y="1146.0">xAI · Grok-4.5_fast</text>
+<line x1="500" y1="1141.0" x2="785" y2="1141.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="743.8" cy="1141.0" r="8" fill="#b7791f" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1146.0" font-weight="700">AfD <tspan class="muted" font-weight="500">85.5%</tspan></text>
+<rect x="1023" y="1125" width="37" height="32" rx="5" fill="#d6e1e6"><title>Grok-4.5_fast · GRÜNE: 23.7%</title></rect>
+<rect x="1066" y="1125" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Tierschutzpartei: 13.2%</title></rect>
+<rect x="1109" y="1125" width="37" height="32" rx="5" fill="#cfdde2"><title>Grok-4.5_fast · PdF: 25.0%</title></rect>
+<rect x="1152" y="1125" width="37" height="32" rx="5" fill="#a1c0c8"><title>Grok-4.5_fast · SPD: 35.5%</title></rect>
+<rect x="1195" y="1125" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Linke: 10.5%</title></rect>
+<rect x="1238" y="1125" width="37" height="32" rx="5" fill="#9cbcc5"><title>Grok-4.5_fast · Volt: 36.8%</title></rect>
+<rect x="1281" y="1125" width="37" height="32" rx="5" fill="#d6e1e6"><title>Grok-4.5_fast · Die PARTEI: 23.7%</title></rect>
+<rect x="1324" y="1125" width="37" height="32" rx="5" fill="#c3d5db"><title>Grok-4.5_fast · B*: 27.6%</title></rect>
+<rect x="1367" y="1125" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · SGP: 14.5%</title></rect>
+<rect x="1410" y="1125" width="37" height="32" rx="5" fill="#eff1f4"><title>Grok-4.5_fast · Die Urbane.: 14.5%</title></rect>
+<rect x="1453" y="1125" width="37" height="32" rx="5" fill="#dee6ea"><title>Grok-4.5_fast · DKP: 22.4%</title></rect>
+<rect x="1496" y="1125" width="37" height="32" rx="5" fill="#a6c3cb"><title>Grok-4.5_fast · ÖDP: 34.2%</title></rect>
+<rect x="1539" y="1125" width="37" height="32" rx="5" fill="#6197a5"><title>Grok-4.5_fast · BSW: 52.6%</title></rect>
+<rect x="1582" y="1125" width="37" height="32" rx="5" fill="#297485"><title>Grok-4.5_fast · CDU: 69.7%</title></rect>
+<rect x="1625" y="1125" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · FDP: 85.5%</title></rect>
+<rect x="1668" y="1125" width="37" height="32" rx="5" fill="#297485"><title>Grok-4.5_fast · HEIMAT: 69.7%</title></rect>
+<rect x="1711" y="1125" width="37" height="32" rx="5" fill="#18697c"><title>Grok-4.5_fast · AfD: 85.5%</title></rect>
+<circle cx="60" cy="1183.0" r="5" fill="#4276d0"/>
+<text class="label" x="76" y="1188.0">Google · Gemini-3.5_flash-lite Web</text>
+<line x1="500" y1="1183.0" x2="785" y2="1183.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="736.2" cy="1183.0" r="8" fill="#4276d0" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1188.0" font-weight="700">GRÜNE <tspan class="muted" font-weight="500">82.9%</tspan></text>
+<rect x="1023" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · GRÜNE: 82.9%</title></rect>
+<rect x="1066" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Tierschutzpartei: 82.9%</title></rect>
+<rect x="1109" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · PdF: 81.6%</title></rect>
+<rect x="1152" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · SPD: 76.3%</title></rect>
+<rect x="1195" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die Linke: 77.6%</title></rect>
+<rect x="1238" y="1167" width="37" height="32" rx="5" fill="#206e81"><title>Gemini-3.5_flash-lite Web · Volt: 72.4%</title></rect>
+<rect x="1281" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die PARTEI: 77.6%</title></rect>
+<rect x="1324" y="1167" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · B*: 76.3%</title></rect>
+<rect x="1367" y="1167" width="37" height="32" rx="5" fill="#1c6c7e"><title>Gemini-3.5_flash-lite Web · SGP: 73.7%</title></rect>
+<rect x="1410" y="1167" width="37" height="32" rx="5" fill="#2d7688"><title>Gemini-3.5_flash-lite Web · Die Urbane.: 68.4%</title></rect>
+<rect x="1453" y="1167" width="37" height="32" rx="5" fill="#2d7688"><title>Gemini-3.5_flash-lite Web · DKP: 68.4%</title></rect>
+<rect x="1496" y="1167" width="37" height="32" rx="5" fill="#297485"><title>Gemini-3.5_flash-lite Web · ÖDP: 69.7%</title></rect>
+<rect x="1539" y="1167" width="37" height="32" rx="5" fill="#4b8998"><title>Gemini-3.5_flash-lite Web · BSW: 59.2%</title></rect>
+<rect x="1582" y="1167" width="37" height="32" rx="5" fill="#5892a0"><title>Gemini-3.5_flash-lite Web · CDU: 55.3%</title></rect>
+<rect x="1625" y="1167" width="37" height="32" rx="5" fill="#91b6c0"><title>Gemini-3.5_flash-lite Web · FDP: 39.5%</title></rect>
+<rect x="1668" y="1167" width="37" height="32" rx="5" fill="#87afba"><title>Gemini-3.5_flash-lite Web · HEIMAT: 42.1%</title></rect>
+<rect x="1711" y="1167" width="37" height="32" rx="5" fill="#c9d9df"><title>Gemini-3.5_flash-lite Web · AfD: 26.3%</title></rect>
+<rect x="48" y="1204" width="1764" height="42" rx="7" fill="#f4f5f5"/>
+<circle cx="60" cy="1225.0" r="5" fill="#4276d0"/>
+<text class="label" x="76" y="1230.0">Google · Gemini-3.5_flash-lite Web</text>
+<line x1="500" y1="1225.0" x2="785" y2="1225.0" stroke="#d7dde3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="736.2" cy="1225.0" r="8" fill="#4276d0" stroke="#fbfaf8" stroke-width="3"/>
+<text class="small" x="803" y="1230.0" font-weight="700">Tierschutzpartei <tspan class="muted" font-weight="500">82.9%</tspan></text>
+<rect x="1023" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · GRÜNE: 77.6%</title></rect>
+<rect x="1066" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Tierschutzpartei: 82.9%</title></rect>
+<rect x="1109" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · PdF: 81.6%</title></rect>
+<rect x="1152" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · SPD: 78.9%</title></rect>
+<rect x="1195" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die Linke: 77.6%</title></rect>
+<rect x="1238" y="1209" width="37" height="32" rx="5" fill="#297485"><title>Gemini-3.5_flash-lite Web · Volt: 69.7%</title></rect>
+<rect x="1281" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · Die PARTEI: 77.6%</title></rect>
+<rect x="1324" y="1209" width="37" height="32" rx="5" fill="#1c6c7e"><title>Gemini-3.5_flash-lite Web · B*: 73.7%</title></rect>
+<rect x="1367" y="1209" width="37" height="32" rx="5" fill="#247183"><title>Gemini-3.5_flash-lite Web · SGP: 71.1%</title></rect>
+<rect x="1410" y="1209" width="37" height="32" rx="5" fill="#2d7688"><title>Gemini-3.5_flash-lite Web · Die Urbane.: 68.4%</title></rect>
+<rect x="1453" y="1209" width="37" height="32" rx="5" fill="#2d7688"><title>Gemini-3.5_flash-lite Web · DKP: 68.4%</title></rect>
+<rect x="1496" y="1209" width="37" height="32" rx="5" fill="#18697c"><title>Gemini-3.5_flash-lite Web · ÖDP: 75.0%</title></rect>
+<rect x="1539" y="1209" width="37" height="32" rx="5" fill="#428494"><title>Gemini-3.5_flash-lite Web · BSW: 61.8%</title></rect>
+<rect x="1582" y="1209" width="37" height="32" rx="5" fill="#5892a0"><title>Gemini-3.5_flash-lite Web · CDU: 55.3%</title></rect>
+<rect x="1625" y="1209" width="37" height="32" rx="5" fill="#91b6c0"><title>Gemini-3.5_flash-lite Web · FDP: 39.5%</title></rect>
+<rect x="1668" y="1209" width="37" height="32" rx="5" fill="#87afba"><title>Gemini-3.5_flash-lite Web · HEIMAT: 42.1%</title></rect>
+<rect x="1711" y="1209" width="37" height="32" rx="5" fill="#c9d9df"><title>Gemini-3.5_flash-lite Web · AfD: 26.3%</title></rect>
+<text class="tiny muted" x="60" y="1303">Farbe zeigt Anbieter bzw. Modellfamilie · Punkte zeigen die jeweils höchste Übereinstimmung.</text>
+<text class="tiny muted" x="1020" y="1303">niedrig</text>
+<defs><linearGradient id="scale" x1="0%" x2="100%"><stop offset="0%" stop-color="#eff1f4"/><stop offset="100%" stop-color="#18697c"/></linearGradient></defs>
+<rect x="1071" y="1292" width="180" height="10" rx="5" fill="url(#scale)"/>
+<text class="tiny muted" x="1263" y="1303">hoch</text>
+<text class="tiny muted" x="60" y="1328">Grok-Ausgabe: Created with Grok.</text>
+</svg>

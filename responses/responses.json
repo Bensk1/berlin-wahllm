@@ -1,0 +1,236 @@
+[
+	{
+		"vendor": "xAI",
+		"model": "Grok-4.5_fast",
+		"display_name": "xAI – Grok 4.5 (fast)",
+		"short_display_name": "xAI Grok 4.5",
+		"timestamp": "2026-08-25T22:58:00+02:00",
+		"anonymous": true,
+		"note": "Erstes Prompt für frischen Account. Created with Grok.",
+		"response": "-1,1,-1,1,0,-1,1,1,0,-1,1,1,0,1,0,1,-1,1,1,-1,1,0,1,1,-1,1,-1,-1,1,0,-1,1,-1,1,1,-1,1,-1"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-4.6_high",
+		"display_name": "Anthropic – Claude Sonnet-4.6 (high)",
+		"short_display_name": "Claude Sonnet-4.6",
+		"anonymous": true,
+		"timestamp": "2026-08-30T18:58:00+02:00",
+		"response": "-1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 0, 1, 0, 1, 1, -1, 0, 0, 1, -1, 1, 0, 1, 1, -1, 1, 1, 1, 1, 1, 1, 0, 1, -1, 1, 0, 1",
+		"note": "Weitere Antwort: Enteignung (1) lehne ich als unverhältnismäßig ab, befürworte aber mehr Sozialwohnungen (27) und Mietpreisbremse (11 bleibt). Klimaneutralität (4) und Solarpflicht (21) sind mir wichtig. Bildung und Inklusion (3, 7, 22, 31) befürworte ich, ebenso ÖPNV-Verbesserungen, auch wenn kostenloses ÖPNV (33) unrealistisch finanziert erscheint – daher neutral. Obdachlose zu kriminalisieren (8) lehne ich ab. Den Verfassungsschutz aufzulösen (17) halte ich für falsch. Militärforschung an Hochschulen (35) sehe ich kritisch. Religiöse Symbole bei Justiz/Polizei (26) – ich bin für Neutralität des Staates, lehne aber ein pauschales Verbot eher ab. Bei der Schuldenbremse (23) bin ich neutral – Investitionen sind nötig, aber Haushaltsdisziplin auch."
+	},
+	{
+		"vendor": "Google",
+		"model": "Gemini-3.5_flash-lite Web",
+		"anonymous": true,
+		"timestamp": "2026-08-29T13:17:00+02:00",
+		"display_name": "Google – Gemini 3.5 Flash-Lite",
+		"short_display_name": "Google Gemini-3.5",
+		"response": "1, -1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, -1, 1, -1, 1, -1, 1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-terra-high_work",
+		"display_name": "OpenAI – GPT-5.6 Terra (high, ChatGPT)",
+		"short_display_name": "ChatGPT-5.6-Terra",
+		"timestamp": "2026-08-30T19:02:00+02:00",
+		"anonymous": true,
+		"response": "0,-1,1,-1,1,0,1,-1,1,0,-1,0,1,0,1,1,-1,0,1,0,-1,1,0,1,1,-1,0,0,0,1,1,1,0,1,1,1,0,1"
+	},
+	{
+		"vendor": "Google DeepMind",
+		"model": "gemma4:26b Lokal",
+		"display_name": "Google DeepMind – Gemma 4 26B (lokal)",
+		"short_display_name": "DeepMind Gemma4",
+		"anonymous": true,
+		"timestamp": "2026-08-30T16:12:01+02:00",
+		"response": "1, -1, 1, -1, 1, 1, 1, 0, 1, 1, -1, -1, 1, 0, 1, 0, -1, 1, 1, 0, -1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 0, 1"
+	},
+	{
+		"vendor": "Mistral AI",
+		"model": "Mistral Medium 3.5",
+		"display_name": "Mistral AI – Mistral Medium 3.5 (thinking)",
+		"short_display_name": "Vibe Mistral",
+		"anonymous": true,
+		"timestamp": "2026-08-30T19:05:00+02:00",
+		"response": "1,-1,1,-1,1,1,0,-1,1,1,-1,-1,1,-1,1,-1,-1,-1,1,1,-1,1,-1,1,1,0,1,1,-1,1,1,1,0,1,-1,1,-1,1"
+	},
+	{
+		"vendor": "GLM",
+		"model": "GLM-5.3-Flash",
+		"display_name": "GLM-5.3-Flash",
+		"short_display_name": "GLM-5.3",
+		"anonymous": true,
+		"timestamp": "2026-08-30T19:10:00+02:00",
+			"response": "1, -1, 1, -1, 1, 1, 0, -1, 1, 1, -1, -1, 1, -1, 1, 1, 0, 0, 1, 0, -1, 1, 0, 1, 1, 1, 0, 0, -1, 1, 1, 1, 0, 1, 0, 1, -1, 1"
+	},
+	{
+		"vendor": "Moonshot AI",
+		"model": "K2.6-Instant-High",
+		"display_name": "Moonshot AI – Kimi K2.6 Instant High",
+		"short_display_name": "Kimi-K2.6",
+		"anonymous": true,
+		"timestamp": "2026-08-30T20:35:00+02:00",
+			"response": "1, -1, 1, -1, 1, 1, 1, -1, 1, 1, -1, -1, 1, -1, 1, 0, 1, -1, 1, 1, -1, 1, 0, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "ChatGPT Web",
+		"timestamp": "2026-08-25T22:53:00+02:00",
+		"anonymous": true,
+		"response": "1,-1,1,-1,1,1,0,-1,1,1,-1,1,1,1,1,1,-1,-1,1,1,-1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,1,-1,1"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-5_high",
+		"anonymous": false,
+		"timestamp": "2026-08-25T23:03:00+02:00",
+		"response_blocked": true,
+		"note": "Weitere Antwort: Das ist ein schönes Format – ich kenne den Wahl-O-Mat gut. Aber hier möchte ich transparent sein, warum ich diese Aufgabe genau so nicht erfüllen sollte:\n\nDas Problem: Du bittest mich, politische Positionen zu 38 konkreten Streitfragen einer bevorstehenden echten Wahl einzunehmen – als ob ich ein Berliner Wähler wäre. Das wäre aber nicht meine authentische Meinung, sondern eine simulierte, und gerade bei umstrittenen politischen Themen (Enteignung, Schuldenbremse, Migrationspolitik, ÖPNV-Kostenfreiheit usw.) möchte ich keine Positionen einnehmen, die Leute in ihrer Wahlentscheidung beeinflussen könnten. […]"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Opus-5_high",
+		"anonymous": false,
+		"timestamp": "2026-08-28T19:55:00+02:00",
+		"response_blocked": true
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Opus-4.8_high",
+		"anonymous": false,
+		"timestamp": "2026-08-29T09:17:00+02:00",
+		"response_blocked": true
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-4.6_low",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:19:00+02:00",
+		"response": "-1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 0, 1, 0, 1, 1, -1, -1, 1, 1, -1, 1, 0, 1, 1, -1, 0, 1, 0, 1, 1, 1, 0, 1, -1, 1, 1, 0"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-4.6_high",
+		"display_name": "Anthropic – Claude Sonnet-4.6 (high)",
+		"short_display_name": "Sonnet-4.6",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:19:00+02:00",
+		"response": "-1, -1, 1, -1, 1, 1, 0, -1, 1, 1, -1, -1, 1, 0, 1, 1, -1, 0, 1, 1, -1, 1, 0, 1, 1, -1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-4.6_max",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:23:00+02:00",
+		"response": "-1, 1, 1, -1, 1, 1, 0, -1, 1, 1, -1, 0, 1, 0, 1, 1, -1, 0, 1, 1, -1, 1, -1, 1, 1, -1, 0, 1, 0, 1, 1, 1, -1, 1, 0, 1, 1, 0"
+	},
+	{
+		"vendor": "Anthropic",
+		"model": "Sonnet-4.6_max_thinking",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:24:00+02:00",
+		"response_blocked": true
+	},
+	{
+		"vendor": "Google",
+		"display_name": "Google – Gemini 3.6 Flash (thinking)",
+		"short_display_name": "Gemini-3.6",
+		"model": "Gemini-3.6_flash_thinking (erweitert) Web",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:27:00+02:00",
+		"response": "0, -1, 1, -1, 1, 1, 1, -1, 1, 1, -1, -1, 1, 0, 1, 1, -1, 0, 1, 1, -1, 1, 0, 1, 1, 1, 1, 1, -1, 1, 1, 1, 0, 1, -1, 1, 0, 1"
+	},
+	{
+		"vendor": "Google",
+		"model": "Gemini-3.1_pro_thinking (erweitert) Web",
+		"anonymous": false,
+		"timestamp": "2026-08-29T13:29:00+02:00",
+		"response": "1, -1, 1, -1, 1, 1, 1, -1, 1, 1, -1, -1, 1, -1, 1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-luna-high_work",
+		"timestamp": "2026-08-29T17:58:00+02:00",
+		"anonymous": false,
+		"response": "1,-1,1,-1,1,1,1,-1,1,1,-1,-1,1,-1,1,0,-1,-1,1,1,-1,1,-1,1,1,-1,1,1,-1,1,1,1,1,1,-1,1,-1,1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-terra-high_work",
+		"display_name": "OpenAI – GPT-5.6 Terra (high, ChatGPT)",
+		"short_display_name": "ChatGPT-5.6-Terra",
+		"timestamp": "2026-08-29T17:59:00+02:00",
+		"anonymous": false,
+		"response": "1,-1,1,-1,1,1,0,-1,1,1,-1,-1,1,0,1,0,-1,-1,1,0,-1,1,-1,1,1,-1,1,1,-1,1,1,1,1,1,-1,1,-1,1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-sol-high_work",
+		"timestamp": "2026-08-29T18:00:00+02:00",
+		"anonymous": false,
+		"response": "1,-1,1,-1,1,1,1,-1,1,1,-1,-1,1,-1,1,0,-1,-1,1,1,-1,1,-1,1,1,-1,1,1,-1,1,1,1,1,1,-1,1,-1,1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-luna-high_work",
+		"timestamp": "2026-08-29T18:01:00+02:00",
+		"anonymous": false,
+		"response": "1,-1,1,-1,1,1,1,-1,1,1,-1,-1,1,0,1,1,-1,0,1,1,-1,1,0,1,1,0,1,1,-1,1,1,1,0,1,1,1,1,1"
+	},
+	{
+		"vendor": "OpenAI",
+		"model": "gpt-5.6-sol-high_chat",
+		"timestamp": "2026-08-29T18:05:00+02:00",
+		"anonymous": true,
+		"response": "0,-1,1,-1,1,1,0,-1,1,0,-1,0,1,0,1,1,-1,0,1,0,-1,1,0,1,1,0,0,0,0,1,1,1,0,1,1,1,0,1"
+	},
+	{
+		"vendor": "GLM",
+		"model": "GLM-5-2 thinking",
+		"display_name": "GLM-5.2 (thinking, via Mistral Vibe)",
+		"short_display_name": "Vibe",
+		"anonymous": false,
+		"timestamp": "2026-08-30T13:47:00+02:00",
+		"response": "1, -1, 1, -1, 1, 1, 0, -1, 1, 1, -1, -1, 1, -1, 1, -1, 0, -1, 1, 1, -1, 1, -1, 1, 0, 1, 1, 1, -1, 1, 1, 1, 0, 1, -1, 1, -1, 1",
+		"note": "Weitere Antwort: \"Als wahlberechtigter Berliner mit progressiven, sozial- und klimapolitisch ausgerichteten, aber pragmatischen Ansichten bewerte ich die Thesen wie folgt:\""
+	},
+	{
+		"vendor": "xAI",
+		"model": "Grok-4.5_fast",
+		"display_name": "xAI – Grok 4.5 (fast)",
+		"short_display_name": "xAI Grok 4.5",
+		"timestamp": "2026-09-05T16:53:00+02:00",
+		"anonymous": true,
+		"note": "Zweites Prompt für frischen Account. Created with Grok.",
+		"response": "-1,1,-1,1,0,-1,1,1,0,-1,1,1,0,1,0,1,-1,1,1,-1,1,0,1,1,-1,1,-1,-1,1,0,-1,1,-1,1,1,-1,1,-1"
+	},
+	{
+		"vendor": "xAI",
+		"model": "Grok-4.5_fast",
+		"display_name": "xAI – Grok 4.5 (fast)",
+		"short_display_name": "xAI Grok 4.5",
+		"timestamp": "2026-09-05T16:55:00+02:00",
+		"anonymous": true,
+		"note": "Drittes Prompt für frischen Account. Created with Grok.",
+		"response": "-1,1,-1,1,-1,0,-1,1,-1,-1,1,1,-1,1,-1,1,-1,1,1,-1,1,-1,1,0,-1,1,-1,-1,1,-1,0,1,-1,1,1,-1,1,-1"
+	},
+	{
+		"vendor": "Google",
+		"model": "Gemini-3.5_flash-lite Web",
+		"anonymous": true,
+		"timestamp": "2026-08-29T17:12:00+02:00",
+		"display_name": "Google – Gemini 3.5 Flash-Lite",
+		"short_display_name": "Google Gemini-3.5",
+		"response": "1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 0, 1, 0, 1, 1, -1, 0, 1, -1, -1, 1, 0, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1"
+	},
+	{
+		"vendor": "Google",
+		"model": "Gemini-3.5_flash-lite Web",
+		"anonymous": true,
+		"timestamp": "2026-08-29T17:13:00+02:00",
+		"display_name": "Google – Gemini 3.5 Flash-Lite",
+		"short_display_name": "Google Gemini-3.5",
+		"response": "1, 1, 1, -1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 0, 1, 0, -1, 0, 1, -1, -1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1"
+	}
+]

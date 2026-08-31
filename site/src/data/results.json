@@ -1,0 +1,5111 @@
+{
+  "schema_version": 1,
+  "source_digest": "sha256:1190baa702ad2959f878366892dc6bdab6adbc8ee8b0dbe77b9d66d1b26fd693",
+  "election": {
+    "name": "Abgeordnetenhauswahl Berlin 2026",
+    "thesis_count": 38,
+    "party_count": 17
+  },
+  "summary": {
+    "observation_count": 28,
+    "complete_count": 24,
+    "blocked_count": 4
+  },
+  "parties": [
+    "CDU",
+    "SPD",
+    "GRÜNE",
+    "Die Linke",
+    "AfD",
+    "FDP",
+    "Tierschutzpartei",
+    "Die PARTEI",
+    "Volt",
+    "Die Urbane.",
+    "DKP",
+    "ÖDP",
+    "HEIMAT",
+    "B*",
+    "SGP",
+    "BSW",
+    "PdF"
+  ],
+  "theses": [
+    {
+      "number": 1,
+      "text": "Das Land Berlin soll große private Wohnungsunternehmen gegen eine Entschädigung enteignen."
+    },
+    {
+      "number": 2,
+      "text": "Die Autobahn A100 soll wie geplant weitergebaut werden."
+    },
+    {
+      "number": 3,
+      "text": "An Berliner Schulen soll sexuelle und geschlechtliche Vielfalt weiterhin im Unterricht thematisiert werden."
+    },
+    {
+      "number": 4,
+      "text": "Berlin soll das Ziel verwerfen, klimaneutral zu werden."
+    },
+    {
+      "number": 5,
+      "text": "Alle Zugewanderten in Berlin sollen unabhängig von ihrem Aufenthaltsstatus Zugang zu gebührenfreien Deutschkursen haben."
+    },
+    {
+      "number": 6,
+      "text": "Mehr Krankenhäuser in Berlin sollen in öffentlicher Hand sein."
+    },
+    {
+      "number": 7,
+      "text": "Alle Kinder in Berlin sollen ein Jahr vor der Einschulung eine Kita besuchen müssen."
+    },
+    {
+      "number": 8,
+      "text": "Das Campieren von Obdachlosen im öffentlichen Raum soll konsequent unterbunden werden."
+    },
+    {
+      "number": 9,
+      "text": "Clubs und Diskotheken sollen als kulturelle Einrichtungen vom Land Berlin finanziell gefördert werden."
+    },
+    {
+      "number": 10,
+      "text": "Betriebe, die nicht ausbilden, sollen wie geplant eine Ausbildungsplatzabgabe zahlen."
+    },
+    {
+      "number": 11,
+      "text": "Die Mietpreisbremse soll in Berlin abgeschafft werden."
+    },
+    {
+      "number": 12,
+      "text": "Die Berliner Polizei soll an kriminalitätsbelasteten Orten weiterhin verdachtsunabhängige Personenkontrollen durchführen dürfen."
+    },
+    {
+      "number": 13,
+      "text": "In Berlin sollen weitere Straßen in Fahrradstraßen umgewandelt werden."
+    },
+    {
+      "number": 14,
+      "text": "In Berlin soll es mehr verkaufsoffene Sonntage geben."
+    },
+    {
+      "number": 15,
+      "text": "Migrantische Vereine und Initiativen sollen weiterhin vom Land Berlin finanziell gefördert werden."
+    },
+    {
+      "number": 16,
+      "text": "Beim Kauf von Wohneigentum für die eigene Nutzung soll die Grunderwerbsteuer gesenkt werden."
+    },
+    {
+      "number": 17,
+      "text": "Der Verfassungsschutz Berlin soll aufgelöst werden."
+    },
+    {
+      "number": 18,
+      "text": "In Berlin sollen mehr Schulen mit sonderpädagogischem Förderschwerpunkt („Förderschulen“) für Schülerinnen und Schüler mit Behinderung errichtet werden."
+    },
+    {
+      "number": 19,
+      "text": "Das Land Berlin soll sich für weitere Waffenlieferungen an die Ukraine einsetzen."
+    },
+    {
+      "number": 20,
+      "text": "Der Görlitzer Park soll rund um die Uhr geöffnet sein."
+    },
+    {
+      "number": 21,
+      "text": "Die Pflicht zur Errichtung einer Solaranlage bei Neubauten soll entfallen."
+    },
+    {
+      "number": 22,
+      "text": "Alle Lehrkräfte an Berliner Schulen sollen im Umgang mit Rechtsextremismus fortgebildet werden."
+    },
+    {
+      "number": 23,
+      "text": "Berlin soll die Begrenzung der Neuverschuldung („Schuldenbremse“) einhalten."
+    },
+    {
+      "number": 24,
+      "text": "Menschen mit Behinderungen, die in Behindertenwerkstätten arbeiten, sollen mindestens ein Entgelt in Höhe des gesetzlichen Mindestlohns erhalten."
+    },
+    {
+      "number": 25,
+      "text": "Die Gebühren für das Anwohnerparken in Berlin sollen erhöht werden."
+    },
+    {
+      "number": 26,
+      "text": "Das Tragen religiöser Symbole soll für Beschäftigte der Berliner Justiz und Polizei weiterhin verboten sein."
+    },
+    {
+      "number": 27,
+      "text": "Bei größeren Neubauprojekten in Berlin soll mindestens die Hälfte der Wohneinheiten als Sozialwohnungen gebaut werden müssen."
+    },
+    {
+      "number": 28,
+      "text": "Berlin soll sich dafür einsetzen, dass Verbotsverfahren gegen extremistische Parteien angestrebt werden."
+    },
+    {
+      "number": 29,
+      "text": "Arbeitssuchenden sollen die Leistungen der Grundsicherung gekürzt werden, wenn sie Jobangebote ablehnen."
+    },
+    {
+      "number": 30,
+      "text": "Berlin soll eine zentrale Erinnerungsstätte zur Aufarbeitung der deutschen Kolonialgeschichte einrichten."
+    },
+    {
+      "number": 31,
+      "text": "In Berlin soll es weitere Gemeinschaftsschulen geben, an denen Kinder bis zur 10. Klasse gemeinsam unterrichtet werden."
+    },
+    {
+      "number": 32,
+      "text": "Berlin soll mehr Personal für die Ahndung illegaler Entsorgung von Müll einsetzen."
+    },
+    {
+      "number": 33,
+      "text": "Der öffentliche Personennahverkehr (ÖPNV) in Berlin soll für alle entgeltfrei sein."
+    },
+    {
+      "number": 34,
+      "text": "Die Verfahren zur Anerkennung von ausländischen Abschlüssen sollen beschleunigt werden."
+    },
+    {
+      "number": 35,
+      "text": "An den Hochschulen des Landes Berlin soll zu militärischen Zwecken geforscht werden dürfen."
+    },
+    {
+      "number": 36,
+      "text": "In allen Berliner Bezirken soll es Beauftragte für die Akzeptanz sexueller und geschlechtlicher Vielfalt geben."
+    },
+    {
+      "number": 37,
+      "text": "Auf dem Tempelhofer Feld sollen Randflächen bebaut werden."
+    },
+    {
+      "number": 38,
+      "text": "Das Zünden von privatem Silvesterfeuerwerk soll in ganz Berlin verboten sein."
+    }
+  ],
+  "runs": [
+    {
+      "id": "run-84c96eedc2e0dbc4130d2399",
+      "vendor": "OpenAI",
+      "model": "ChatGPT Web",
+      "observed_at": "2026-08-25T20:53:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 53.9,
+          "rank": 13
+        },
+        {
+          "party": "SPD",
+          "percentage": 82.9,
+          "rank": 2
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 89.5,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 78.9,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 27.6,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 38.2,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 81.6,
+          "rank": 4
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 76.3,
+          "rank": 7
+        },
+        {
+          "party": "Volt",
+          "percentage": 76.3,
+          "rank": 7
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 69.7,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 61.8,
+          "rank": 12
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 65.8,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 40.8,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 80.3,
+          "rank": 5
+        },
+        {
+          "party": "SGP",
+          "percentage": 72.4,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 50,
+          "rank": 14
+        },
+        {
+          "party": "PdF",
+          "percentage": 82.9,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "run-1e590181a9419f7daa83ccb6",
+      "vendor": "xAI",
+      "model": "Grok-4.5_fast",
+      "observed_at": "2026-08-25T20:58:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "xAI – Grok 4.5 (fast)",
+      "short_display_name": "xAI Grok 4.5",
+      "note": "Erstes Prompt für frischen Account. Created with Grok.",
+      "answers": [
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 78.9,
+          "rank": 2
+        },
+        {
+          "party": "SPD",
+          "percentage": 47.4,
+          "rank": 7
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 27.6,
+          "rank": 13
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 17.1,
+          "rank": 17
+        },
+        {
+          "party": "AfD",
+          "percentage": 76.3,
+          "rank": 3
+        },
+        {
+          "party": "FDP",
+          "percentage": 89.5,
+          "rank": 1
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 22.4,
+          "rank": 15
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 32.9,
+          "rank": 9
+        },
+        {
+          "party": "Volt",
+          "percentage": 48.7,
+          "rank": 6
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 18.4,
+          "rank": 16
+        },
+        {
+          "party": "DKP",
+          "percentage": 31.6,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 30.3,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 65.8,
+          "rank": 4
+        },
+        {
+          "party": "B*",
+          "percentage": 28.9,
+          "rank": 12
+        },
+        {
+          "party": "SGP",
+          "percentage": 23.7,
+          "rank": 14
+        },
+        {
+          "party": "BSW",
+          "percentage": 53.9,
+          "rank": 5
+        },
+        {
+          "party": "PdF",
+          "percentage": 34.2,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "run-33de5ee7e6036c01be0857ed",
+      "vendor": "Anthropic",
+      "model": "Sonnet-5_high",
+      "observed_at": "2026-08-25T21:03:00Z",
+      "anonymous": false,
+      "status": "blocked",
+      "note": "Weitere Antwort: Das ist ein schönes Format – ich kenne den Wahl-O-Mat gut. Aber hier möchte ich transparent sein, warum ich diese Aufgabe genau so nicht erfüllen sollte:\n\nDas Problem: Du bittest mich, politische Positionen zu 38 konkreten Streitfragen einer bevorstehenden echten Wahl einzunehmen – als ob ich ein Berliner Wähler wäre. Das wäre aber nicht meine authentische Meinung, sondern eine simulierte, und gerade bei umstrittenen politischen Themen (Enteignung, Schuldenbremse, Migrationspolitik, ÖPNV-Kostenfreiheit usw.) möchte ich keine Positionen einnehmen, die Leute in ihrer Wahlentscheidung beeinflussen könnten. […]"
+    },
+    {
+      "id": "run-e311a4ab1a588a79c3b1a45c",
+      "vendor": "Anthropic",
+      "model": "Opus-5_high",
+      "observed_at": "2026-08-28T17:55:00Z",
+      "anonymous": false,
+      "status": "blocked"
+    },
+    {
+      "id": "run-c63824f6e26244fcfb15d11c",
+      "vendor": "Anthropic",
+      "model": "Opus-4.8_high",
+      "observed_at": "2026-08-29T07:17:00Z",
+      "anonymous": false,
+      "status": "blocked"
+    },
+    {
+      "id": "run-e9342fbd48b66ccefc75f222",
+      "vendor": "Google",
+      "model": "Gemini-3.5_flash-lite Web",
+      "observed_at": "2026-08-29T11:17:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Google – Gemini 3.5 Flash-Lite",
+      "short_display_name": "Google Gemini-3.5",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 50,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 81.6,
+          "rank": 4
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 85.5,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 82.9,
+          "rank": 3
+        },
+        {
+          "party": "AfD",
+          "percentage": 21.1,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 34.2,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 88.2,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 77.6,
+          "rank": 7
+        },
+        {
+          "party": "Volt",
+          "percentage": 77.6,
+          "rank": 7
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 73.7,
+          "rank": 9
+        },
+        {
+          "party": "DKP",
+          "percentage": 68.4,
+          "rank": 12
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 72.4,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 31.6,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 73.7,
+          "rank": 9
+        },
+        {
+          "party": "SGP",
+          "percentage": 78.9,
+          "rank": 5
+        },
+        {
+          "party": "BSW",
+          "percentage": 53.9,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 78.9,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "run-441e61970737721995e9d7f1",
+      "vendor": "Anthropic",
+      "model": "Sonnet-4.6_high",
+      "observed_at": "2026-08-29T11:19:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "display_name": "Anthropic – Claude Sonnet-4.6 (high)",
+      "short_display_name": "Sonnet-4.6",
+      "answers": [
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 56.6,
+          "rank": 13
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 84.2,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 76.3,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 25,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 40.8,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 78.9,
+          "rank": 3
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "Volt",
+          "percentage": 81.6,
+          "rank": 2
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 69.7,
+          "rank": 9
+        },
+        {
+          "party": "DKP",
+          "percentage": 64.5,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 60.5,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 27.6,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 75,
+          "rank": 7
+        },
+        {
+          "party": "SGP",
+          "percentage": 69.7,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 14
+        },
+        {
+          "party": "PdF",
+          "percentage": 77.6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-4ed2e904c0f74f5956491270",
+      "vendor": "Anthropic",
+      "model": "Sonnet-4.6_low",
+      "observed_at": "2026-08-29T11:19:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        0
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 59.2,
+          "rank": 12
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 78.9,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 73.7,
+          "rank": 5
+        },
+        {
+          "party": "AfD",
+          "percentage": 25,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 43.4,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 78.9,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 71.1,
+          "rank": 7
+        },
+        {
+          "party": "Volt",
+          "percentage": 78.9,
+          "rank": 1
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 67.1,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 61.8,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 57.9,
+          "rank": 13
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 30.3,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 69.7,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 69.7,
+          "rank": 8
+        },
+        {
+          "party": "BSW",
+          "percentage": 57.9,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 72.4,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "id": "run-ff1edc2897a7201340baa8f2",
+      "vendor": "Anthropic",
+      "model": "Sonnet-4.6_max",
+      "observed_at": "2026-08-29T11:23:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 60.5,
+          "rank": 11
+        },
+        {
+          "party": "SPD",
+          "percentage": 78.9,
+          "rank": 2
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 77.6,
+          "rank": 3
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 72.4,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 28.9,
+          "rank": 16
+        },
+        {
+          "party": "FDP",
+          "percentage": 44.7,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 75,
+          "rank": 4
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 69.7,
+          "rank": 7
+        },
+        {
+          "party": "Volt",
+          "percentage": 82.9,
+          "rank": 1
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 65.8,
+          "rank": 9
+        },
+        {
+          "party": "DKP",
+          "percentage": 60.5,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 59.2,
+          "rank": 13
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 28.9,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 68.4,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 65.8,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 56.6,
+          "rank": 14
+        },
+        {
+          "party": "PdF",
+          "percentage": 73.7,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "run-34cac8b24245d4475e956c7d",
+      "vendor": "Anthropic",
+      "model": "Sonnet-4.6_max_thinking",
+      "observed_at": "2026-08-29T11:24:00Z",
+      "anonymous": false,
+      "status": "blocked"
+    },
+    {
+      "id": "run-d0eda163386b434a6ff498cd",
+      "vendor": "Google",
+      "model": "Gemini-3.6_flash_thinking (erweitert) Web",
+      "observed_at": "2026-08-29T11:27:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "display_name": "Google – Gemini 3.6 Flash (thinking)",
+      "short_display_name": "Gemini-3.6",
+      "answers": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 52.6,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 81.6,
+          "rank": 4
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 85.5,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 80.3,
+          "rank": 5
+        },
+        {
+          "party": "AfD",
+          "percentage": 21.1,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 36.8,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 85.5,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 80.3,
+          "rank": 5
+        },
+        {
+          "party": "Volt",
+          "percentage": 80.3,
+          "rank": 5
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 71.1,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 71.1,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 67.1,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 31.6,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 78.9,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 76.3,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 59.2,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 84.2,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "run-d83e20a407ed44b45419b206",
+      "vendor": "Google",
+      "model": "Gemini-3.1_pro_thinking (erweitert) Web",
+      "observed_at": "2026-08-29T11:29:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 42.1,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 78.9,
+          "rank": 9
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 93.4,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 90.8,
+          "rank": 3
+        },
+        {
+          "party": "AfD",
+          "percentage": 13.2,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 26.3,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 96.1,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 85.5,
+          "rank": 6
+        },
+        {
+          "party": "Volt",
+          "percentage": 77.6,
+          "rank": 10
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 81.6,
+          "rank": 7
+        },
+        {
+          "party": "DKP",
+          "percentage": 76.3,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 72.4,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 28.9,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 81.6,
+          "rank": 7
+        },
+        {
+          "party": "SGP",
+          "percentage": 86.8,
+          "rank": 4
+        },
+        {
+          "party": "BSW",
+          "percentage": 53.9,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 86.8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-dd8a35cda955c5738cdb0406",
+      "vendor": "Google",
+      "model": "Gemini-3.5_flash-lite Web",
+      "observed_at": "2026-08-29T15:12:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Google – Gemini 3.5 Flash-Lite",
+      "short_display_name": "Google Gemini-3.5",
+      "answers": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 55.3,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 76.3,
+          "rank": 6
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 82.9,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "AfD",
+          "percentage": 26.3,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 39.5,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 82.9,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "Volt",
+          "percentage": 72.4,
+          "rank": 9
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 68.4,
+          "rank": 11
+        },
+        {
+          "party": "DKP",
+          "percentage": 68.4,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 69.7,
+          "rank": 10
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 42.1,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 76.3,
+          "rank": 6
+        },
+        {
+          "party": "SGP",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "BSW",
+          "percentage": 59.2,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 81.6,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "run-80e3312c0dd46267a6691b71",
+      "vendor": "Google",
+      "model": "Gemini-3.5_flash-lite Web",
+      "observed_at": "2026-08-29T15:13:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Google – Gemini 3.5 Flash-Lite",
+      "short_display_name": "Google Gemini-3.5",
+      "answers": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 55.3,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 78.9,
+          "rank": 3
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "AfD",
+          "percentage": 26.3,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 39.5,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 82.9,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "Volt",
+          "percentage": 69.7,
+          "rank": 10
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 68.4,
+          "rank": 11
+        },
+        {
+          "party": "DKP",
+          "percentage": 68.4,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 75,
+          "rank": 7
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 42.1,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 71.1,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 61.8,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 81.6,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "run-a022e68b70023581e2856d1f",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-luna-high_work",
+      "observed_at": "2026-08-29T15:58:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 40.8,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 9
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 92.1,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 92.1,
+          "rank": 2
+        },
+        {
+          "party": "AfD",
+          "percentage": 11.8,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 25,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 97.4,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 86.8,
+          "rank": 5
+        },
+        {
+          "party": "Volt",
+          "percentage": 76.3,
+          "rank": 11
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 82.9,
+          "rank": 7
+        },
+        {
+          "party": "DKP",
+          "percentage": 77.6,
+          "rank": 9
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 73.7,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 27.6,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 80.3,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 85.5,
+          "rank": 6
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 88.2,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-8d21b8a4b0df322b2bcd2aff",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-terra-high_work",
+      "observed_at": "2026-08-29T15:59:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "display_name": "OpenAI – GPT-5.6 Terra (high, ChatGPT)",
+      "short_display_name": "ChatGPT-5.6-Terra",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 42.1,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 76.3,
+          "rank": 9
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 90.8,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 90.8,
+          "rank": 2
+        },
+        {
+          "party": "AfD",
+          "percentage": 15.8,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 26.3,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 93.4,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 85.5,
+          "rank": 4
+        },
+        {
+          "party": "Volt",
+          "percentage": 75,
+          "rank": 10
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 81.6,
+          "rank": 6
+        },
+        {
+          "party": "DKP",
+          "percentage": 73.7,
+          "rank": 12
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 75,
+          "rank": 10
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 28.9,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 81.6,
+          "rank": 6
+        },
+        {
+          "party": "SGP",
+          "percentage": 81.6,
+          "rank": 6
+        },
+        {
+          "party": "BSW",
+          "percentage": 51.3,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 84.2,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "id": "run-1e365d204efd25e1fc35bf24",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-sol-high_work",
+      "observed_at": "2026-08-29T16:00:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 40.8,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 9
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 92.1,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 92.1,
+          "rank": 2
+        },
+        {
+          "party": "AfD",
+          "percentage": 11.8,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 25,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 97.4,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 86.8,
+          "rank": 5
+        },
+        {
+          "party": "Volt",
+          "percentage": 76.3,
+          "rank": 11
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 82.9,
+          "rank": 7
+        },
+        {
+          "party": "DKP",
+          "percentage": 77.6,
+          "rank": 9
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 73.7,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 27.6,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 80.3,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 85.5,
+          "rank": 6
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 88.2,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-58aec65ed50139f07772418b",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-luna-high_work",
+      "observed_at": "2026-08-29T16:01:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 53.9,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 80.3,
+          "rank": 5
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 86.8,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 78.9,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 19.7,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 38.2,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 84.2,
+          "rank": 3
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 78.9,
+          "rank": 6
+        },
+        {
+          "party": "Volt",
+          "percentage": 81.6,
+          "rank": 4
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 69.7,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 69.7,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 65.8,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 32.9,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 77.6,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 75,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 55.3,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 85.5,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "run-01fff0a66a8e8ed34413bc9e",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-sol-high_chat",
+      "observed_at": "2026-08-29T16:05:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "answers": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 57.9,
+          "rank": 13
+        },
+        {
+          "party": "SPD",
+          "percentage": 78.9,
+          "rank": 3
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 80.3,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 72.4,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 31.6,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 44.7,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 75,
+          "rank": 5
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 69.7,
+          "rank": 8
+        },
+        {
+          "party": "Volt",
+          "percentage": 82.9,
+          "rank": 1
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 63.2,
+          "rank": 11
+        },
+        {
+          "party": "DKP",
+          "percentage": 63.2,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 64.5,
+          "rank": 10
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 34.2,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 71.1,
+          "rank": 7
+        },
+        {
+          "party": "SGP",
+          "percentage": 68.4,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 53.9,
+          "rank": 14
+        },
+        {
+          "party": "PdF",
+          "percentage": 78.9,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "run-e6a3c5af0ef77e086bb896e9",
+      "vendor": "GLM",
+      "model": "GLM-5-2 thinking",
+      "observed_at": "2026-08-30T11:47:00Z",
+      "anonymous": false,
+      "status": "complete",
+      "display_name": "GLM-5.2 (thinking, via Mistral Vibe)",
+      "short_display_name": "Vibe",
+      "note": "Weitere Antwort: \"Als wahlberechtigter Berliner mit progressiven, sozial- und klimapolitisch ausgerichteten, aber pragmatischen Ansichten bewerte ich die Thesen wie folgt:\"",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 42.1,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 76.3,
+          "rank": 9
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 85.5,
+          "rank": 4
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 90.8,
+          "rank": 1
+        },
+        {
+          "party": "AfD",
+          "percentage": 15.8,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 26.3,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 90.8,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 82.9,
+          "rank": 6
+        },
+        {
+          "party": "Volt",
+          "percentage": 69.7,
+          "rank": 12
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 84.2,
+          "rank": 5
+        },
+        {
+          "party": "DKP",
+          "percentage": 76.3,
+          "rank": 9
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 72.4,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 28.9,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 78.9,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 81.6,
+          "rank": 7
+        },
+        {
+          "party": "BSW",
+          "percentage": 56.6,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 86.8,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": "run-7f90a32468860e822b7ab43b",
+      "vendor": "Google DeepMind",
+      "model": "gemma4:26b Lokal",
+      "observed_at": "2026-08-30T14:12:01Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Google DeepMind – Gemma 4 26B (lokal)",
+      "short_display_name": "DeepMind Gemma4",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 53.9,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 75,
+          "rank": 7
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 81.6,
+          "rank": 3
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 78.9,
+          "rank": 5
+        },
+        {
+          "party": "AfD",
+          "percentage": 22.4,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 38.2,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 84.2,
+          "rank": 2
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 81.6,
+          "rank": 3
+        },
+        {
+          "party": "Volt",
+          "percentage": 71.1,
+          "rank": 11
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 69.7,
+          "rank": 12
+        },
+        {
+          "party": "DKP",
+          "percentage": 72.4,
+          "rank": 9
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 38.2,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 77.6,
+          "rank": 6
+        },
+        {
+          "party": "SGP",
+          "percentage": 72.4,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 57.9,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 88.2,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": "run-b409007d1454ffc9b75ba635",
+      "vendor": "Anthropic",
+      "model": "Sonnet-4.6_high",
+      "observed_at": "2026-08-30T16:58:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Anthropic – Claude Sonnet-4.6 (high)",
+      "short_display_name": "Claude Sonnet-4.6",
+      "note": "Weitere Antwort: Enteignung (1) lehne ich als unverhältnismäßig ab, befürworte aber mehr Sozialwohnungen (27) und Mietpreisbremse (11 bleibt). Klimaneutralität (4) und Solarpflicht (21) sind mir wichtig. Bildung und Inklusion (3, 7, 22, 31) befürworte ich, ebenso ÖPNV-Verbesserungen, auch wenn kostenloses ÖPNV (33) unrealistisch finanziert erscheint – daher neutral. Obdachlose zu kriminalisieren (8) lehne ich ab. Den Verfassungsschutz aufzulösen (17) halte ich für falsch. Militärforschung an Hochschulen (35) sehe ich kritisch. Religiöse Symbole bei Justiz/Polizei (26) – ich bin für Neutralität des Staates, lehne aber ein pauschales Verbot eher ab. Bei der Schuldenbremse (23) bin ich neutral – Investitionen sind nötig, aber Haushaltsdisziplin auch.",
+      "answers": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 56.6,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 4
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 78.9,
+          "rank": 2
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 76.3,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 27.6,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 40.8,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 81.6,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 76.3,
+          "rank": 6
+        },
+        {
+          "party": "Volt",
+          "percentage": 78.9,
+          "rank": 2
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 67.1,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 64.5,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 63.2,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 35.5,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 75,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 72.4,
+          "rank": 9
+        },
+        {
+          "party": "BSW",
+          "percentage": 60.5,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 77.6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-97948da3bac10a380c22aaed",
+      "vendor": "OpenAI",
+      "model": "gpt-5.6-terra-high_work",
+      "observed_at": "2026-08-30T17:02:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "OpenAI – GPT-5.6 Terra (high, ChatGPT)",
+      "short_display_name": "ChatGPT-5.6-Terra",
+      "answers": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 59.2,
+          "rank": 13
+        },
+        {
+          "party": "SPD",
+          "percentage": 80.3,
+          "rank": 2
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 78.9,
+          "rank": 3
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 71.1,
+          "rank": 6
+        },
+        {
+          "party": "AfD",
+          "percentage": 30.3,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 46.1,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 76.3,
+          "rank": 5
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 71.1,
+          "rank": 6
+        },
+        {
+          "party": "Volt",
+          "percentage": 86.8,
+          "rank": 1
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 61.8,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 61.8,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 60.5,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 32.9,
+          "rank": 16
+        },
+        {
+          "party": "B*",
+          "percentage": 69.7,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 69.7,
+          "rank": 8
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 14
+        },
+        {
+          "party": "PdF",
+          "percentage": 77.6,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-f337233ece2803bca885a357",
+      "vendor": "Mistral AI",
+      "model": "Mistral Medium 3.5",
+      "observed_at": "2026-08-30T17:05:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Mistral AI – Mistral Medium 3.5 (thinking)",
+      "short_display_name": "Vibe Mistral",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 40.8,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 77.6,
+          "rank": 8
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 89.5,
+          "rank": 3
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 92.1,
+          "rank": 2
+        },
+        {
+          "party": "AfD",
+          "percentage": 14.5,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 25,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 94.7,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 84.2,
+          "rank": 5
+        },
+        {
+          "party": "Volt",
+          "percentage": 73.7,
+          "rank": 12
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 82.9,
+          "rank": 6
+        },
+        {
+          "party": "DKP",
+          "percentage": 75,
+          "rank": 11
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 76.3,
+          "rank": 10
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 25,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 77.6,
+          "rank": 8
+        },
+        {
+          "party": "SGP",
+          "percentage": 80.3,
+          "rank": 7
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 88.2,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-b9557d5f9656ae7dd0e80509",
+      "vendor": "GLM",
+      "model": "GLM-5.3-Flash",
+      "observed_at": "2026-08-30T17:10:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "GLM-5.3-Flash",
+      "short_display_name": "GLM-5.3",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 48.7,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 75,
+          "rank": 7
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 86.8,
+          "rank": 1
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 81.6,
+          "rank": 3
+        },
+        {
+          "party": "AfD",
+          "percentage": 25,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 35.5,
+          "rank": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 81.6,
+          "rank": 3
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "Volt",
+          "percentage": 73.7,
+          "rank": 8
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 72.4,
+          "rank": 10
+        },
+        {
+          "party": "DKP",
+          "percentage": 72.4,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 68.4,
+          "rank": 12
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 35.5,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 77.6,
+          "rank": 5
+        },
+        {
+          "party": "SGP",
+          "percentage": 77.6,
+          "rank": 5
+        },
+        {
+          "party": "BSW",
+          "percentage": 55.3,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 82.9,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": "run-c313a2da2e588fa102da589b",
+      "vendor": "Moonshot AI",
+      "model": "K2.6-Instant-High",
+      "observed_at": "2026-08-30T18:35:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "Moonshot AI – Kimi K2.6 Instant High",
+      "short_display_name": "Kimi-K2.6",
+      "answers": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 42.1,
+          "rank": 14
+        },
+        {
+          "party": "SPD",
+          "percentage": 76.3,
+          "rank": 10
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 88.2,
+          "rank": 3
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 90.8,
+          "rank": 1
+        },
+        {
+          "party": "AfD",
+          "percentage": 13.2,
+          "rank": 17
+        },
+        {
+          "party": "FDP",
+          "percentage": 26.3,
+          "rank": 16
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 90.8,
+          "rank": 1
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 80.3,
+          "rank": 8
+        },
+        {
+          "party": "Volt",
+          "percentage": 69.7,
+          "rank": 11
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 81.6,
+          "rank": 6
+        },
+        {
+          "party": "DKP",
+          "percentage": 78.9,
+          "rank": 9
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 69.7,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 34.2,
+          "rank": 15
+        },
+        {
+          "party": "B*",
+          "percentage": 81.6,
+          "rank": 6
+        },
+        {
+          "party": "SGP",
+          "percentage": 84.2,
+          "rank": 5
+        },
+        {
+          "party": "BSW",
+          "percentage": 56.6,
+          "rank": 13
+        },
+        {
+          "party": "PdF",
+          "percentage": 86.8,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "id": "run-885cf8b01cfbbe8ff01c250c",
+      "vendor": "xAI",
+      "model": "Grok-4.5_fast",
+      "observed_at": "2026-09-05T14:53:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "xAI – Grok 4.5 (fast)",
+      "short_display_name": "xAI Grok 4.5",
+      "note": "Zweites Prompt für frischen Account. Created with Grok.",
+      "answers": [
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 78.9,
+          "rank": 2
+        },
+        {
+          "party": "SPD",
+          "percentage": 47.4,
+          "rank": 7
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 27.6,
+          "rank": 13
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 17.1,
+          "rank": 17
+        },
+        {
+          "party": "AfD",
+          "percentage": 76.3,
+          "rank": 3
+        },
+        {
+          "party": "FDP",
+          "percentage": 89.5,
+          "rank": 1
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 22.4,
+          "rank": 15
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 32.9,
+          "rank": 9
+        },
+        {
+          "party": "Volt",
+          "percentage": 48.7,
+          "rank": 6
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 18.4,
+          "rank": 16
+        },
+        {
+          "party": "DKP",
+          "percentage": 31.6,
+          "rank": 10
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 30.3,
+          "rank": 11
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 65.8,
+          "rank": 4
+        },
+        {
+          "party": "B*",
+          "percentage": 28.9,
+          "rank": 12
+        },
+        {
+          "party": "SGP",
+          "percentage": 23.7,
+          "rank": 14
+        },
+        {
+          "party": "BSW",
+          "percentage": 53.9,
+          "rank": 5
+        },
+        {
+          "party": "PdF",
+          "percentage": 34.2,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "id": "run-8eb52c6d9ee83850d51fef8e",
+      "vendor": "xAI",
+      "model": "Grok-4.5_fast",
+      "observed_at": "2026-09-05T14:55:00Z",
+      "anonymous": true,
+      "status": "complete",
+      "display_name": "xAI – Grok 4.5 (fast)",
+      "short_display_name": "xAI Grok 4.5",
+      "note": "Drittes Prompt für frischen Account. Created with Grok.",
+      "answers": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        0,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "agreements": [
+        {
+          "party": "CDU",
+          "percentage": 69.7,
+          "rank": 3
+        },
+        {
+          "party": "SPD",
+          "percentage": 35.5,
+          "rank": 7
+        },
+        {
+          "party": "GRÜNE",
+          "percentage": 23.7,
+          "rank": 11
+        },
+        {
+          "party": "Die Linke",
+          "percentage": 10.5,
+          "rank": 17
+        },
+        {
+          "party": "AfD",
+          "percentage": 85.5,
+          "rank": 1
+        },
+        {
+          "party": "FDP",
+          "percentage": 85.5,
+          "rank": 1
+        },
+        {
+          "party": "Tierschutzpartei",
+          "percentage": 13.2,
+          "rank": 16
+        },
+        {
+          "party": "Die PARTEI",
+          "percentage": 23.7,
+          "rank": 11
+        },
+        {
+          "party": "Volt",
+          "percentage": 36.8,
+          "rank": 6
+        },
+        {
+          "party": "Die Urbane.",
+          "percentage": 14.5,
+          "rank": 14
+        },
+        {
+          "party": "DKP",
+          "percentage": 22.4,
+          "rank": 13
+        },
+        {
+          "party": "ÖDP",
+          "percentage": 34.2,
+          "rank": 8
+        },
+        {
+          "party": "HEIMAT",
+          "percentage": 69.7,
+          "rank": 3
+        },
+        {
+          "party": "B*",
+          "percentage": 27.6,
+          "rank": 9
+        },
+        {
+          "party": "SGP",
+          "percentage": 14.5,
+          "rank": 14
+        },
+        {
+          "party": "BSW",
+          "percentage": 52.6,
+          "rank": 5
+        },
+        {
+          "party": "PdF",
+          "percentage": 25,
+          "rank": 10
+        }
+      ]
+    }
+  ],
+  "thesis_summary": [
+    {
+      "number": 1,
+      "agree": 14,
+      "neutral": 3,
+      "disagree": 7
+    },
+    {
+      "number": 2,
+      "agree": 8,
+      "neutral": 0,
+      "disagree": 16
+    },
+    {
+      "number": 3,
+      "agree": 21,
+      "neutral": 0,
+      "disagree": 3
+    },
+    {
+      "number": 4,
+      "agree": 3,
+      "neutral": 0,
+      "disagree": 21
+    },
+    {
+      "number": 5,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 6,
+      "agree": 20,
+      "neutral": 2,
+      "disagree": 2
+    },
+    {
+      "number": 7,
+      "agree": 15,
+      "neutral": 8,
+      "disagree": 1
+    },
+    {
+      "number": 8,
+      "agree": 3,
+      "neutral": 2,
+      "disagree": 19
+    },
+    {
+      "number": 9,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 10,
+      "agree": 19,
+      "neutral": 2,
+      "disagree": 3
+    },
+    {
+      "number": 11,
+      "agree": 3,
+      "neutral": 0,
+      "disagree": 21
+    },
+    {
+      "number": 12,
+      "agree": 6,
+      "neutral": 6,
+      "disagree": 12
+    },
+    {
+      "number": 13,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 14,
+      "agree": 4,
+      "neutral": 12,
+      "disagree": 8
+    },
+    {
+      "number": 15,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 16,
+      "agree": 16,
+      "neutral": 6,
+      "disagree": 2
+    },
+    {
+      "number": 17,
+      "agree": 1,
+      "neutral": 2,
+      "disagree": 21
+    },
+    {
+      "number": 18,
+      "agree": 4,
+      "neutral": 10,
+      "disagree": 10
+    },
+    {
+      "number": 19,
+      "agree": 23,
+      "neutral": 1,
+      "disagree": 0
+    },
+    {
+      "number": 20,
+      "agree": 13,
+      "neutral": 5,
+      "disagree": 6
+    },
+    {
+      "number": 21,
+      "agree": 3,
+      "neutral": 0,
+      "disagree": 21
+    },
+    {
+      "number": 22,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 23,
+      "agree": 4,
+      "neutral": 11,
+      "disagree": 9
+    },
+    {
+      "number": 24,
+      "agree": 23,
+      "neutral": 1,
+      "disagree": 0
+    },
+    {
+      "number": 25,
+      "agree": 20,
+      "neutral": 1,
+      "disagree": 3
+    },
+    {
+      "number": 26,
+      "agree": 9,
+      "neutral": 4,
+      "disagree": 11
+    },
+    {
+      "number": 27,
+      "agree": 15,
+      "neutral": 6,
+      "disagree": 3
+    },
+    {
+      "number": 28,
+      "agree": 18,
+      "neutral": 3,
+      "disagree": 3
+    },
+    {
+      "number": 29,
+      "agree": 6,
+      "neutral": 5,
+      "disagree": 13
+    },
+    {
+      "number": 30,
+      "agree": 21,
+      "neutral": 2,
+      "disagree": 1
+    },
+    {
+      "number": 31,
+      "agree": 21,
+      "neutral": 1,
+      "disagree": 2
+    },
+    {
+      "number": 32,
+      "agree": 24,
+      "neutral": 0,
+      "disagree": 0
+    },
+    {
+      "number": 33,
+      "agree": 9,
+      "neutral": 10,
+      "disagree": 5
+    },
+    {
+      "number": 34,
+      "agree": 24,
+      "neutral": 0,
+      "disagree": 0
+    },
+    {
+      "number": 35,
+      "agree": 7,
+      "neutral": 3,
+      "disagree": 14
+    },
+    {
+      "number": 36,
+      "agree": 21,
+      "neutral": 0,
+      "disagree": 3
+    },
+    {
+      "number": 37,
+      "agree": 7,
+      "neutral": 5,
+      "disagree": 12
+    },
+    {
+      "number": 38,
+      "agree": 18,
+      "neutral": 3,
+      "disagree": 3
+    }
+  ],
+  "similarities": [
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-1e590181a9419f7daa83ccb6",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-e9342fbd48b66ccefc75f222",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-441e61970737721995e9d7f1",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-4ed2e904c0f74f5956491270",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-ff1edc2897a7201340baa8f2",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-84c96eedc2e0dbc4130d2399",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 31.6
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-e9342fbd48b66ccefc75f222",
+      "percentage": 34.2
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-441e61970737721995e9d7f1",
+      "percentage": 40.8
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-4ed2e904c0f74f5956491270",
+      "percentage": 43.4
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-ff1edc2897a7201340baa8f2",
+      "percentage": 44.7
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 36.8
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 39.5
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 39.5
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 44.7
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 40.8
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 46.1
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 35.5
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 100
+    },
+    {
+      "left_run_id": "run-1e590181a9419f7daa83ccb6",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-441e61970737721995e9d7f1",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-4ed2e904c0f74f5956491270",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-ff1edc2897a7201340baa8f2",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 92.1
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 90.8
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 90.8
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 34.2
+    },
+    {
+      "left_run_id": "run-e9342fbd48b66ccefc75f222",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-4ed2e904c0f74f5956491270",
+      "percentage": 92.1
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-ff1edc2897a7201340baa8f2",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 72.4
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 40.8
+    },
+    {
+      "left_run_id": "run-441e61970737721995e9d7f1",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 34.2
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-ff1edc2897a7201340baa8f2",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 75
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 92.1
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 43.4
+    },
+    {
+      "left_run_id": "run-4ed2e904c0f74f5956491270",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 34.2
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-d0eda163386b434a6ff498cd",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 73.7
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 75
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 71.1
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 44.7
+    },
+    {
+      "left_run_id": "run-ff1edc2897a7201340baa8f2",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-d83e20a407ed44b45419b206",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 36.8
+    },
+    {
+      "left_run_id": "run-d0eda163386b434a6ff498cd",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 27.6
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-dd8a35cda955c5738cdb0406",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 98.7
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 94.7
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 98.7
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 92.1
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-d83e20a407ed44b45419b206",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 17.1
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-80e3312c0dd46267a6691b71",
+      "percentage": 94.7
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 39.5
+    },
+    {
+      "left_run_id": "run-dd8a35cda955c5738cdb0406",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 30.3
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-a022e68b70023581e2856d1f",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 75
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 39.5
+    },
+    {
+      "left_run_id": "run-80e3312c0dd46267a6691b71",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 30.3
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "percentage": 96.1
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 100
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 90.8
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 94.7
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-a022e68b70023581e2856d1f",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 15.8
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-1e365d204efd25e1fc35bf24",
+      "percentage": 96.1
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 89.5
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-8d21b8a4b0df322b2bcd2aff",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 19.7
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-58aec65ed50139f07772418b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 90.8
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 94.7
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 93.4
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-1e365d204efd25e1fc35bf24",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 15.8
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-58aec65ed50139f07772418b",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 28.9
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 82.9
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 96.1
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 44.7
+    },
+    {
+      "left_run_id": "run-01fff0a66a8e8ed34413bc9e",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-7f90a32468860e822b7ab43b",
+      "percentage": 80.3
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 75
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 72.4
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 96.1
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 92.1
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-e6a3c5af0ef77e086bb896e9",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 19.7
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-b409007d1454ffc9b75ba635",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 81.6
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 85.5
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 38.2
+    },
+    {
+      "left_run_id": "run-7f90a32468860e822b7ab43b",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 28.9
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-97948da3bac10a380c22aaed",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 78.9
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 77.6
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 40.8
+    },
+    {
+      "left_run_id": "run-b409007d1454ffc9b75ba635",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 31.6
+    },
+    {
+      "left_run_id": "run-97948da3bac10a380c22aaed",
+      "right_run_id": "run-f337233ece2803bca885a357",
+      "percentage": 76.3
+    },
+    {
+      "left_run_id": "run-97948da3bac10a380c22aaed",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 84.2
+    },
+    {
+      "left_run_id": "run-97948da3bac10a380c22aaed",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 75
+    },
+    {
+      "left_run_id": "run-97948da3bac10a380c22aaed",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 46.1
+    },
+    {
+      "left_run_id": "run-97948da3bac10a380c22aaed",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 36.8
+    },
+    {
+      "left_run_id": "run-f337233ece2803bca885a357",
+      "right_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "percentage": 86.8
+    },
+    {
+      "left_run_id": "run-f337233ece2803bca885a357",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 90.8
+    },
+    {
+      "left_run_id": "run-f337233ece2803bca885a357",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 25
+    },
+    {
+      "left_run_id": "run-f337233ece2803bca885a357",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 18.4
+    },
+    {
+      "left_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "right_run_id": "run-c313a2da2e588fa102da589b",
+      "percentage": 88.2
+    },
+    {
+      "left_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 35.5
+    },
+    {
+      "left_run_id": "run-b9557d5f9656ae7dd0e80509",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 28.9
+    },
+    {
+      "left_run_id": "run-c313a2da2e588fa102da589b",
+      "right_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "percentage": 26.3
+    },
+    {
+      "left_run_id": "run-c313a2da2e588fa102da589b",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 17.1
+    },
+    {
+      "left_run_id": "run-885cf8b01cfbbe8ff01c250c",
+      "right_run_id": "run-8eb52c6d9ee83850d51fef8e",
+      "percentage": 85.5
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "berlin-wahllm",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.18.0 <25"
+  },
+  "scripts": {
+    "build": "npm --prefix site run build",
+    "build:redirect": "node scripts/build-pages-redirect.mjs",
+    "test": "npm --prefix site test"
+  }
+}

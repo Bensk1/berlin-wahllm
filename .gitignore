@@ -1,0 +1,37 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+ENV.local
+
+# Private deployment and access-log tooling.
+/docs/deployment.md
+/ops/
+/scripts/analyze-nginx-access-logs.mjs
+/scripts/report-nginx-visitors.sh
+/logs/
+*.access.log*
+
+# Third-party Wahl-O-Mat material is used locally but not distributed.
+/datensatz/
+/original_app/
+
+# Observable Framework build artifacts.
+/site/.observablehq/cache/
+/site/src/.observablehq/
+/site/dist/
+/site/node_modules/
+
+/.wahlomat-provenance.md
+/prompt_fuer_menschen.md
+/AGENTIC_ROLES.md
+/AGENTS.md
+/tasks/
+/IMPLEMENTATION_PLAN.md
+/ideas.md
+/thesen.md
+/archive/
+/TODO.md
+/docs/observable-copy.de.md
