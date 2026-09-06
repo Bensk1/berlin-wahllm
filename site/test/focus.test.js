@@ -3,54 +3,55 @@ import {readFile} from "node:fs/promises";
 import test from "node:test";
 
 import {
+  firstPlaceCount,
   focusParties,
-  focusRunIds,
   heatmapValues,
   partiesForMode,
-  selectFocusRuns,
+  selectFocusModels,
   sortParties,
   winners
 } from "../src/components/focus.js";
 import {formatDate, percent, runLabel} from "../src/components/lib.js";
-import {comparisonRunIds, vendorMetadataLabel} from "../src/components/model-ranking.js";
+import {comparisonRunIds} from "../src/components/model-ranking.js";
 import {matrixValues, thesisCard} from "../src/components/response-matrix.js";
 import {translations} from "../src/components/i18n.js";
+import {validateResults} from "../src/components/schema.js";
 import siteConfig, {normalizeBasePath, normalizeSiteUrl} from "../observablehq.config.js";
 
 const allParties = ["SPD", "GRÜNE", "CDU", "AfD", "FDP", "Die Linke", "Volt"];
-const run = (model, agreements = [], id = `id-${model}`) => ({id, model, status: "complete", agreements});
+const model = (name, agreements = [], id = `id-${name}`) => ({id, model: name, agreements, runs: []});
 const repositoryResults = JSON.parse(
   await readFile(new URL("../src/data/results.json", import.meta.url), "utf8")
 );
 
-test("Fokusläufe entsprechen den ersten acht Quelldatensätzen", () => {
-  assert.deepEqual(focusRunIds, [
-    "run-1e590181a9419f7daa83ccb6",
-    "run-b409007d1454ffc9b75ba635",
-    "run-e9342fbd48b66ccefc75f222",
-    "run-97948da3bac10a380c22aaed",
-    "run-7f90a32468860e822b7ab43b",
-    "run-f337233ece2803bca885a357",
-    "run-b9557d5f9656ae7dd0e80509",
-    "run-c313a2da2e588fa102da589b"
-  ]);
-  assert.deepEqual(focusParties, ["CDU", "FDP", "AfD", "SPD", "Die Linke", "GRÜNE"]);
+test("Website-Export enthält die acht kontrollierten Modellkonfigurationen", () => {
+  assert.equal(validateResults(repositoryResults), repositoryResults);
+  assert.equal(repositoryResults.schema_version, 2);
+  assert.equal(repositoryResults.models.length, 8);
+  assert.equal(repositoryResults.summary.evaluable_run_count, 120);
+  assert.deepEqual(focusParties, ["CDU", "SPD", "GRÜNE", "Die Linke", "AfD"]);
 });
 
-test("Fokusläufe existieren vollständig im Repository-Export", () => {
-  assert.deepEqual(
-    selectFocusRuns(repositoryResults.runs).map(({id}) => id).sort(),
-    [...focusRunIds].sort()
-  );
+test("Modelle werden nach sichtbaren Namen sortiert", () => {
+  assert.deepEqual(selectFocusModels(repositoryResults.models).map(runLabel), [
+    "Gemini 3.5 Flash-Lite", "Gemma 4 26B", "GLM 5.3 Flash", "GPT-5.6 Terra",
+    "Grok 4.5", "Kimi K3", "Mistral Medium 3.5", "Sonnet 4.6"
+  ]);
+});
+
+test("Fünferauswahl bildet die ausgewiesene Kernaussage ab", () => {
+  const winnerByModel = new Map(repositoryResults.models.map((candidate) => [
+    candidate.short_display_name,
+    winners(candidate, focusParties).map(({party}) => party)
+  ]));
+  assert.deepEqual(winnerByModel.get("Grok 4.5"), ["AfD"]);
+  assert.equal([...winnerByModel.entries()].filter(([name]) => name !== "Grok 4.5").every(([, parties]) =>
+    parties.every((party) => party === "GRÜNE" || party === "Die Linke")
+  ), true);
 });
 
 test("Kurzbezeichnungen haben vor vollständigen Anzeigenamen Vorrang", () => {
   assert.equal(runLabel({model: "technical-name", display_name: "Vollständiger Name", short_display_name: "Kurzname"}), "Kurzname");
-});
-
-test("GLM wird als Modellfamilie statt als Anbieter bezeichnet", () => {
-  assert.equal(vendorMetadataLabel("GLM"), "Modellfamilie");
-  assert.equal(vendorMetadataLabel("OpenAI"), "Anbieter");
 });
 
 test("Vergleichsauswahl bleibt eindeutig, begrenzt und entfernt das Hauptmodell", () => {
@@ -59,24 +60,10 @@ test("Vergleichsauswahl bleibt eindeutig, begrenzt und entfernt das Hauptmodell"
   assert.deepEqual(comparisonRunIds(["a", "b", "c", "d"], "none"), ["a", "b", "c"]);
 });
 
-test("selectFocusRuns verdrahtet konkrete Läufe und sortiert sichtbare Namen alphabetisch", () => {
-  const labels = ["Grok 4.5", "Sonnet-4.6", "Gemini-3.5", "ChatGPT-5.6-Terra", "Gemma4:26b", "Vibe/Mistral", "GLM-5.3", "Kimi-K2.6"];
-  const selected = focusRunIds.map((id, index) => ({...run(index < 2 ? "duplicate-name" : `model-${index}`, [], id), short_display_name: labels[index]}));
-  const runs = [
-    run("duplicate-name", [], "run-other-observation"),
-    ...selected.toReversed(),
-    {...run("blocked", [], "run-blocked"), status: "blocked"}
-  ];
-  assert.deepEqual(selectFocusRuns(runs).map(runLabel), ["ChatGPT-5.6-Terra", "Gemini-3.5", "Gemma4:26b", "GLM-5.3", "Grok 4.5", "Kimi-K2.6", "Sonnet-4.6", "Vibe/Mistral"]);
-});
-
-test("selectFocusRuns lehnt fehlende und blockierte Fokusläufe ab", () => {
-  const selected = focusRunIds.map((id, index) => run(`model-${index}`, [], id));
-  assert.throws(() => selectFocusRuns(selected.slice(1)), /Vollständiger Fokuslauf fehlt/);
-  assert.throws(
-    () => selectFocusRuns([{...selected[0], status: "blocked"}, ...selected.slice(1)]),
-    /Vollständiger Fokuslauf fehlt/
-  );
+test("selectFocusModels lehnt eine falsche Zahl und doppelte IDs ab", () => {
+  const models = Array.from({length: 8}, (_, index) => model(`model-${index}`));
+  assert.throws(() => selectFocusModels(models.slice(1)), /acht eindeutige Modelle/);
+  assert.throws(() => selectFocusModels([{...models[0]}, {...models[0]}, ...models.slice(2)]), /acht eindeutige Modelle/);
 });
 
 test("Parteienmodus startet mit Fokusreihenfolge und kann alle Parteien zeigen", () => {
@@ -85,51 +72,70 @@ test("Parteienmodus startet mit Fokusreihenfolge und kann alle Parteien zeigen",
 });
 
 test("Heatmap-Parteien werden nach ihren sichtbaren deutschen Namen sortiert", () => {
-  assert.deepEqual(sortParties(focusParties), ["AfD", "CDU", "Die Linke", "FDP", "GRÜNE", "SPD"]);
-  assert.deepEqual(focusParties, ["CDU", "FDP", "AfD", "SPD", "Die Linke", "GRÜNE"]);
+  assert.deepEqual(sortParties(focusParties), ["AfD", "CDU", "Die Linke", "GRÜNE", "SPD"]);
+  assert.deepEqual(focusParties, ["CDU", "SPD", "GRÜNE", "Die Linke", "AfD"]);
 });
 
 test("Gewinnerermittlung erhält echte Gleichstände", () => {
-  const candidate = run("example", [
-    {party: "CDU", percentage: 70},
-    {party: "SPD", percentage: 75},
-    {party: "GRÜNE", percentage: 75},
-    {party: "Volt", percentage: 90}
+  const candidate = model("example", [
+    {party: "CDU", mean: 70},
+    {party: "SPD", mean: 75},
+    {party: "GRÜNE", mean: 75},
+    {party: "Volt", mean: 90}
   ]);
   assert.deepEqual(winners(candidate, focusParties).map(({party}) => party), ["SPD", "GRÜNE"]);
   assert.deepEqual(winners(candidate, allParties).map(({party}) => party), ["Volt"]);
 });
 
-test("Heatmap-Daten besitzen einen direkten runId-Kanal", () => {
-  const candidate = run("example", [{party: "CDU", percentage: 70, rank: 1}]);
+test("Heatmap-Daten besitzen einen direkten modelId-Kanal", () => {
+  const candidate = model("example", [{party: "CDU", mean: 70, rank: 1}]);
   assert.deepEqual(heatmapValues([candidate], ["CDU"]), [{
-    runId: candidate.id,
-    run: candidate,
+    modelId: candidate.id,
+    model: candidate,
     party: "CDU",
     percentage: 70,
     rank: 1
   }]);
 });
 
+test("Erstplatzierungen werden für den sichtbaren Parteienmodus berechnet", () => {
+  const candidate = {...model("example"), runs: [
+    {agreements: [{party: "SPD", percentage: 80}, {party: "GRÜNE", percentage: 80}, {party: "Volt", percentage: 90}]},
+    {agreements: [{party: "SPD", percentage: 70}, {party: "GRÜNE", percentage: 75}, {party: "Volt", percentage: 60}]}
+  ]};
+  assert.equal(firstPlaceCount(candidate, "SPD", ["SPD", "GRÜNE"]), 1);
+  assert.equal(firstPlaceCount(candidate, "GRÜNE", ["SPD", "GRÜNE"]), 2);
+  assert.equal(firstPlaceCount(candidate, "Volt", allParties), 1);
+});
+
 test("Matrixdaten verbinden jede Antwort mit dem vollständigen Thesentext", () => {
-  const candidate = {...run("example"), display_name: "Example", short_display_name: "Kurz", answers: [1, -1]};
+  const candidate = {...model("example"), display_name: "Example", short_display_name: "Kurz", evaluable_run_count: 15, thesis_answers: [
+    {agree: 12, neutral: 2, disagree: 1, modal_answers: [1], modal_count: 12},
+    {agree: 5, neutral: 5, disagree: 5, modal_answers: [-1, 0, 1], modal_count: 5}
+  ]};
   const values = matrixValues([candidate], [
     {number: 1, text: "Erste These."},
     {number: 2, text: "Zweite These."}
   ]);
-  assert.deepEqual(values.map(({thesis, thesisText, label}) => ({thesis, thesisText, label})), [
-    {thesis: 1, thesisText: "Erste These.", label: "Zustimmung"},
-    {thesis: 2, thesisText: "Zweite These.", label: "Ablehnung"}
+  assert.deepEqual(values.map(({thesis, thesisText, label, consensus}) => ({thesis, thesisText, label, consensus})), [
+    {thesis: 1, thesisText: "Erste These.", label: "Zustimmung", consensus: 0.8},
+    {thesis: 2, thesisText: "Zweite These.", label: "Uneindeutig", consensus: 1 / 3}
   ]);
 });
 
 test("englische UI-Texte und Formate werden lokalisiert", () => {
   assert.deepEqual(Object.keys(translations.en).sort(), Object.keys(translations.de).sort());
+  assert.equal(translations.de.providerDefault, "Standard (0 nicht konfigurierbar)");
+  assert.equal(translations.en.providerDefault, "default (0 not configurable)");
   assert.equal(percent(12.5, "en"), "12.5 %");
   assert.equal(percent(12.5, "de"), "12,5 %");
   assert.match(formatDate("2026-01-02T10:30:00Z", "en"), /2 Jan 2026/);
   assert.match(formatDate("2026-01-02T10:30:00Z", "de"), /02\.01\.2026|2\. Jan\. 2026/);
-  const values = matrixValues([{...run("example"), answers: [1, 0, -1]}], [
+  const values = matrixValues([{...model("example"), evaluable_run_count: 15, thesis_answers: [
+    {agree: 15, neutral: 0, disagree: 0, modal_answers: [1], modal_count: 15},
+    {agree: 0, neutral: 15, disagree: 0, modal_answers: [0], modal_count: 15},
+    {agree: 0, neutral: 0, disagree: 15, modal_answers: [-1], modal_count: 15}
+  ]}], [
     {number: 1, text: "Deutsche Quellthese."}, {number: 2, text: "Zweite."}, {number: 3, text: "Dritte."}
   ], "en");
   assert.deepEqual(values.map(({label, thesisText}) => ({label, thesisText})), [

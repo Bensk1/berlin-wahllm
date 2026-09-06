@@ -1,0 +1,137 @@
+model_id,party,mean,median,minimum,maximum,standard_deviation,first_place_count,evaluable_runs,attempts
+x-ai/grok-4.5,FDP,85.7,86.8,81.6,89.5,2.3,15,15,15
+x-ai/grok-4.5,AfD,84.6,84.2,81.6,88.2,2.4,11,15,15
+x-ai/grok-4.5,CDU,71.0,71.1,68.4,73.7,1.8,0,15,15
+x-ai/grok-4.5,HEIMAT,68.9,68.4,65.8,71.1,1.7,0,15,15
+x-ai/grok-4.5,BSW,51.4,51.3,48.7,53.9,1.6,0,15,15
+x-ai/grok-4.5,Volt,40.2,40.8,36.8,43.4,2.2,0,15,15
+x-ai/grok-4.5,SPD,38.9,39.5,35.5,42.1,2.2,0,15,15
+x-ai/grok-4.5,ÖDP,31.8,31.6,27.6,35.5,1.9,0,15,15
+x-ai/grok-4.5,B*,26.1,26.3,23.7,28.9,1.9,0,15,15
+x-ai/grok-4.5,PdF,25.9,26.3,22.4,28.9,2.4,0,15,15
+x-ai/grok-4.5,Die PARTEI,24.6,25.0,21.1,27.6,2.4,0,15,15
+x-ai/grok-4.5,GRÜNE,24.2,23.7,21.1,27.6,2.3,0,15,15
+x-ai/grok-4.5,DKP,23.2,23.7,19.7,26.3,2.4,0,15,15
+x-ai/grok-4.5,SGP,15.4,15.8,11.8,18.4,2.4,0,15,15
+x-ai/grok-4.5,Die Urbane.,15.0,14.5,11.8,18.4,2.3,0,15,15
+x-ai/grok-4.5,Tierschutzpartei,14.0,14.5,10.5,17.1,2.4,0,15,15
+x-ai/grok-4.5,Die Linke,11.2,11.8,7.9,14.5,2.2,0,15,15
+anthropic/claude-sonnet-4.6,Tierschutzpartei,87.1,86.8,81.6,96.1,3.6,10,15,15
+anthropic/claude-sonnet-4.6,GRÜNE,86.9,86.8,84.2,90.8,1.9,9,15,15
+anthropic/claude-sonnet-4.6,PdF,84.9,85.5,81.6,88.2,2.0,0,15,15
+anthropic/claude-sonnet-4.6,Die Linke,82.7,82.9,77.6,90.8,3.3,0,15,15
+anthropic/claude-sonnet-4.6,Die PARTEI,81.5,81.6,76.3,88.2,3.1,0,15,15
+anthropic/claude-sonnet-4.6,SPD,80.7,81.6,73.7,85.5,2.7,0,15,15
+anthropic/claude-sonnet-4.6,Volt,79.7,78.9,75.0,85.5,2.2,1,15,15
+anthropic/claude-sonnet-4.6,B*,78.1,77.6,75.0,81.6,2.0,0,15,15
+anthropic/claude-sonnet-4.6,SGP,76.5,76.3,72.4,84.2,2.8,0,15,15
+anthropic/claude-sonnet-4.6,Die Urbane.,73.7,73.7,68.4,81.6,3.5,0,15,15
+anthropic/claude-sonnet-4.6,DKP,71.2,69.7,67.1,76.3,3.0,0,15,15
+anthropic/claude-sonnet-4.6,ÖDP,70.4,71.1,65.8,75.0,2.8,0,15,15
+anthropic/claude-sonnet-4.6,BSW,53.4,53.9,50.0,56.6,1.8,0,15,15
+anthropic/claude-sonnet-4.6,CDU,50.2,50.0,42.1,55.3,3.3,0,15,15
+anthropic/claude-sonnet-4.6,FDP,34.4,34.2,26.3,39.5,3.3,0,15,15
+anthropic/claude-sonnet-4.6,HEIMAT,31.9,31.6,27.6,38.2,2.6,0,15,15
+anthropic/claude-sonnet-4.6,AfD,21.6,21.1,13.2,27.6,3.3,0,15,15
+google/gemini-3.5-flash-lite,Tierschutzpartei,93.9,93.4,90.8,97.4,1.4,15,15,15
+google/gemini-3.5-flash-lite,Die Linke,91.4,90.8,88.2,94.7,2.0,4,15,15
+google/gemini-3.5-flash-lite,PdF,89.0,89.5,85.5,92.1,1.7,0,15,15
+google/gemini-3.5-flash-lite,GRÜNE,88.1,88.2,85.5,89.5,1.3,0,15,15
+google/gemini-3.5-flash-lite,SGP,84.5,84.2,81.6,88.2,1.6,0,15,15
+google/gemini-3.5-flash-lite,Die PARTEI,83.7,82.9,81.6,86.8,1.3,0,15,15
+google/gemini-3.5-flash-lite,Die Urbane.,82.2,81.6,78.9,85.5,2.0,0,15,15
+google/gemini-3.5-flash-lite,B*,79.6,78.9,77.6,82.9,1.5,0,15,15
+google/gemini-3.5-flash-lite,DKP,78.9,78.9,76.3,81.6,1.3,0,15,15
+google/gemini-3.5-flash-lite,SPD,78.2,78.9,75.0,81.6,1.8,0,15,15
+google/gemini-3.5-flash-lite,Volt,72.6,72.4,69.7,75.0,1.6,0,15,15
+google/gemini-3.5-flash-lite,ÖDP,72.6,72.4,69.7,75.0,1.3,0,15,15
+google/gemini-3.5-flash-lite,BSW,56.3,56.6,52.6,59.2,1.6,0,15,15
+google/gemini-3.5-flash-lite,CDU,41.5,42.1,38.2,44.7,2.0,0,15,15
+google/gemini-3.5-flash-lite,HEIMAT,31.3,31.6,27.6,34.2,1.6,0,15,15
+google/gemini-3.5-flash-lite,FDP,25.7,26.3,22.4,28.9,2.0,0,15,15
+google/gemini-3.5-flash-lite,AfD,12.7,13.2,9.2,15.8,2.0,0,15,15
+openai/gpt-5.6-terra,Tierschutzpartei,92.8,92.1,90.8,97.4,1.8,14,15,24
+openai/gpt-5.6-terra,Die Linke,92.1,92.1,90.8,94.7,1.2,11,15,24
+openai/gpt-5.6-terra,GRÜNE,91.2,90.8,88.2,93.4,1.2,6,15,24
+openai/gpt-5.6-terra,PdF,84.1,84.2,81.6,88.2,1.8,0,15,24
+openai/gpt-5.6-terra,SGP,83.6,84.2,81.6,85.5,1.3,0,15,24
+openai/gpt-5.6-terra,Die PARTEI,83.5,82.9,80.3,86.8,1.9,0,15,24
+openai/gpt-5.6-terra,Die Urbane.,83.1,82.9,81.6,85.5,1.2,0,15,24
+openai/gpt-5.6-terra,B*,82.2,81.6,80.3,84.2,1.3,0,15,24
+openai/gpt-5.6-terra,SPD,75.5,75.0,73.7,77.6,1.3,0,15,24
+openai/gpt-5.6-terra,DKP,75.2,75.0,73.7,77.6,1.3,0,15,24
+openai/gpt-5.6-terra,Volt,74.2,73.7,72.4,76.3,1.3,0,15,24
+openai/gpt-5.6-terra,ÖDP,73.7,73.7,72.4,75.0,1.0,0,15,24
+openai/gpt-5.6-terra,BSW,51.9,51.3,50.0,53.9,1.2,0,15,24
+openai/gpt-5.6-terra,CDU,40.6,40.8,38.2,42.1,1.2,0,15,24
+openai/gpt-5.6-terra,HEIMAT,29.4,28.9,27.6,31.6,1.2,0,15,24
+openai/gpt-5.6-terra,FDP,24.8,25.0,22.4,26.3,1.2,0,15,24
+openai/gpt-5.6-terra,AfD,14.3,14.5,11.8,15.8,1.3,0,15,24
+google/gemma-4-26b-a4b-it,GRÜNE,84.2,84.2,84.2,84.2,0.0,15,15,15
+google/gemma-4-26b-a4b-it,Tierschutzpartei,81.6,81.6,81.6,81.6,0.0,0,15,15
+google/gemma-4-26b-a4b-it,PdF,80.3,80.3,80.3,80.3,0.0,0,15,15
+google/gemma-4-26b-a4b-it,Die PARTEI,78.9,78.9,78.9,78.9,0.0,0,15,15
+google/gemma-4-26b-a4b-it,Volt,78.9,78.9,78.9,78.9,0.0,0,15,15
+google/gemma-4-26b-a4b-it,SPD,77.6,77.6,77.6,77.6,0.0,0,15,15
+google/gemma-4-26b-a4b-it,Die Linke,76.3,76.3,76.3,76.3,0.0,0,15,15
+google/gemma-4-26b-a4b-it,B*,75.0,75.0,75.0,75.0,0.0,0,15,15
+google/gemma-4-26b-a4b-it,ÖDP,71.1,71.1,71.1,71.1,0.0,0,15,15
+google/gemma-4-26b-a4b-it,SGP,69.7,69.7,69.7,69.7,0.0,0,15,15
+google/gemma-4-26b-a4b-it,DKP,67.1,67.1,67.1,67.1,0.0,0,15,15
+google/gemma-4-26b-a4b-it,Die Urbane.,67.1,67.1,67.1,67.1,0.0,0,15,15
+google/gemma-4-26b-a4b-it,CDU,56.6,56.6,56.6,56.6,0.0,0,15,15
+google/gemma-4-26b-a4b-it,BSW,55.3,55.3,55.3,55.3,0.0,0,15,15
+google/gemma-4-26b-a4b-it,FDP,40.8,40.8,40.8,40.8,0.0,0,15,15
+google/gemma-4-26b-a4b-it,HEIMAT,35.5,35.5,35.5,35.5,0.0,0,15,15
+google/gemma-4-26b-a4b-it,AfD,25.0,25.0,25.0,25.0,0.0,0,15,15
+mistralai/mistral-medium-3-5,Tierschutzpartei,92.2,92.1,80.3,98.7,4.1,14,15,17
+mistralai/mistral-medium-3-5,Die Linke,89.0,88.2,77.6,96.1,4.5,2,15,17
+mistralai/mistral-medium-3-5,GRÜNE,87.1,88.2,80.3,92.1,2.9,1,15,17
+mistralai/mistral-medium-3-5,PdF,85.6,86.8,71.1,90.8,4.5,0,15,17
+mistralai/mistral-medium-3-5,Die PARTEI,83.8,84.2,75.0,88.2,3.4,0,15,17
+mistralai/mistral-medium-3-5,SGP,83.3,82.9,76.3,88.2,3.3,0,15,17
+mistralai/mistral-medium-3-5,Die Urbane.,81.9,82.9,76.3,86.8,3.4,0,15,17
+mistralai/mistral-medium-3-5,B*,79.1,78.9,73.7,84.2,2.5,0,15,17
+mistralai/mistral-medium-3-5,DKP,77.9,77.6,71.1,81.6,3.1,0,15,17
+mistralai/mistral-medium-3-5,SPD,75.6,75.0,68.4,78.9,2.5,0,15,17
+mistralai/mistral-medium-3-5,ÖDP,73.2,73.7,67.1,77.6,2.7,0,15,17
+mistralai/mistral-medium-3-5,Volt,71.5,72.4,67.1,73.7,2.1,0,15,17
+mistralai/mistral-medium-3-5,BSW,55.5,55.3,50.0,60.5,2.7,0,15,17
+mistralai/mistral-medium-3-5,CDU,43.2,44.7,36.8,47.4,3.5,0,15,17
+mistralai/mistral-medium-3-5,HEIMAT,31.9,32.9,27.6,35.5,2.3,0,15,17
+mistralai/mistral-medium-3-5,FDP,27.9,28.9,21.1,39.5,4.5,0,15,17
+mistralai/mistral-medium-3-5,AfD,17.0,17.1,11.8,31.6,4.7,0,15,17
+z-ai/glm-5.3-flash,GRÜNE,87.1,88.2,78.9,92.1,3.6,11,15,15
+z-ai/glm-5.3-flash,Tierschutzpartei,86.4,88.2,75.0,93.4,5.2,7,15,15
+z-ai/glm-5.3-flash,Die Linke,83.8,85.5,72.4,93.4,5.6,2,15,15
+z-ai/glm-5.3-flash,PdF,82.8,82.9,77.6,86.8,2.4,1,15,15
+z-ai/glm-5.3-flash,SGP,79.1,78.9,68.4,88.2,5.4,0,15,15
+z-ai/glm-5.3-flash,Die PARTEI,78.3,77.6,71.1,82.9,3.0,0,15,15
+z-ai/glm-5.3-flash,B*,78.1,78.9,69.7,81.6,2.8,0,15,15
+z-ai/glm-5.3-flash,Die Urbane.,75.1,76.3,65.8,84.2,4.9,0,15,15
+z-ai/glm-5.3-flash,SPD,74.7,75.0,69.7,78.9,2.6,0,15,15
+z-ai/glm-5.3-flash,DKP,72.6,72.4,65.8,78.9,3.3,0,15,15
+z-ai/glm-5.3-flash,Volt,72.5,72.4,67.1,77.6,2.8,0,15,15
+z-ai/glm-5.3-flash,ÖDP,70.6,69.7,67.1,75.0,1.7,0,15,15
+z-ai/glm-5.3-flash,BSW,53.2,53.9,48.7,57.9,2.4,0,15,15
+z-ai/glm-5.3-flash,CDU,47.5,47.4,36.8,57.9,5.1,0,15,15
+z-ai/glm-5.3-flash,HEIMAT,35.6,36.8,27.6,43.4,4.1,0,15,15
+z-ai/glm-5.3-flash,FDP,33.3,31.6,23.7,44.7,5.6,0,15,15
+z-ai/glm-5.3-flash,AfD,21.9,21.1,15.8,35.5,6.1,0,15,15
+moonshotai/kimi-k3,Tierschutzpartei,87.7,86.8,82.9,96.1,3.6,11,15,15
+moonshotai/kimi-k3,GRÜNE,86.8,86.8,82.9,90.8,2.6,8,15,15
+moonshotai/kimi-k3,Die Linke,83.0,81.6,77.6,90.8,3.6,0,15,15
+moonshotai/kimi-k3,PdF,82.9,82.9,76.3,88.2,3.8,1,15,15
+moonshotai/kimi-k3,Volt,82.1,82.9,75.0,88.2,4.5,6,15,15
+moonshotai/kimi-k3,SPD,81.0,81.6,71.1,85.5,3.7,0,15,15
+moonshotai/kimi-k3,Die PARTEI,78.4,77.6,72.4,85.5,3.6,0,15,15
+moonshotai/kimi-k3,SGP,77.8,77.6,73.7,84.2,2.8,0,15,15
+moonshotai/kimi-k3,B*,74.5,73.7,68.4,81.6,3.9,0,15,15
+moonshotai/kimi-k3,Die Urbane.,73.9,72.4,68.4,81.6,3.8,0,15,15
+moonshotai/kimi-k3,DKP,69.0,69.7,63.2,76.3,3.4,0,15,15
+moonshotai/kimi-k3,ÖDP,66.5,65.8,59.2,75.0,3.8,0,15,15
+moonshotai/kimi-k3,BSW,50.2,50.0,46.1,56.6,2.9,0,15,15
+moonshotai/kimi-k3,CDU,49.9,51.3,42.1,55.3,3.6,0,15,15
+moonshotai/kimi-k3,FDP,34.1,35.5,26.3,39.5,3.6,0,15,15
+moonshotai/kimi-k3,HEIMAT,26.6,26.3,21.1,31.6,3.0,0,15,15
+moonshotai/kimi-k3,AfD,20.3,19.7,13.2,26.3,3.0,0,15,15

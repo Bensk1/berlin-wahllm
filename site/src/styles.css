@@ -34,6 +34,8 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .key-finding-note { max-width: 50rem; margin: .7rem 0 0; color: var(--muted); font-size: .92rem; }
 .metrics { font-weight: 700; color: #263c49; }
 .notice { max-width: 58rem; padding: 1rem 1.15rem; border-left: .35rem solid var(--accent); background: var(--accent-soft); }
+.notice > summary { color: var(--ink); }
+.notice-details p:last-child { margin-bottom: 0; }
 .jump-nav { display: flex; flex-wrap: wrap; gap: .55rem 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
 .jump-nav[hidden] { display: none; }
 .jump-nav a { font-weight: 650; }
@@ -42,6 +44,8 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
 .party-toggle > label { color: var(--muted); font-size: .78rem; font-weight: 750; }
 .party-toggle > div { display: flex; flex-wrap: wrap; gap: 0 .7rem; }
 .party-toggle label { margin-block: .1rem; white-space: nowrap; }
+.party-option-compact { display: none; }
+.party-toggle-sentinel { display: block; width: 1px; height: 1px; margin-bottom: -1px; }
 [id] { scroll-margin-top: 6rem; }
 
 figure, .chart-with-controls, .model-detail, .table-scroll { margin: 1.25rem 0; }
@@ -110,6 +114,13 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line);
   .party-toggle { width: 100%; padding: .35rem .6rem .45rem; }
   .party-toggle > div { justify-content: space-between; gap: 0 .4rem; }
   .party-toggle label { margin-right: 0; font-size: .9rem; }
+  .party-toggle-stuck > .party-toggle { display: flex; flex-wrap: nowrap; align-items: center; gap: .5rem; min-height: 2.75rem; padding-block: .15rem; }
+  .party-toggle-stuck > .party-toggle > label { flex: 0 0 auto; width: auto; margin: 0; padding: 0; gap: 0; font-size: .9rem; }
+  .party-toggle-stuck > .party-toggle > label::after { content: ":"; }
+  .party-toggle-stuck > .party-toggle > div { flex: 1 1 auto; flex-wrap: nowrap; align-items: center; }
+  .party-toggle-stuck > .party-toggle > div > label { display: inline-flex; flex-wrap: nowrap; align-items: center; gap: .25rem; }
+  .party-toggle-stuck .party-option-long { display: none; }
+  .party-toggle-stuck .party-option-compact { display: inline; }
   .detail-controls { display: grid; gap: .45rem; }
   .comparison-selector { align-items: stretch; }
   .comparison-selector label { display: grid; width: 100%; }

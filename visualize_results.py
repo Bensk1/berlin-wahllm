@@ -15,7 +15,7 @@ import wahlomat
 
 DEFAULT_INPUT = Path(__file__).resolve().parent / "responses" / "responses.json"
 DEFAULT_OUTPUT = Path(__file__).resolve().parent / "figures" / "wahlomat-vergleich.svg"
-DEFAULT_SUBSET = ("SPD", "GRÜNE", "Die Linke", "CDU", "AfD", "FDP")
+DEFAULT_SUBSET = ("CDU", "SPD", "GRÜNE", "Die Linke", "AfD")
 VENDOR_COLORS = {
     "anthropic": "#d96b45",
     "google": "#4276d0",
@@ -208,7 +208,7 @@ def main(argv: list[str] | None = None) -> int:
         "--subset",
         nargs="?",
         const=", ".join(DEFAULT_SUBSET),
-        help="Kommagetrennte Parteiauswahl; ohne Wert: SPD, GRÜNE, Die Linke, CDU, AfD, FDP",
+        help="Kommagetrennte Parteiauswahl; ohne Wert: CDU, SPD, GRÜNE, Die Linke, AfD",
     )
     args = parser.parse_args(argv)
     try:

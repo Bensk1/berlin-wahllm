@@ -206,22 +206,48 @@ class ExportTests(unittest.TestCase):
         )
 
     def test_repository_export_contains_all_observations(self) -> None:
-        observations = analysis.load_observations(export_site_data.DEFAULT_INPUT)
-        export = analysis.build_export(observations, PARTIES, THESES)
-
-        self.assertEqual(export["summary"], {
-            "observation_count": 28,
-            "complete_count": 24,
-            "blocked_count": 4,
-        })
+        documents = export_site_data.api_analysis.load_experiment_files(
+            export_site_data.DEFAULT_INPUT
+        )
+        report = export_site_data.api_analysis.build_report(documents, PARTIES)
+        self.assertEqual(sum(model["evaluable_run_count"] for model in report["models"]), 120)
+        self.assertEqual(sum(model["attempt_count"] for model in report["models"]), 131)
 
     def test_atomic_write_and_export_wrapper_are_byte_identical(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
-            input_path = base / "responses.json"
-            input_path.write_text(json.dumps([response("only", "2026-08-29T18:05:00+02:00")]), encoding="utf-8")
+            input_path = base / "experiments"
             output_path = base / "nested" / "results.json"
+            document = {
+                "experiment_id": "test-grok",
+                "settings": {
+                    "model_id": "x-ai/grok-4.5",
+                    "provider_endpoint": "test/provider",
+                    "reasoning_effort": "high",
+                    "temperature": 0,
+                    "max_tokens": 4096,
+                },
+                "runs": [
+                    {
+                        "replicate": 1,
+                        "observed_at": "2026-09-06T07:00:00.000Z",
+                        "status": "complete_exact",
+                        "answers": [1] * 38,
+                    },
+                    {
+                        "replicate": 2,
+                        "observed_at": "2026-09-06T07:01:00.000Z",
+                        "status": "complete_extracted",
+                        "answers": [0] * 38,
+                    },
+                ],
+            }
+            documents = ((input_path / "grok.json", document),)
             with (
+                patch(
+                    "export_site_data.api_analysis.load_experiment_files",
+                    return_value=documents,
+                ),
                 patch("export_site_data.wahlomat.load_parties", return_value=PARTIES),
                 patch("export_site_data.wahlomat.load_theses", return_value=THESES),
             ):
@@ -230,6 +256,7 @@ class ExportTests(unittest.TestCase):
                 export_site_data.export_site_data(input_path, base / "source.xlsx", output_path)
             self.assertEqual(output_path.read_bytes(), first)
             self.assertEqual(json.loads(first)["parties"], ["Alpha", "Beta", "Gamma"])
+            self.assertEqual(json.loads(first)["summary"]["evaluable_run_count"], 2)
             self.assertFalse(list(output_path.parent.glob(".results.json.*")))
 
 

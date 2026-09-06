@@ -1,14 +1,10 @@
 import * as Plot from "@observablehq/plot";
-import {accessLabel, formatDate, percent, runLabel} from "./lib.js";
-import {partyLabel} from "./focus.js";
+import {percent, runLabel} from "./lib.js";
+import {firstPlaceCount, partyLabel} from "./focus.js";
 import {text} from "./i18n.js";
 
 const comparisonColors = ["#c94c4c", "#8b5fbf", "#d88727"];
 const comparisonSymbols = ["square", "diamond", "triangle"];
-
-export function vendorMetadataLabel(vendor, locale = "de") {
-  return vendor === "GLM" ? text(locale).modelFamily : text(locale).vendor;
-}
 
 export function comparisonRunIds(selectedIds, mainRunId) {
   return [...new Set(selectedIds)].filter((id) => id !== mainRunId).slice(0, 3);
@@ -89,16 +85,95 @@ export function detailControls(mainInput, comparisonInput) {
   return controls;
 }
 
-export function modelRanking(run, parties, locale = "de", comparisonRuns = []) {
+function summaryTable(model, values, parties, locale, ui) {
+  const details = document.createElement("details");
+  details.open = true;
+  const summary = document.createElement("summary");
+  summary.textContent = ui.showSummaryTable;
+  const wrapper = document.createElement("div");
+  wrapper.className = "table-scroll";
+  const table = document.createElement("table");
+  const caption = document.createElement("caption");
+  caption.textContent = ui.agreementFor(runLabel(model));
+  const head = document.createElement("thead");
+  head.innerHTML = `<tr><th scope="col">${ui.party}</th><th scope="col">${ui.mean}</th><th scope="col">${ui.median}</th><th scope="col">${ui.minimum}</th><th scope="col">${ui.maximum}</th><th scope="col">${ui.standardDeviation}</th><th scope="col">${ui.firstPlace}</th></tr>`;
+  const body = document.createElement("tbody");
+  for (const value of values) {
+    const row = document.createElement("tr");
+    const cells = [
+      partyLabel(value.party),
+      percent(value.mean, locale),
+      percent(value.median, locale),
+      percent(value.minimum, locale),
+      percent(value.maximum, locale),
+      ui.percentagePoints(value.standard_deviation, locale),
+      ui.ofRuns(firstPlaceCount(model, value.party, parties), model.evaluable_run_count),
+    ];
+    for (const content of cells) {
+      const cell = document.createElement("td");
+      cell.textContent = content;
+      row.append(cell);
+    }
+    body.append(row);
+  }
+  table.append(caption, head, body);
+  wrapper.append(table);
+  details.append(summary, wrapper);
+  return details;
+}
+
+function runTable(model, values, locale, ui) {
+  const details = document.createElement("details");
+  const summary = document.createElement("summary");
+  summary.textContent = ui.showIndividualRuns;
+  const wrapper = document.createElement("div");
+  wrapper.className = "table-scroll";
+  const table = document.createElement("table");
+  const caption = document.createElement("caption");
+  caption.textContent = ui.individualRunsFor(runLabel(model));
+  const head = document.createElement("thead");
+  const headingRow = document.createElement("tr");
+  for (const heading of [ui.run, ui.status, ...values.map((value) => partyLabel(value.party))]) {
+    const th = document.createElement("th");
+    th.scope = "col";
+    th.textContent = heading;
+    headingRow.append(th);
+  }
+  head.append(headingRow);
+  const body = document.createElement("tbody");
+  for (const run of model.runs) {
+    const byParty = new Map(run.agreements.map((agreement) => [agreement.party, agreement]));
+    const row = document.createElement("tr");
+    const cells = [
+      String(run.replicate),
+      ui.statuses[run.status] ?? run.status,
+      ...values.map((value) => percent(byParty.get(value.party).percentage, locale)),
+    ];
+    for (const content of cells) {
+      const cell = document.createElement("td");
+      cell.textContent = content;
+      row.append(cell);
+    }
+    body.append(row);
+  }
+  table.append(caption, head, body);
+  wrapper.append(table);
+  details.append(summary, wrapper);
+  return details;
+}
+
+export function modelRanking(model, parties, locale = "de", comparisonModels = []) {
   const ui = text(locale);
   const partyIndex = new Map(parties.map((party, index) => [party, index]));
   const visibleParties = new Set(parties);
-  const values = run.agreements.filter((agreement) => visibleParties.has(agreement.party)).sort((left, right) => right.percentage - left.percentage || partyIndex.get(left.party) - partyIndex.get(right.party));
-  const series = [run, ...comparisonRuns];
-  const offsets = [0, -5, 5, 0];
-  const chartValues = series.flatMap((model, seriesIndex) => model.agreements
+  const values = model.agreements
     .filter((agreement) => visibleParties.has(agreement.party))
-    .map((agreement) => ({...agreement, model, modelLabel: runLabel(model)})));
+    .sort((left, right) => right.mean - left.mean || partyIndex.get(left.party) - partyIndex.get(right.party));
+  const series = [model, ...comparisonModels];
+  const offsets = [0, -5, 5, 0];
+  const chartValues = series.flatMap((candidate) => candidate.agreements
+    .filter((agreement) => visibleParties.has(agreement.party))
+    .map((agreement) => ({...agreement, model: candidate, modelLabel: runLabel(candidate)})));
   const figure = Plot.plot({
     marginLeft: 135,
     height: Math.max(300, values.length * 24 + 70),
@@ -106,16 +181,35 @@ export function modelRanking(run, parties, locale = "de", comparisonRuns = []) {
     y: {domain: values.map((value) => value.party), label: null, tickFormat: partyLabel},
     marks: [
       Plot.ruleX([0], {stroke: "#637080"}),
-      ...series.map((model, seriesIndex) => Plot.dot(chartValues.filter((value) => value.model.id === model.id), {x: "percentage", y: "party", r: 6, fill: seriesIndex === 0 ? "#075b71" : comparisonColors[seriesIndex - 1], symbol: seriesIndex === 0 ? "circle" : comparisonSymbols[seriesIndex - 1], dx: offsets[seriesIndex], tip: true, title: (value) => `${value.modelLabel}; ${partyLabel(value.party)}; ${percent(value.percentage, locale)}`}))
+      Plot.ruleY(values, {y: "party", x1: "minimum", x2: "maximum", stroke: "#075b71", strokeWidth: 3}),
+      Plot.tickX(values, {x: "median", y: "party", stroke: "#17212b", strokeWidth: 2}),
+      ...series.map((candidate, seriesIndex) => Plot.dot(chartValues.filter((value) => value.model.id === candidate.id), {
+        x: "mean",
+        y: "party",
+        r: 6,
+        fill: seriesIndex === 0 ? "#075b71" : comparisonColors[seriesIndex - 1],
+        symbol: seriesIndex === 0 ? "circle" : comparisonSymbols[seriesIndex - 1],
+        dx: offsets[seriesIndex],
+        tip: true,
+        title: (value) => seriesIndex === 0
+          ? `${value.modelLabel}; ${partyLabel(value.party)}; ${ui.mean}: ${percent(value.mean, locale)}; ${ui.median}: ${percent(value.median, locale)}; ${ui.range}: ${percent(value.minimum, locale)}–${percent(value.maximum, locale)}`
+          : `${value.modelLabel}; ${partyLabel(value.party)}; ${ui.mean}: ${percent(value.mean, locale)}`
+      }))
     ]
   });
   figure.setAttribute("role", "img");
-  figure.setAttribute("aria-label", ui.chartLabel(runLabel(run), comparisonRuns.length));
+  figure.setAttribute("aria-label", ui.chartLabel(runLabel(model), comparisonModels.length));
   const section = document.createElement("div");
   section.className = "model-detail";
   const metadata = document.createElement("dl");
   metadata.className = "metadata";
-  const items = [[ui.model, run.display_name || run.model], [vendorMetadataLabel(run.vendor, locale), run.vendor], [ui.observedAt, formatDate(run.observed_at, locale)], [ui.access, accessLabel(run.anonymous, locale)], [ui.note, run.note || ui.noNote]];
+  const items = [
+    [ui.model, model.display_name],
+    [ui.modelId, model.model],
+    [ui.reasoning, model.reasoning_effort === null ? ui.notControlled : model.reasoning_effort],
+    [ui.temperature, model.temperature === null ? ui.providerDefault : model.temperature],
+    [ui.runs, `${model.evaluable_run_count} ${ui.evaluable} / ${model.attempt_count} ${ui.attempts}`],
+  ];
   for (const [term, description] of items) {
     const item = document.createElement("div");
     item.className = "metadata-item";
@@ -124,39 +218,22 @@ export function modelRanking(run, parties, locale = "de", comparisonRuns = []) {
     item.append(dt, dd);
     metadata.append(item);
   }
-  const details = document.createElement("details");
-  const summary = document.createElement("summary");
-  summary.textContent = ui.showTable;
-  const wrapper = document.createElement("div");
-  wrapper.className = "table-scroll";
-  const table = document.createElement("table");
-  const caption = document.createElement("caption");
-  caption.textContent = ui.agreementFor(runLabel(run));
-  const head = document.createElement("thead");
-  head.innerHTML = `<tr><th scope="col">${ui.party}</th><th scope="col">${ui.agreement}</th></tr>`;
-  const body = document.createElement("tbody");
-  for (const value of values) {
-    const row = document.createElement("tr");
-    const party = document.createElement("td");
-    const percentage = document.createElement("td");
-    party.textContent = partyLabel(value.party);
-    percentage.textContent = percent(value.percentage, locale);
-    row.append(party, percentage);
-    body.append(row);
-  }
-  table.append(caption, head, body);
-  wrapper.append(table);
-  details.append(summary, wrapper);
   const legend = document.createElement("div");
   legend.className = "comparison-legend";
   legend.setAttribute("aria-label", ui.comparisonLegend);
-  for (const [index, model] of series.entries()) {
+  for (const [index, candidate] of series.entries()) {
     const item = document.createElement("span");
     const markers = ["●", "■", "◆", "▲"];
     item.innerHTML = `<span class="legend-marker" style="color:${index === 0 ? "#075b71" : comparisonColors[index - 1]}" aria-hidden="true">${markers[index]}</span> `;
-    item.append(document.createTextNode(runLabel(model)));
+    item.append(document.createTextNode(`${runLabel(candidate)} (${ui.mean})`));
     legend.append(item);
   }
-  section.append(metadata, legend, figure, details);
+  section.append(
+    metadata,
+    legend,
+    figure,
+    summaryTable(model, values, parties, locale, ui),
+    runTable(model, values, locale, ui),
+  );
   return section;
 }

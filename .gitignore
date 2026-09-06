@@ -5,6 +5,7 @@ __pycache__/
 .env
 .env.*
 ENV.local
+/.private/
 
 # Private deployment and access-log tooling.
 /docs/deployment.md
@@ -23,6 +24,8 @@ ENV.local
 /site/src/.observablehq/
 /site/dist/
 /site/node_modules/
+/site/src/index.md.bak
+/site/src/en/index.md.bak
 
 /.wahlomat-provenance.md
 /prompt_fuer_menschen.md

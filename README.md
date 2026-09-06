@@ -5,22 +5,21 @@ Abgeordnetenhauswahl 2026? Dieses Repository dokumentiert eine explorative
 Analyse der Antworten verschiedener LLM-Konfigurationen und ihrer rechnerischen
 Nähe zu den Positionen der Parteien.
 
-![Übersicht der bisherigen Ergebnisse](figures/wahlomat-vergleich.svg)
-
-> **Keine Wahlempfehlung:** Die Ergebnisse beschreiben einzelne, unter
-> dokumentierten Bedingungen erzeugte Modellantworten. Sie sind weder stabile
+> **Keine Wahlempfehlung:** Die Ergebnisse beschreiben wiederholte, unter
+> dokumentierten Bedingungen erzeugte Modellantworten. Sie sind weder feste
 > politische Positionen der Anbieter noch eine Empfehlung für Wählerinnen und
 > Wähler.
 
 ## Stand des Experiments
 
-Der aktuelle Datensatz enthält 28 Modellläufe verschiedener Anbieter.
-24 Läufe lieferten eine vollständige Antwort, vier wurden vom jeweiligen
-Modell blockiert. Erfasst werden unter anderem Modellbezeichnung, Zeitpunkt,
-anonymer oder angemeldeter Zugriff und die unveränderte Antwort.
+Die kontrollierte Kohorte enthält 15 auswertbare API-Läufe für jede von acht
+Modellkonfigurationen. Dafür waren 131 Versuche erforderlich: 120 Antworten
+sind auswertbar, elf weitere Versuche bleiben mit ihrem jeweiligen Status
+dokumentiert.
 
-Die statische Website stellt acht Fokusmodelle als
-Gewinnerübersicht, interaktive Heatmap, Detailansicht und Antwortmatrix dar.
+Die statische Website stellt die acht Modelle anhand aggregierter
+Gewinnerübersicht, interaktiver Mittelwert-Heatmap, Detailansicht mit
+Streuungsmaßen und einer verdichteten Antwortmatrix dar.
 Sie ist auf Deutsch und Englisch verfügbar. Redaktionelle Änderungen werden
 parallel in [`site/src/index.md`](site/src/index.md) und
 [`site/src/en/index.md`](site/src/en/index.md) gepflegt; gemeinsame UI-Begriffe
@@ -41,23 +40,30 @@ Die Auswertung gewichtet alle Thesen gleich. Blockierte oder unvollständige
 Antworten fließen nicht in die Parteienübereinstimmung ein, werden aber als
 Beobachtung dokumentiert.
 
-Die Untersuchung ist eine Momentaufnahme. Ergebnisse können sich durch
-Modellversion, Systemanweisungen, Weboberfläche, Kontostatus,
-Reasoning-Einstellung, Zeitpunkt und Zufall unterscheiden. Einzelne Läufe
-belegen deshalb keine dauerhafte „politische Haltung“ eines Modells.
+Die Wiederholungen erlauben Aussagen über das beobachtete Verhalten unter den
+dokumentierten Bedingungen. Ergebnisse können sich durch Modellversion,
+Systemanweisungen, Prompt, Provider, Reasoning- und Temperatureinstellung,
+Zeitpunkt und Zufall unterscheiden. Sie belegen deshalb keine dauerhafte
+„politische Haltung“ eines Modells unabhängig von der Versuchsanordnung.
 
 ## Repository
 
-- [`responses/responses.json`](responses/responses.json) enthält die erhobenen
-  Modellantworten und Metadaten.
+- [`responses/responses.json`](responses/responses.json) enthält die früheren
+  explorativen Webläufe und ihre Metadaten.
+- [`responses/api_experiments/`](responses/api_experiments/) enthält die
+  getrennte Kohorte kontrolliert wiederholter, zustandsloser API-Läufe.
+- [`docs/api-experiments.md`](docs/api-experiments.md) dokumentiert deren
+  Modellzuordnung, Parameter und Datenschutzvorgaben.
+- [`analyze_api_experiments.py`](analyze_api_experiments.py) erzeugt die
+  deterministische JSON- und CSV-Auswertung der kontrollierten API-Läufe.
 - [`PROMPT.md`](PROMPT.md) dokumentiert den unveränderten Prompt des
   Experiments.
 - [`wahlomat.py`](wahlomat.py) liest und validiert die lokalen Quelldaten und
   enthält die reine Berechnungslogik.
-- [`analysis.py`](analysis.py) validiert die Beobachtungen und berechnet die
-  abgeleiteten Website-Daten.
+- [`analysis.py`](analysis.py) validiert und analysiert die explorativen
+  Webbeobachtungen.
 - [`export_site_data.py`](export_site_data.py) erzeugt den deterministischen,
-  versionierten JSON-Export.
+  versionierten Website-Export aus den API-Experimenten.
 - [`visualize_results.py`](visualize_results.py) erzeugt die vorhandene
   statische SVG-Übersicht.
 - [`site/`](site/) enthält die statisch gebaute Observable-Anwendung.
@@ -76,6 +82,7 @@ Tests und Datenexport ausführen:
 
 ```shell
 python3 -m unittest
+python3 analyze_api_experiments.py
 python3 export_site_data.py
 ```
 
@@ -99,7 +106,7 @@ Statische Übersicht neu erzeugen:
 python3 visualize_results.py
 ```
 
-Nur die sechs im Projekt voreingestellten Parteien zeigen:
+Nur die fünf im Projekt voreingestellten Parteien zeigen:
 
 ```shell
 python3 visualize_results.py --subset

@@ -12,22 +12,22 @@ const marginBottom = 110;
 const agreementColorDomain = [0, 40, 60, 70, 80, 90, 100];
 const agreementColorRange = ["#e9edf2", "#d7e7eb", "#b4d6df", "#7fb8c6", "#438fa3", "#075b71", "#003d50"];
 
-export function heatmap({runs, parties, onSelect, locale = "de"}) {
+export function heatmap({models, parties, onSelect, locale = "de"}) {
   const ui = text(locale);
   const sortedParties = sortParties(parties);
-  const values = heatmapValues(runs, sortedParties).map((value) => ({
+  const values = heatmapValues(models, sortedParties).map((value) => ({
     ...value,
-    detail: `${runLabel(value.run)}; ${partyLabel(value.party)}; ${percent(value.percentage, locale)}`
+    detail: `${runLabel(value.model)}; ${partyLabel(value.party)}; ${ui.mean}: ${percent(value.percentage, locale)}`
   }));
   const figure = Plot.plot({
     width: marginLeft + sortedParties.length * cellSize + marginRight,
-    height: marginTop + runs.length * cellSize + marginBottom,
+    height: marginTop + models.length * cellSize + marginBottom,
     marginLeft,
     marginRight,
     marginTop,
     marginBottom,
     x: {domain: sortedParties, label: null, tickRotate: -50, tickFormat: partyLabel},
-    y: {domain: runs.map((run) => run.id), label: null, tickFormat: (id) => runLabel(runs.find((run) => run.id === id))},
+    y: {domain: models.map((model) => model.id), label: null, tickFormat: (id) => runLabel(models.find((model) => model.id === id))},
     color: {
       type: "linear",
       domain: agreementColorDomain,
@@ -40,23 +40,23 @@ export function heatmap({runs, parties, onSelect, locale = "de"}) {
       marginBottom: 22
     },
     marks: [
-      Plot.cell(values, {x: "party", y: "runId", fill: "percentage", inset: 1, tip: true, title: (value) => value.detail}),
+      Plot.cell(values, {x: "party", y: "modelId", fill: "percentage", inset: 1, tip: true, title: (value) => value.detail}),
       Plot.frame({stroke: "#637080"})
     ]
   });
   figure.setAttribute("role", "img");
-  figure.setAttribute("aria-label", ui.heatmapLabel(runs.length, parties.length));
+  figure.setAttribute("aria-label", ui.heatmapLabel(models.length, parties.length));
 
   const container = document.createElement("div");
   container.className = "chart-with-controls";
   container.append(figure, visuallyHidden(ui.heatmapHelp));
   const choices = document.createElement("div");
   choices.className = "run-choices";
-  for (const run of runs) {
+  for (const model of models) {
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = `${ui.details}: ${runLabel(run)}`;
-    button.addEventListener("click", () => onSelect(run.id));
+    button.textContent = `${ui.details}: ${runLabel(model)}`;
+    button.addEventListener("click", () => onSelect(model.id));
     choices.append(button);
   }
   container.append(choices);

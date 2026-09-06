@@ -31,13 +31,13 @@ const pageMetadata = {
     description: "Eine explorative, reproduzierbare Analyse der Antworten aktueller Sprachmodelle auf die 38 Thesen zur Berliner Abgeordnetenhauswahl 2026.",
     title: "Berlin WahLLM – Wie Sprachmodelle auf 38 Berliner Wahlthesen antworten",
     openGraphDescription: "38 Thesen, verschiedene Sprachmodelle: Wo ähneln sich ihre Antworten, wo widersprechen sie sich und welche Parteipositionen liegen ihnen rechnerisch am nächsten?",
-    imageAlt: "Vorschaugrafik: Sieben von acht Modellläufen liegen bei SPD, Grünen oder Linken vorn; Grok bei der FDP"
+    imageAlt: "Vorschaugrafik: Sieben von acht Modellen haben die größte Übereinstimmung mit Grünen oder Linken; bei Grok liegt die AfD vorn"
   },
   en: {
     description: "An exploratory, reproducible analysis of current language models responding to the 38 theses for Berlin’s 2026 state election.",
     title: "Berlin WahLLM – How language models answer 38 Berlin election theses",
     openGraphDescription: "38 theses, different language models: where do their answers align, where do they differ, and which party positions are mathematically closest?",
-    imageAlt: "Preview graphic: seven of eight model runs rank the SPD, Greens or Left first; Grok ranks the FDP first"
+    imageAlt: "Preview graphic: seven of eight models have the highest agreement with the Greens or Left; the AfD ranks first for Grok"
   }
 };
 

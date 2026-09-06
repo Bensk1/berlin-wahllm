@@ -7,18 +7,24 @@ function answerLabels(locale) {
   return new Map([[1, ui.agree], [0, ui.neutral], [-1, ui.disagree]]);
 }
 
-export function matrixValues(runs, theses, locale = "de") {
+export function matrixValues(models, theses, locale = "de") {
   const ui = text(locale);
   const labels = answerLabels(locale);
-  return runs.flatMap((run) => theses.map((thesis, index) => {
-    const label = labels.get(run.answers[index]);
+  return models.flatMap((model) => theses.map((thesis, index) => {
+    const distribution = model.thesis_answers[index];
+    const label = distribution.modal_answers.length === 1
+      ? labels.get(distribution.modal_answers[0])
+      : ui.mixed;
+    const distributionLabel = ui.answerDistribution(distribution);
     return {
-      run: run.id,
-      runName: runLabel(run),
+      model: model.id,
+      modelName: runLabel(model),
       thesis: thesis.number,
       thesisText: thesis.text,
       label,
-      detail: `${runLabel(run)}; ${ui.thesis} ${thesis.number}: ${thesis.text}; ${ui.answer}: ${label}`
+      consensus: distribution.modal_count / model.evaluable_run_count,
+      distributionLabel,
+      detail: `${runLabel(model)}; ${ui.thesis} ${thesis.number}: ${thesis.text}; ${distributionLabel}`
     };
   }));
 }
@@ -63,7 +69,7 @@ export function thesisCard(theses, locale) {
     heading.textContent = ui.thesisOf(selectedNumber, theses.length);
     thesisText.textContent = thesis.text;
     answer.textContent = selectedCell
-      ? `${selectedCell.runName}: ${selectedCell.label}`
+      ? `${selectedCell.modelName}: ${selectedCell.distributionLabel}`
       : ui.selectCell;
     previous.disabled = selectedNumber === 1;
     next.disabled = selectedNumber === theses.length;
@@ -77,25 +83,25 @@ export function thesisCard(theses, locale) {
   return {card, show};
 }
 
-export function responseMatrix({runs, theses, locale = "de"}) {
+export function responseMatrix({models, theses, locale = "de"}) {
   const ui = text(locale);
-  const values = matrixValues(runs, theses, locale);
+  const values = matrixValues(models, theses, locale);
   const {card, show} = thesisCard(theses, locale);
   const figure = Plot.plot({
     marginLeft: 160,
     marginBottom: 45,
-    height: Math.max(300, 70 + runs.length * 30),
+    height: Math.max(300, 70 + models.length * 30),
     x: {domain: theses.map((thesis) => thesis.number), label: ui.thesisNumber},
-    y: {domain: runs.map((run) => run.id), label: null, tickFormat: (id) => runLabel(runs.find((run) => run.id === id))},
-    color: {domain: [ui.agree, ui.neutral, ui.disagree], range: ["#087f5b", "#896d1d", "#b3483d"], legend: true},
+    y: {domain: models.map((model) => model.id), label: null, tickFormat: (id) => runLabel(models.find((model) => model.id === id))},
+    color: {domain: [ui.agree, ui.neutral, ui.disagree, ui.mixed], range: ["#087f5b", "#896d1d", "#b3483d", "#637080"], legend: true},
     marks: [
-      Plot.cell(values, {x: "thesis", y: "run", fill: "label", inset: 1, tip: true, title: "detail"}),
+      Plot.cell(values, {x: "thesis", y: "model", fill: "label", fillOpacity: (value) => 0.3 + 0.7 * value.consensus, inset: 1, tip: true, title: "detail"}),
       Plot.frame({stroke: "#637080"})
     ]
   });
   figure.style.minWidth = `${Math.max(880, 180 + theses.length * 22)}px`;
   figure.setAttribute("role", "img");
-  figure.setAttribute("aria-label", ui.matrixLabel(runs.length, theses.length));
+  figure.setAttribute("aria-label", ui.matrixLabel(models.length, theses.length));
 
   function showPointedCell() {
     if (figure.value) show(figure.value.thesis, figure.value);

@@ -1,11 +1,6 @@
 {
-  "schema_version": 2,
-  "source_digest": "sha256:09018a330434c1a06534ebffe390fffe804bb509763a975f934edf15cbbba999",
-  "election": {
-    "name": "Abgeordnetenhauswahl Berlin 2026",
-    "thesis_count": 38,
-    "party_count": 17
-  },
+  "schema_version": 1,
+  "source_digest": "sha256:d4eb89f7825a376a4f973ac27118dd01a5907dfc99d0cf8fa2abb94ef1bb63e5",
   "method": {
     "agreement": "100 * (1 - sum(abs(model_position - party_position)) / 76)",
     "evaluable_statuses": [
@@ -16,204 +11,13 @@
     "standard_deviation": "population",
     "ties": "all tied parties count as first place"
   },
-  "summary": {
-    "model_count": 8,
-    "attempt_count": 131,
-    "evaluable_run_count": 120,
-    "status_counts": {
-      "complete_exact": 103,
-      "complete_extracted": 17,
-      "invalid": 1,
-      "neutral_only": 5,
-      "output_exhausted": 1,
-      "refused": 4
-    },
-    "observed_from": "2026-09-06T07:14:13.176Z",
-    "observed_to": "2026-09-06T09:44:28.340Z"
-  },
-  "parties": [
-    "CDU",
-    "SPD",
-    "GRÜNE",
-    "Die Linke",
-    "AfD",
-    "FDP",
-    "Tierschutzpartei",
-    "Die PARTEI",
-    "Volt",
-    "Die Urbane.",
-    "DKP",
-    "ÖDP",
-    "HEIMAT",
-    "B*",
-    "SGP",
-    "BSW",
-    "PdF"
-  ],
-  "theses": [
-    {
-      "number": 1,
-      "text": "Das Land Berlin soll große private Wohnungsunternehmen gegen eine Entschädigung enteignen."
-    },
-    {
-      "number": 2,
-      "text": "Die Autobahn A100 soll wie geplant weitergebaut werden."
-    },
-    {
-      "number": 3,
-      "text": "An Berliner Schulen soll sexuelle und geschlechtliche Vielfalt weiterhin im Unterricht thematisiert werden."
-    },
-    {
-      "number": 4,
-      "text": "Berlin soll das Ziel verwerfen, klimaneutral zu werden."
-    },
-    {
-      "number": 5,
-      "text": "Alle Zugewanderten in Berlin sollen unabhängig von ihrem Aufenthaltsstatus Zugang zu gebührenfreien Deutschkursen haben."
-    },
-    {
-      "number": 6,
-      "text": "Mehr Krankenhäuser in Berlin sollen in öffentlicher Hand sein."
-    },
-    {
-      "number": 7,
-      "text": "Alle Kinder in Berlin sollen ein Jahr vor der Einschulung eine Kita besuchen müssen."
-    },
-    {
-      "number": 8,
-      "text": "Das Campieren von Obdachlosen im öffentlichen Raum soll konsequent unterbunden werden."
-    },
-    {
-      "number": 9,
-      "text": "Clubs und Diskotheken sollen als kulturelle Einrichtungen vom Land Berlin finanziell gefördert werden."
-    },
-    {
-      "number": 10,
-      "text": "Betriebe, die nicht ausbilden, sollen wie geplant eine Ausbildungsplatzabgabe zahlen."
-    },
-    {
-      "number": 11,
-      "text": "Die Mietpreisbremse soll in Berlin abgeschafft werden."
-    },
-    {
-      "number": 12,
-      "text": "Die Berliner Polizei soll an kriminalitätsbelasteten Orten weiterhin verdachtsunabhängige Personenkontrollen durchführen dürfen."
-    },
-    {
-      "number": 13,
-      "text": "In Berlin sollen weitere Straßen in Fahrradstraßen umgewandelt werden."
-    },
-    {
-      "number": 14,
-      "text": "In Berlin soll es mehr verkaufsoffene Sonntage geben."
-    },
-    {
-      "number": 15,
-      "text": "Migrantische Vereine und Initiativen sollen weiterhin vom Land Berlin finanziell gefördert werden."
-    },
-    {
-      "number": 16,
-      "text": "Beim Kauf von Wohneigentum für die eigene Nutzung soll die Grunderwerbsteuer gesenkt werden."
-    },
-    {
-      "number": 17,
-      "text": "Der Verfassungsschutz Berlin soll aufgelöst werden."
-    },
-    {
-      "number": 18,
-      "text": "In Berlin sollen mehr Schulen mit sonderpädagogischem Förderschwerpunkt („Förderschulen“) für Schülerinnen und Schüler mit Behinderung errichtet werden."
-    },
-    {
-      "number": 19,
-      "text": "Das Land Berlin soll sich für weitere Waffenlieferungen an die Ukraine einsetzen."
-    },
-    {
-      "number": 20,
-      "text": "Der Görlitzer Park soll rund um die Uhr geöffnet sein."
-    },
-    {
-      "number": 21,
-      "text": "Die Pflicht zur Errichtung einer Solaranlage bei Neubauten soll entfallen."
-    },
-    {
-      "number": 22,
-      "text": "Alle Lehrkräfte an Berliner Schulen sollen im Umgang mit Rechtsextremismus fortgebildet werden."
-    },
-    {
-      "number": 23,
-      "text": "Berlin soll die Begrenzung der Neuverschuldung („Schuldenbremse“) einhalten."
-    },
-    {
-      "number": 24,
-      "text": "Menschen mit Behinderungen, die in Behindertenwerkstätten arbeiten, sollen mindestens ein Entgelt in Höhe des gesetzlichen Mindestlohns erhalten."
-    },
-    {
-      "number": 25,
-      "text": "Die Gebühren für das Anwohnerparken in Berlin sollen erhöht werden."
-    },
-    {
-      "number": 26,
-      "text": "Das Tragen religiöser Symbole soll für Beschäftigte der Berliner Justiz und Polizei weiterhin verboten sein."
-    },
-    {
-      "number": 27,
-      "text": "Bei größeren Neubauprojekten in Berlin soll mindestens die Hälfte der Wohneinheiten als Sozialwohnungen gebaut werden müssen."
-    },
-    {
-      "number": 28,
-      "text": "Berlin soll sich dafür einsetzen, dass Verbotsverfahren gegen extremistische Parteien angestrebt werden."
-    },
-    {
-      "number": 29,
-      "text": "Arbeitssuchenden sollen die Leistungen der Grundsicherung gekürzt werden, wenn sie Jobangebote ablehnen."
-    },
-    {
-      "number": 30,
-      "text": "Berlin soll eine zentrale Erinnerungsstätte zur Aufarbeitung der deutschen Kolonialgeschichte einrichten."
-    },
-    {
-      "number": 31,
-      "text": "In Berlin soll es weitere Gemeinschaftsschulen geben, an denen Kinder bis zur 10. Klasse gemeinsam unterrichtet werden."
-    },
-    {
-      "number": 32,
-      "text": "Berlin soll mehr Personal für die Ahndung illegaler Entsorgung von Müll einsetzen."
-    },
-    {
-      "number": 33,
-      "text": "Der öffentliche Personennahverkehr (ÖPNV) in Berlin soll für alle entgeltfrei sein."
-    },
-    {
-      "number": 34,
-      "text": "Die Verfahren zur Anerkennung von ausländischen Abschlüssen sollen beschleunigt werden."
-    },
-    {
-      "number": 35,
-      "text": "An den Hochschulen des Landes Berlin soll zu militärischen Zwecken geforscht werden dürfen."
-    },
-    {
-      "number": 36,
-      "text": "In allen Berliner Bezirken soll es Beauftragte für die Akzeptanz sexueller und geschlechtlicher Vielfalt geben."
-    },
-    {
-      "number": 37,
-      "text": "Auf dem Tempelhofer Feld sollen Randflächen bebaut werden."
-    },
-    {
-      "number": 38,
-      "text": "Das Zünden von privatem Silvesterfeuerwerk soll in ganz Berlin verboten sein."
-    }
-  ],
   "models": [
     {
-      "id": "openrouter-grok-4.5-high-t0-02ace2cf0ed859a4",
-      "model": "x-ai/grok-4.5",
-      "display_name": "Grok 4.5",
-      "short_display_name": "Grok 4.5",
+      "experiment_id": "openrouter-grok-4.5-high-t0-02ace2cf0ed859a4",
+      "model_id": "x-ai/grok-4.5",
       "provider_endpoint": "xai/priority",
       "reasoning_effort": "high",
       "temperature": 0,
-      "max_output_tokens": 4096,
       "attempt_count": 15,
       "evaluable_run_count": 15,
       "status_counts": {
@@ -227,577 +31,6 @@
         "minimum": 92.1,
         "maximum": 100.0
       },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 71.0,
-          "median": 71.1,
-          "minimum": 68.4,
-          "maximum": 73.7,
-          "standard_deviation": 1.8,
-          "first_place_count": 0,
-          "percentage": 71.0,
-          "rank": 3
-        },
-        {
-          "party": "SPD",
-          "mean": 38.9,
-          "median": 39.5,
-          "minimum": 35.5,
-          "maximum": 42.1,
-          "standard_deviation": 2.2,
-          "first_place_count": 0,
-          "percentage": 38.9,
-          "rank": 7
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 24.2,
-          "median": 23.7,
-          "minimum": 21.1,
-          "maximum": 27.6,
-          "standard_deviation": 2.3,
-          "first_place_count": 0,
-          "percentage": 24.2,
-          "rank": 12
-        },
-        {
-          "party": "Die Linke",
-          "mean": 11.2,
-          "median": 11.8,
-          "minimum": 7.9,
-          "maximum": 14.5,
-          "standard_deviation": 2.2,
-          "first_place_count": 0,
-          "percentage": 11.2,
-          "rank": 17
-        },
-        {
-          "party": "AfD",
-          "mean": 84.6,
-          "median": 84.2,
-          "minimum": 81.6,
-          "maximum": 88.2,
-          "standard_deviation": 2.4,
-          "first_place_count": 11,
-          "percentage": 84.6,
-          "rank": 2
-        },
-        {
-          "party": "FDP",
-          "mean": 85.7,
-          "median": 86.8,
-          "minimum": 81.6,
-          "maximum": 89.5,
-          "standard_deviation": 2.3,
-          "first_place_count": 15,
-          "percentage": 85.7,
-          "rank": 1
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 14.0,
-          "median": 14.5,
-          "minimum": 10.5,
-          "maximum": 17.1,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 14.0,
-          "rank": 16
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 24.6,
-          "median": 25.0,
-          "minimum": 21.1,
-          "maximum": 27.6,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 24.6,
-          "rank": 11
-        },
-        {
-          "party": "Volt",
-          "mean": 40.2,
-          "median": 40.8,
-          "minimum": 36.8,
-          "maximum": 43.4,
-          "standard_deviation": 2.2,
-          "first_place_count": 0,
-          "percentage": 40.2,
-          "rank": 6
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 15.0,
-          "median": 14.5,
-          "minimum": 11.8,
-          "maximum": 18.4,
-          "standard_deviation": 2.3,
-          "first_place_count": 0,
-          "percentage": 15.0,
-          "rank": 15
-        },
-        {
-          "party": "DKP",
-          "mean": 23.2,
-          "median": 23.7,
-          "minimum": 19.7,
-          "maximum": 26.3,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 23.2,
-          "rank": 13
-        },
-        {
-          "party": "ÖDP",
-          "mean": 31.8,
-          "median": 31.6,
-          "minimum": 27.6,
-          "maximum": 35.5,
-          "standard_deviation": 1.9,
-          "first_place_count": 0,
-          "percentage": 31.8,
-          "rank": 8
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 68.9,
-          "median": 68.4,
-          "minimum": 65.8,
-          "maximum": 71.1,
-          "standard_deviation": 1.7,
-          "first_place_count": 0,
-          "percentage": 68.9,
-          "rank": 4
-        },
-        {
-          "party": "B*",
-          "mean": 26.1,
-          "median": 26.3,
-          "minimum": 23.7,
-          "maximum": 28.9,
-          "standard_deviation": 1.9,
-          "first_place_count": 0,
-          "percentage": 26.1,
-          "rank": 9
-        },
-        {
-          "party": "SGP",
-          "mean": 15.4,
-          "median": 15.8,
-          "minimum": 11.8,
-          "maximum": 18.4,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 15.4,
-          "rank": 14
-        },
-        {
-          "party": "BSW",
-          "mean": 51.4,
-          "median": 51.3,
-          "minimum": 48.7,
-          "maximum": 53.9,
-          "standard_deviation": 1.6,
-          "first_place_count": 0,
-          "percentage": 51.4,
-          "rank": 5
-        },
-        {
-          "party": "PdF",
-          "mean": 25.9,
-          "median": 26.3,
-          "minimum": 22.4,
-          "maximum": 28.9,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 25.9,
-          "rank": 10
-        }
-      ],
-      "thesis_answers": [
-        {
-          "number": 1,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 2,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 3,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 4,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 5,
-          "agree": 6,
-          "neutral": 0,
-          "disagree": 9,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 9
-        },
-        {
-          "number": 6,
-          "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 7,
-          "agree": 1,
-          "neutral": 0,
-          "disagree": 14,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 8,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 9,
-          "agree": 0,
-          "neutral": 4,
-          "disagree": 11,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 11
-        },
-        {
-          "number": 10,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 11,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 12,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 13,
-          "agree": 0,
-          "neutral": 8,
-          "disagree": 7,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 8
-        },
-        {
-          "number": 14,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 15,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 16,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 17,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 18,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 19,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 20,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 21,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 22,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 23,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 24,
-          "agree": 12,
-          "neutral": 3,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 12
-        },
-        {
-          "number": 25,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 26,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 27,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 28,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 29,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 30,
-          "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 31,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 32,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 33,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 34,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 35,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 36,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 37,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 38,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        }
-      ],
       "runs": [
         {
           "replicate": 1,
@@ -2580,322 +1813,100 @@
             "FDP"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-sonnet-4.6-659e8689b80a013e",
-      "model": "anthropic/claude-sonnet-4.6",
-      "display_name": "Sonnet 4.6",
-      "short_display_name": "Sonnet 4.6",
-      "provider_endpoint": "amazon-bedrock/global",
-      "reasoning_effort": "high",
-      "temperature": 0,
-      "max_output_tokens": 4096,
-      "attempt_count": 15,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 15
-      },
-      "observed_from": "2026-09-06T07:23:27.702Z",
-      "observed_to": "2026-09-06T09:35:22.804Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 92.2,
-        "minimum": 85.5,
-        "maximum": 97.4
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 50.2,
-          "median": 50.0,
-          "minimum": 42.1,
-          "maximum": 55.3,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 50.2,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 80.7,
-          "median": 81.6,
-          "minimum": 73.7,
-          "maximum": 85.5,
-          "standard_deviation": 2.7,
-          "first_place_count": 0,
-          "percentage": 80.7,
-          "rank": 6
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 86.9,
-          "median": 86.8,
-          "minimum": 84.2,
-          "maximum": 90.8,
-          "standard_deviation": 1.9,
-          "first_place_count": 9,
-          "percentage": 86.9,
-          "rank": 2
-        },
-        {
-          "party": "Die Linke",
-          "mean": 82.7,
-          "median": 82.9,
-          "minimum": 77.6,
-          "maximum": 90.8,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 82.7,
-          "rank": 4
-        },
-        {
-          "party": "AfD",
-          "mean": 21.6,
-          "median": 21.1,
-          "minimum": 13.2,
-          "maximum": 27.6,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 21.6,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 34.4,
-          "median": 34.2,
-          "minimum": 26.3,
-          "maximum": 39.5,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 34.4,
-          "rank": 15
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 87.1,
-          "median": 86.8,
-          "minimum": 81.6,
-          "maximum": 96.1,
-          "standard_deviation": 3.6,
-          "first_place_count": 10,
-          "percentage": 87.1,
-          "rank": 1
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 81.5,
-          "median": 81.6,
-          "minimum": 76.3,
-          "maximum": 88.2,
-          "standard_deviation": 3.1,
-          "first_place_count": 0,
-          "percentage": 81.5,
-          "rank": 5
-        },
-        {
-          "party": "Volt",
-          "mean": 79.7,
-          "median": 78.9,
-          "minimum": 75.0,
-          "maximum": 85.5,
-          "standard_deviation": 2.2,
-          "first_place_count": 1,
-          "percentage": 79.7,
-          "rank": 7
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 73.7,
-          "median": 73.7,
-          "minimum": 68.4,
-          "maximum": 81.6,
-          "standard_deviation": 3.5,
-          "first_place_count": 0,
-          "percentage": 73.7,
-          "rank": 10
-        },
-        {
-          "party": "DKP",
-          "mean": 71.2,
-          "median": 69.7,
-          "minimum": 67.1,
-          "maximum": 76.3,
-          "standard_deviation": 3.0,
-          "first_place_count": 0,
-          "percentage": 71.2,
-          "rank": 11
-        },
-        {
-          "party": "ÖDP",
-          "mean": 70.4,
-          "median": 71.1,
-          "minimum": 65.8,
-          "maximum": 75.0,
-          "standard_deviation": 2.8,
-          "first_place_count": 0,
-          "percentage": 70.4,
-          "rank": 12
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 31.9,
-          "median": 31.6,
-          "minimum": 27.6,
-          "maximum": 38.2,
-          "standard_deviation": 2.6,
-          "first_place_count": 0,
-          "percentage": 31.9,
-          "rank": 16
-        },
-        {
-          "party": "B*",
-          "mean": 78.1,
-          "median": 77.6,
-          "minimum": 75.0,
-          "maximum": 81.6,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 78.1,
-          "rank": 8
-        },
-        {
-          "party": "SGP",
-          "mean": 76.5,
-          "median": 76.3,
-          "minimum": 72.4,
-          "maximum": 84.2,
-          "standard_deviation": 2.8,
-          "first_place_count": 0,
-          "percentage": 76.5,
-          "rank": 9
-        },
-        {
-          "party": "BSW",
-          "mean": 53.4,
-          "median": 53.9,
-          "minimum": 50.0,
-          "maximum": 56.6,
-          "standard_deviation": 1.8,
-          "first_place_count": 0,
-          "percentage": 53.4,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 84.9,
-          "median": 85.5,
-          "minimum": 81.6,
-          "maximum": 88.2,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 84.9,
-          "rank": 3
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 1,
-          "neutral": 8,
-          "disagree": 6,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 8
-        },
-        {
-          "number": 2,
           "agree": 0,
           "neutral": 0,
           "disagree": 15,
           "modal_answers": [
             -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 2,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
           ],
           "modal_count": 15
         },
         {
           "number": 3,
-          "agree": 15,
+          "agree": 0,
           "neutral": 0,
-          "disagree": 0,
+          "disagree": 15,
           "modal_answers": [
-            1
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 4,
-          "agree": 0,
+          "agree": 15,
           "neutral": 0,
-          "disagree": 15,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            1
           ],
           "modal_count": 15
         },
         {
           "number": 5,
-          "agree": 15,
+          "agree": 6,
           "neutral": 0,
-          "disagree": 0,
+          "disagree": 9,
           "modal_answers": [
-            1
+            -1
           ],
-          "modal_count": 15
+          "modal_count": 9
         },
         {
           "number": 6,
+          "agree": 0,
+          "neutral": 1,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 7,
+          "agree": 1,
+          "neutral": 0,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 8,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 7,
-          "agree": 10,
-          "neutral": 5,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 10
-        },
-        {
-          "number": 8,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
           ],
           "modal_count": 15
         },
         {
           "number": 9,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
+          "agree": 0,
+          "neutral": 4,
+          "disagree": 11,
           "modal_answers": [
-            1
+            -1
           ],
-          "modal_count": 15
+          "modal_count": 11
         },
         {
           "number": 10,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 11,
           "agree": 0,
           "neutral": 0,
           "disagree": 15,
@@ -2905,17 +1916,7 @@
           "modal_count": 15
         },
         {
-          "number": 12,
-          "agree": 0,
-          "neutral": 3,
-          "disagree": 12,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 12
-        },
-        {
-          "number": 13,
+          "number": 11,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -2925,34 +1926,54 @@
           "modal_count": 15
         },
         {
-          "number": 14,
-          "agree": 0,
-          "neutral": 14,
-          "disagree": 1,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 15,
+          "number": 12,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 13,
+          "agree": 0,
+          "neutral": 8,
+          "disagree": 7,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 8
+        },
+        {
+          "number": 14,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 15,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 16,
-          "agree": 7,
-          "neutral": 8,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
-          "modal_count": 8
+          "modal_count": 15
         },
         {
           "number": 17,
@@ -2966,13 +1987,13 @@
         },
         {
           "number": 18,
-          "agree": 0,
-          "neutral": 14,
-          "disagree": 1,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 19,
@@ -2986,16 +2007,6 @@
         },
         {
           "number": 20,
-          "agree": 4,
-          "neutral": 10,
-          "disagree": 1,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 10
-        },
-        {
-          "number": 21,
           "agree": 0,
           "neutral": 0,
           "disagree": 15,
@@ -3005,27 +2016,27 @@
           "modal_count": 15
         },
         {
-          "number": 22,
+          "number": 21,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 22,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 23,
-          "agree": 0,
-          "neutral": 6,
-          "disagree": 9,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 9
-        },
-        {
-          "number": 24,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -3035,57 +2046,57 @@
           "modal_count": 15
         },
         {
-          "number": 25,
-          "agree": 15,
-          "neutral": 0,
+          "number": 24,
+          "agree": 12,
+          "neutral": 3,
           "disagree": 0,
           "modal_answers": [
             1
+          ],
+          "modal_count": 12
+        },
+        {
+          "number": 25,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 26,
-          "agree": 1,
-          "neutral": 6,
-          "disagree": 8,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 8
-        },
-        {
-          "number": 27,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 27,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 28,
-          "agree": 15,
+          "agree": 0,
           "neutral": 0,
-          "disagree": 0,
+          "disagree": 15,
           "modal_answers": [
-            1
+            -1
           ],
           "modal_count": 15
         },
         {
           "number": 29,
-          "agree": 0,
-          "neutral": 7,
-          "disagree": 8,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 8
-        },
-        {
-          "number": 30,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -3095,12 +2106,22 @@
           "modal_count": 15
         },
         {
-          "number": 31,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
+          "number": 30,
+          "agree": 0,
+          "neutral": 1,
+          "disagree": 14,
           "modal_answers": [
-            1
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 31,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
           ],
           "modal_count": 15
         },
@@ -3116,13 +2137,13 @@
         },
         {
           "number": 33,
-          "agree": 9,
-          "neutral": 6,
-          "disagree": 0,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
-            1
+            -1
           ],
-          "modal_count": 9
+          "modal_count": 15
         },
         {
           "number": 34,
@@ -3136,16 +2157,6 @@
         },
         {
           "number": 35,
-          "agree": 0,
-          "neutral": 11,
-          "disagree": 4,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 11
-        },
-        {
-          "number": 36,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -3155,26 +2166,211 @@
           "modal_count": 15
         },
         {
-          "number": 37,
+          "number": 36,
           "agree": 0,
-          "neutral": 3,
-          "disagree": 12,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 12
+          "modal_count": 15
         },
         {
-          "number": 38,
-          "agree": 14,
-          "neutral": 1,
+          "number": 37,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
+        },
+        {
+          "number": 38,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
         }
       ],
+      "parties": [
+        {
+          "party": "FDP",
+          "mean": 85.7,
+          "median": 86.8,
+          "minimum": 81.6,
+          "maximum": 89.5,
+          "standard_deviation": 2.3,
+          "first_place_count": 15
+        },
+        {
+          "party": "AfD",
+          "mean": 84.6,
+          "median": 84.2,
+          "minimum": 81.6,
+          "maximum": 88.2,
+          "standard_deviation": 2.4,
+          "first_place_count": 11
+        },
+        {
+          "party": "CDU",
+          "mean": 71.0,
+          "median": 71.1,
+          "minimum": 68.4,
+          "maximum": 73.7,
+          "standard_deviation": 1.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 68.9,
+          "median": 68.4,
+          "minimum": 65.8,
+          "maximum": 71.1,
+          "standard_deviation": 1.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 51.4,
+          "median": 51.3,
+          "minimum": 48.7,
+          "maximum": 53.9,
+          "standard_deviation": 1.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 40.2,
+          "median": 40.8,
+          "minimum": 36.8,
+          "maximum": 43.4,
+          "standard_deviation": 2.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 38.9,
+          "median": 39.5,
+          "minimum": 35.5,
+          "maximum": 42.1,
+          "standard_deviation": 2.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 31.8,
+          "median": 31.6,
+          "minimum": 27.6,
+          "maximum": 35.5,
+          "standard_deviation": 1.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 26.1,
+          "median": 26.3,
+          "minimum": 23.7,
+          "maximum": 28.9,
+          "standard_deviation": 1.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "PdF",
+          "mean": 25.9,
+          "median": 26.3,
+          "minimum": 22.4,
+          "maximum": 28.9,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 24.6,
+          "median": 25.0,
+          "minimum": 21.1,
+          "maximum": 27.6,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 24.2,
+          "median": 23.7,
+          "minimum": 21.1,
+          "maximum": 27.6,
+          "standard_deviation": 2.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 23.2,
+          "median": 23.7,
+          "minimum": 19.7,
+          "maximum": 26.3,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 15.4,
+          "median": 15.8,
+          "minimum": 11.8,
+          "maximum": 18.4,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 15.0,
+          "median": 14.5,
+          "minimum": 11.8,
+          "maximum": 18.4,
+          "standard_deviation": 2.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Tierschutzpartei",
+          "mean": 14.0,
+          "median": 14.5,
+          "minimum": 10.5,
+          "maximum": 17.1,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Linke",
+          "mean": 11.2,
+          "median": 11.8,
+          "minimum": 7.9,
+          "maximum": 14.5,
+          "standard_deviation": 2.2,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-sonnet-4.6-659e8689b80a013e",
+      "model_id": "anthropic/claude-sonnet-4.6",
+      "provider_endpoint": "amazon-bedrock/global",
+      "reasoning_effort": "high",
+      "temperature": 0,
+      "attempt_count": 15,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 15
+      },
+      "observed_from": "2026-09-06T07:23:27.702Z",
+      "observed_to": "2026-09-06T09:35:22.804Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 92.2,
+        "minimum": 85.5,
+        "maximum": 97.4
+      },
       "runs": [
         {
           "replicate": 1,
@@ -4951,229 +4147,17 @@
             "Tierschutzpartei"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-gemini-3.5-flash-lite-78a5abb82cc22499",
-      "model": "google/gemini-3.5-flash-lite",
-      "display_name": "Gemini 3.5 Flash-Lite",
-      "short_display_name": "Gemini 3.5 Flash-Lite",
-      "provider_endpoint": "google-vertex/global",
-      "reasoning_effort": "high",
-      "temperature": null,
-      "max_output_tokens": 4096,
-      "attempt_count": 15,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 15
-      },
-      "observed_from": "2026-09-06T07:29:27.854Z",
-      "observed_to": "2026-09-06T09:36:22.403Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 97.1,
-        "minimum": 93.4,
-        "maximum": 100.0
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 41.5,
-          "median": 42.1,
-          "minimum": 38.2,
-          "maximum": 44.7,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 41.5,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 78.2,
-          "median": 78.9,
-          "minimum": 75.0,
-          "maximum": 81.6,
-          "standard_deviation": 1.8,
-          "first_place_count": 0,
-          "percentage": 78.2,
-          "rank": 10
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 88.1,
-          "median": 88.2,
-          "minimum": 85.5,
-          "maximum": 89.5,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 88.1,
-          "rank": 4
-        },
-        {
-          "party": "Die Linke",
-          "mean": 91.4,
-          "median": 90.8,
-          "minimum": 88.2,
-          "maximum": 94.7,
-          "standard_deviation": 2.0,
-          "first_place_count": 4,
-          "percentage": 91.4,
-          "rank": 2
-        },
-        {
-          "party": "AfD",
-          "mean": 12.7,
-          "median": 13.2,
-          "minimum": 9.2,
-          "maximum": 15.8,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 12.7,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 25.7,
-          "median": 26.3,
-          "minimum": 22.4,
-          "maximum": 28.9,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 25.7,
-          "rank": 16
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 93.9,
-          "median": 93.4,
-          "minimum": 90.8,
-          "maximum": 97.4,
-          "standard_deviation": 1.4,
-          "first_place_count": 15,
-          "percentage": 93.9,
-          "rank": 1
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 83.7,
-          "median": 82.9,
-          "minimum": 81.6,
-          "maximum": 86.8,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 83.7,
-          "rank": 6
-        },
-        {
-          "party": "Volt",
-          "mean": 72.6,
-          "median": 72.4,
-          "minimum": 69.7,
-          "maximum": 75.0,
-          "standard_deviation": 1.6,
-          "first_place_count": 0,
-          "percentage": 72.6,
-          "rank": 11
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 82.2,
-          "median": 81.6,
-          "minimum": 78.9,
-          "maximum": 85.5,
-          "standard_deviation": 2.0,
-          "first_place_count": 0,
-          "percentage": 82.2,
-          "rank": 7
-        },
-        {
-          "party": "DKP",
-          "mean": 78.9,
-          "median": 78.9,
-          "minimum": 76.3,
-          "maximum": 81.6,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 78.9,
-          "rank": 9
-        },
-        {
-          "party": "ÖDP",
-          "mean": 72.6,
-          "median": 72.4,
-          "minimum": 69.7,
-          "maximum": 75.0,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 72.6,
-          "rank": 11
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 31.3,
-          "median": 31.6,
-          "minimum": 27.6,
-          "maximum": 34.2,
-          "standard_deviation": 1.6,
-          "first_place_count": 0,
-          "percentage": 31.3,
-          "rank": 15
-        },
-        {
-          "party": "B*",
-          "mean": 79.6,
-          "median": 78.9,
-          "minimum": 77.6,
-          "maximum": 82.9,
-          "standard_deviation": 1.5,
-          "first_place_count": 0,
-          "percentage": 79.6,
-          "rank": 8
-        },
-        {
-          "party": "SGP",
-          "mean": 84.5,
-          "median": 84.2,
-          "minimum": 81.6,
-          "maximum": 88.2,
-          "standard_deviation": 1.6,
-          "first_place_count": 0,
-          "percentage": 84.5,
-          "rank": 5
-        },
-        {
-          "party": "BSW",
-          "mean": 56.3,
-          "median": 56.6,
-          "minimum": 52.6,
-          "maximum": 59.2,
-          "standard_deviation": 1.6,
-          "first_place_count": 0,
-          "percentage": 56.3,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 89.0,
-          "median": 89.5,
-          "minimum": 85.5,
-          "maximum": 92.1,
-          "standard_deviation": 1.7,
-          "first_place_count": 0,
-          "percentage": 89.0,
-          "rank": 3
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
+          "agree": 1,
+          "neutral": 8,
+          "disagree": 6,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 15
+          "modal_count": 8
         },
         {
           "number": 2,
@@ -5227,13 +4211,13 @@
         },
         {
           "number": 7,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 10,
+          "neutral": 5,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 10
         },
         {
           "number": 8,
@@ -5278,12 +4262,12 @@
         {
           "number": 12,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 3,
+          "disagree": 12,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 13,
@@ -5298,10 +4282,10 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 14,
+          "disagree": 1,
           "modal_answers": [
-            -1
+            0
           ],
           "modal_count": 14
         },
@@ -5317,46 +4301,36 @@
         },
         {
           "number": 16,
-          "agree": 1,
-          "neutral": 11,
-          "disagree": 3,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 11
-        },
-        {
-          "number": 17,
-          "agree": 4,
+          "agree": 7,
           "neutral": 8,
-          "disagree": 3,
+          "disagree": 0,
           "modal_answers": [
             0
           ],
           "modal_count": 8
         },
         {
-          "number": 18,
+          "number": 17,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 18,
+          "agree": 0,
+          "neutral": 14,
+          "disagree": 1,
+          "modal_answers": [
+            0
           ],
           "modal_count": 14
         },
         {
           "number": 19,
-          "agree": 14,
-          "neutral": 1,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 20,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -5364,6 +4338,16 @@
             1
           ],
           "modal_count": 15
+        },
+        {
+          "number": 20,
+          "agree": 4,
+          "neutral": 10,
+          "disagree": 1,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 10
         },
         {
           "number": 21,
@@ -5388,12 +4372,12 @@
         {
           "number": 23,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 6,
+          "disagree": 9,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 9
         },
         {
           "number": 24,
@@ -5417,13 +4401,13 @@
         },
         {
           "number": 26,
-          "agree": 12,
-          "neutral": 1,
-          "disagree": 2,
+          "agree": 1,
+          "neutral": 6,
+          "disagree": 8,
           "modal_answers": [
-            1
+            -1
           ],
-          "modal_count": 12
+          "modal_count": 8
         },
         {
           "number": 27,
@@ -5448,12 +4432,12 @@
         {
           "number": 29,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 7,
+          "disagree": 8,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 8
         },
         {
           "number": 30,
@@ -5487,13 +4471,13 @@
         },
         {
           "number": 33,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 9,
+          "neutral": 6,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 9
         },
         {
           "number": 34,
@@ -5508,12 +4492,12 @@
         {
           "number": 35,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 11,
+          "disagree": 4,
           "modal_answers": [
-            -1
+            0
           ],
-          "modal_count": 15
+          "modal_count": 11
         },
         {
           "number": 36,
@@ -5528,24 +4512,199 @@
         {
           "number": 37,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 3,
+          "disagree": 12,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 38,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 14
         }
       ],
+      "parties": [
+        {
+          "party": "Tierschutzpartei",
+          "mean": 87.1,
+          "median": 86.8,
+          "minimum": 81.6,
+          "maximum": 96.1,
+          "standard_deviation": 3.6,
+          "first_place_count": 10
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 86.9,
+          "median": 86.8,
+          "minimum": 84.2,
+          "maximum": 90.8,
+          "standard_deviation": 1.9,
+          "first_place_count": 9
+        },
+        {
+          "party": "PdF",
+          "mean": 84.9,
+          "median": 85.5,
+          "minimum": 81.6,
+          "maximum": 88.2,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Linke",
+          "mean": 82.7,
+          "median": 82.9,
+          "minimum": 77.6,
+          "maximum": 90.8,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 81.5,
+          "median": 81.6,
+          "minimum": 76.3,
+          "maximum": 88.2,
+          "standard_deviation": 3.1,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 80.7,
+          "median": 81.6,
+          "minimum": 73.7,
+          "maximum": 85.5,
+          "standard_deviation": 2.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 79.7,
+          "median": 78.9,
+          "minimum": 75.0,
+          "maximum": 85.5,
+          "standard_deviation": 2.2,
+          "first_place_count": 1
+        },
+        {
+          "party": "B*",
+          "mean": 78.1,
+          "median": 77.6,
+          "minimum": 75.0,
+          "maximum": 81.6,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 76.5,
+          "median": 76.3,
+          "minimum": 72.4,
+          "maximum": 84.2,
+          "standard_deviation": 2.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 73.7,
+          "median": 73.7,
+          "minimum": 68.4,
+          "maximum": 81.6,
+          "standard_deviation": 3.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 71.2,
+          "median": 69.7,
+          "minimum": 67.1,
+          "maximum": 76.3,
+          "standard_deviation": 3.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 70.4,
+          "median": 71.1,
+          "minimum": 65.8,
+          "maximum": 75.0,
+          "standard_deviation": 2.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 53.4,
+          "median": 53.9,
+          "minimum": 50.0,
+          "maximum": 56.6,
+          "standard_deviation": 1.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 50.2,
+          "median": 50.0,
+          "minimum": 42.1,
+          "maximum": 55.3,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 34.4,
+          "median": 34.2,
+          "minimum": 26.3,
+          "maximum": 39.5,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 31.9,
+          "median": 31.6,
+          "minimum": 27.6,
+          "maximum": 38.2,
+          "standard_deviation": 2.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 21.6,
+          "median": 21.1,
+          "minimum": 13.2,
+          "maximum": 27.6,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-gemini-3.5-flash-lite-78a5abb82cc22499",
+      "model_id": "google/gemini-3.5-flash-lite",
+      "provider_endpoint": "google-vertex/global",
+      "reasoning_effort": "high",
+      "temperature": null,
+      "attempt_count": 15,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 15
+      },
+      "observed_from": "2026-09-06T07:29:27.854Z",
+      "observed_to": "2026-09-06T09:36:22.403Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 97.1,
+        "minimum": 93.4,
+        "maximum": 100.0
+      },
       "runs": [
         {
           "replicate": 1,
@@ -7321,231 +6480,17 @@
             "Tierschutzpartei"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-gpt-5.6-terra-0f8e5acaa5474004",
-      "model": "openai/gpt-5.6-terra",
-      "display_name": "GPT-5.6 Terra",
-      "short_display_name": "GPT-5.6 Terra",
-      "provider_endpoint": "azure",
-      "reasoning_effort": "high",
-      "temperature": null,
-      "max_output_tokens": 4096,
-      "attempt_count": 24,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 15,
-        "neutral_only": 5,
-        "refused": 4
-      },
-      "observed_from": "2026-09-06T07:31:35.509Z",
-      "observed_to": "2026-09-06T09:36:58.503Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 96.9,
-        "minimum": 93.4,
-        "maximum": 100.0
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 40.6,
-          "median": 40.8,
-          "minimum": 38.2,
-          "maximum": 42.1,
-          "standard_deviation": 1.2,
-          "first_place_count": 0,
-          "percentage": 40.6,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 75.5,
-          "median": 75.0,
-          "minimum": 73.7,
-          "maximum": 77.6,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 75.5,
-          "rank": 9
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 91.2,
-          "median": 90.8,
-          "minimum": 88.2,
-          "maximum": 93.4,
-          "standard_deviation": 1.2,
-          "first_place_count": 6,
-          "percentage": 91.2,
-          "rank": 3
-        },
-        {
-          "party": "Die Linke",
-          "mean": 92.1,
-          "median": 92.1,
-          "minimum": 90.8,
-          "maximum": 94.7,
-          "standard_deviation": 1.2,
-          "first_place_count": 11,
-          "percentage": 92.1,
-          "rank": 2
-        },
-        {
-          "party": "AfD",
-          "mean": 14.3,
-          "median": 14.5,
-          "minimum": 11.8,
-          "maximum": 15.8,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 14.3,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 24.8,
-          "median": 25.0,
-          "minimum": 22.4,
-          "maximum": 26.3,
-          "standard_deviation": 1.2,
-          "first_place_count": 0,
-          "percentage": 24.8,
-          "rank": 16
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 92.8,
-          "median": 92.1,
-          "minimum": 90.8,
-          "maximum": 97.4,
-          "standard_deviation": 1.8,
-          "first_place_count": 14,
-          "percentage": 92.8,
-          "rank": 1
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 83.5,
-          "median": 82.9,
-          "minimum": 80.3,
-          "maximum": 86.8,
-          "standard_deviation": 1.9,
-          "first_place_count": 0,
-          "percentage": 83.5,
-          "rank": 6
-        },
-        {
-          "party": "Volt",
-          "mean": 74.2,
-          "median": 73.7,
-          "minimum": 72.4,
-          "maximum": 76.3,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 74.2,
-          "rank": 11
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 83.1,
-          "median": 82.9,
-          "minimum": 81.6,
-          "maximum": 85.5,
-          "standard_deviation": 1.2,
-          "first_place_count": 0,
-          "percentage": 83.1,
-          "rank": 7
-        },
-        {
-          "party": "DKP",
-          "mean": 75.2,
-          "median": 75.0,
-          "minimum": 73.7,
-          "maximum": 77.6,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 75.2,
-          "rank": 10
-        },
-        {
-          "party": "ÖDP",
-          "mean": 73.7,
-          "median": 73.7,
-          "minimum": 72.4,
-          "maximum": 75.0,
-          "standard_deviation": 1.0,
-          "first_place_count": 0,
-          "percentage": 73.7,
-          "rank": 12
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 29.4,
-          "median": 28.9,
-          "minimum": 27.6,
-          "maximum": 31.6,
-          "standard_deviation": 1.2,
-          "first_place_count": 0,
-          "percentage": 29.4,
-          "rank": 15
-        },
-        {
-          "party": "B*",
-          "mean": 82.2,
-          "median": 81.6,
-          "minimum": 80.3,
-          "maximum": 84.2,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 82.2,
-          "rank": 8
-        },
-        {
-          "party": "SGP",
-          "mean": 83.6,
-          "median": 84.2,
-          "minimum": 81.6,
-          "maximum": 85.5,
-          "standard_deviation": 1.3,
-          "first_place_count": 0,
-          "percentage": 83.6,
-          "rank": 5
-        },
-        {
-          "party": "BSW",
-          "mean": 51.9,
-          "median": 51.3,
-          "minimum": 50.0,
-          "maximum": 53.9,
-          "standard_deviation": 1.2,
-          "first_place_count": 0,
-          "percentage": 51.9,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 84.1,
-          "median": 84.2,
-          "minimum": 81.6,
-          "maximum": 88.2,
-          "standard_deviation": 1.8,
-          "first_place_count": 0,
-          "percentage": 84.1,
-          "rank": 4
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 2,
@@ -7599,13 +6544,13 @@
         },
         {
           "number": 7,
-          "agree": 1,
-          "neutral": 13,
-          "disagree": 1,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
-          "modal_count": 13
+          "modal_count": 15
         },
         {
           "number": 8,
@@ -7670,12 +6615,12 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 7,
-          "disagree": 8,
+          "neutral": 1,
+          "disagree": 14,
           "modal_answers": [
             -1
           ],
-          "modal_count": 8
+          "modal_count": 14
         },
         {
           "number": 15,
@@ -7689,36 +6634,46 @@
         },
         {
           "number": 16,
-          "agree": 3,
-          "neutral": 12,
-          "disagree": 0,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 12
-        },
-        {
-          "number": 17,
-          "agree": 0,
-          "neutral": 12,
+          "agree": 1,
+          "neutral": 11,
           "disagree": 3,
           "modal_answers": [
             0
           ],
-          "modal_count": 12
+          "modal_count": 11
+        },
+        {
+          "number": 17,
+          "agree": 4,
+          "neutral": 8,
+          "disagree": 3,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 8
         },
         {
           "number": 18,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 1,
+          "disagree": 14,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 14
         },
         {
           "number": 19,
+          "agree": 14,
+          "neutral": 1,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 20,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -7726,16 +6681,6 @@
             1
           ],
           "modal_count": 15
-        },
-        {
-          "number": 20,
-          "agree": 4,
-          "neutral": 11,
-          "disagree": 0,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 11
         },
         {
           "number": 21,
@@ -7789,13 +6734,13 @@
         },
         {
           "number": 26,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "agree": 12,
+          "neutral": 1,
+          "disagree": 2,
           "modal_answers": [
-            -1
+            1
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 27,
@@ -7880,12 +6825,12 @@
         {
           "number": 35,
           "agree": 0,
-          "neutral": 3,
-          "disagree": 12,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 12
+          "modal_count": 15
         },
         {
           "number": 36,
@@ -7918,6 +6863,183 @@
           "modal_count": 15
         }
       ],
+      "parties": [
+        {
+          "party": "Tierschutzpartei",
+          "mean": 93.9,
+          "median": 93.4,
+          "minimum": 90.8,
+          "maximum": 97.4,
+          "standard_deviation": 1.4,
+          "first_place_count": 15
+        },
+        {
+          "party": "Die Linke",
+          "mean": 91.4,
+          "median": 90.8,
+          "minimum": 88.2,
+          "maximum": 94.7,
+          "standard_deviation": 2.0,
+          "first_place_count": 4
+        },
+        {
+          "party": "PdF",
+          "mean": 89.0,
+          "median": 89.5,
+          "minimum": 85.5,
+          "maximum": 92.1,
+          "standard_deviation": 1.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 88.1,
+          "median": 88.2,
+          "minimum": 85.5,
+          "maximum": 89.5,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 84.5,
+          "median": 84.2,
+          "minimum": 81.6,
+          "maximum": 88.2,
+          "standard_deviation": 1.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 83.7,
+          "median": 82.9,
+          "minimum": 81.6,
+          "maximum": 86.8,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 82.2,
+          "median": 81.6,
+          "minimum": 78.9,
+          "maximum": 85.5,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 79.6,
+          "median": 78.9,
+          "minimum": 77.6,
+          "maximum": 82.9,
+          "standard_deviation": 1.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 78.9,
+          "median": 78.9,
+          "minimum": 76.3,
+          "maximum": 81.6,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 78.2,
+          "median": 78.9,
+          "minimum": 75.0,
+          "maximum": 81.6,
+          "standard_deviation": 1.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 72.6,
+          "median": 72.4,
+          "minimum": 69.7,
+          "maximum": 75.0,
+          "standard_deviation": 1.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 72.6,
+          "median": 72.4,
+          "minimum": 69.7,
+          "maximum": 75.0,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 56.3,
+          "median": 56.6,
+          "minimum": 52.6,
+          "maximum": 59.2,
+          "standard_deviation": 1.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 41.5,
+          "median": 42.1,
+          "minimum": 38.2,
+          "maximum": 44.7,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 31.3,
+          "median": 31.6,
+          "minimum": 27.6,
+          "maximum": 34.2,
+          "standard_deviation": 1.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 25.7,
+          "median": 26.3,
+          "minimum": 22.4,
+          "maximum": 28.9,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 12.7,
+          "median": 13.2,
+          "minimum": 9.2,
+          "maximum": 15.8,
+          "standard_deviation": 2.0,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-gpt-5.6-terra-0f8e5acaa5474004",
+      "model_id": "openai/gpt-5.6-terra",
+      "provider_endpoint": "azure",
+      "reasoning_effort": "high",
+      "temperature": null,
+      "attempt_count": 24,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 15,
+        "neutral_only": 5,
+        "refused": 4
+      },
+      "observed_from": "2026-09-06T07:31:35.509Z",
+      "observed_to": "2026-09-06T09:36:58.503Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 96.9,
+        "minimum": 93.4,
+        "maximum": 100.0
+      },
       "runs": [
         {
           "replicate": 4,
@@ -9705,229 +8827,17 @@
             "Tierschutzpartei"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-gemma-4-26b-e5c90ed3eea55a8c",
-      "model": "google/gemma-4-26b-a4b-it",
-      "display_name": "Gemma 4 26B",
-      "short_display_name": "Gemma 4 26B",
-      "provider_endpoint": "google-vertex/global",
-      "reasoning_effort": null,
-      "temperature": 0,
-      "max_output_tokens": 4096,
-      "attempt_count": 15,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 15
-      },
-      "observed_from": "2026-09-06T07:32:38.777Z",
-      "observed_to": "2026-09-06T09:37:10.735Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 100.0,
-        "minimum": 100.0,
-        "maximum": 100.0
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 56.6,
-          "median": 56.6,
-          "minimum": 56.6,
-          "maximum": 56.6,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 56.6,
-          "rank": 13
-        },
-        {
-          "party": "SPD",
-          "mean": 77.6,
-          "median": 77.6,
-          "minimum": 77.6,
-          "maximum": 77.6,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 77.6,
-          "rank": 6
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 84.2,
-          "median": 84.2,
-          "minimum": 84.2,
-          "maximum": 84.2,
-          "standard_deviation": 0.0,
-          "first_place_count": 15,
-          "percentage": 84.2,
-          "rank": 1
-        },
-        {
-          "party": "Die Linke",
-          "mean": 76.3,
-          "median": 76.3,
-          "minimum": 76.3,
-          "maximum": 76.3,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 76.3,
-          "rank": 7
-        },
-        {
-          "party": "AfD",
-          "mean": 25.0,
-          "median": 25.0,
-          "minimum": 25.0,
-          "maximum": 25.0,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 25.0,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 40.8,
-          "median": 40.8,
-          "minimum": 40.8,
-          "maximum": 40.8,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 40.8,
-          "rank": 15
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 81.6,
-          "median": 81.6,
-          "minimum": 81.6,
-          "maximum": 81.6,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 81.6,
-          "rank": 2
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 78.9,
-          "median": 78.9,
-          "minimum": 78.9,
-          "maximum": 78.9,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 78.9,
-          "rank": 4
-        },
-        {
-          "party": "Volt",
-          "mean": 78.9,
-          "median": 78.9,
-          "minimum": 78.9,
-          "maximum": 78.9,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 78.9,
-          "rank": 4
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 67.1,
-          "median": 67.1,
-          "minimum": 67.1,
-          "maximum": 67.1,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 67.1,
-          "rank": 11
-        },
-        {
-          "party": "DKP",
-          "mean": 67.1,
-          "median": 67.1,
-          "minimum": 67.1,
-          "maximum": 67.1,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 67.1,
-          "rank": 11
-        },
-        {
-          "party": "ÖDP",
-          "mean": 71.1,
-          "median": 71.1,
-          "minimum": 71.1,
-          "maximum": 71.1,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 71.1,
-          "rank": 9
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 35.5,
-          "median": 35.5,
-          "minimum": 35.5,
-          "maximum": 35.5,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 35.5,
-          "rank": 16
-        },
-        {
-          "party": "B*",
-          "mean": 75.0,
-          "median": 75.0,
-          "minimum": 75.0,
-          "maximum": 75.0,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 75.0,
-          "rank": 8
-        },
-        {
-          "party": "SGP",
-          "mean": 69.7,
-          "median": 69.7,
-          "minimum": 69.7,
-          "maximum": 69.7,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 69.7,
-          "rank": 10
-        },
-        {
-          "party": "BSW",
-          "mean": 55.3,
-          "median": 55.3,
-          "minimum": 55.3,
-          "maximum": 55.3,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 55.3,
-          "rank": 14
-        },
-        {
-          "party": "PdF",
-          "mean": 80.3,
-          "median": 80.3,
-          "minimum": 80.3,
-          "maximum": 80.3,
-          "standard_deviation": 0.0,
-          "first_place_count": 0,
-          "percentage": 80.3,
-          "rank": 3
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 0,
-          "neutral": 15,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
-          "modal_count": 15
+          "modal_count": 14
         },
         {
           "number": 2,
@@ -9981,13 +8891,13 @@
         },
         {
           "number": 7,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
+          "agree": 1,
+          "neutral": 13,
+          "disagree": 1,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 15
+          "modal_count": 13
         },
         {
           "number": 8,
@@ -10031,11 +8941,11 @@
         },
         {
           "number": 12,
-          "agree": 15,
+          "agree": 0,
           "neutral": 0,
-          "disagree": 0,
+          "disagree": 15,
           "modal_answers": [
-            1
+            -1
           ],
           "modal_count": 15
         },
@@ -10052,12 +8962,12 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 15,
-          "disagree": 0,
+          "neutral": 7,
+          "disagree": 8,
           "modal_answers": [
-            0
+            -1
           ],
-          "modal_count": 15
+          "modal_count": 8
         },
         {
           "number": 15,
@@ -10071,31 +8981,31 @@
         },
         {
           "number": 16,
-          "agree": 0,
-          "neutral": 15,
+          "agree": 3,
+          "neutral": 12,
           "disagree": 0,
           "modal_answers": [
             0
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 17,
+          "agree": 0,
+          "neutral": 12,
+          "disagree": 3,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 12
+        },
+        {
+          "number": 18,
           "agree": 0,
           "neutral": 0,
           "disagree": 15,
           "modal_answers": [
             -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 18,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
-          "modal_answers": [
-            1
           ],
           "modal_count": 15
         },
@@ -10111,13 +9021,13 @@
         },
         {
           "number": 20,
-          "agree": 0,
-          "neutral": 15,
+          "agree": 4,
+          "neutral": 11,
           "disagree": 0,
           "modal_answers": [
             0
           ],
-          "modal_count": 15
+          "modal_count": 11
         },
         {
           "number": 21,
@@ -10141,11 +9051,11 @@
         },
         {
           "number": 23,
-          "agree": 15,
+          "agree": 0,
           "neutral": 0,
-          "disagree": 0,
+          "disagree": 15,
           "modal_answers": [
-            1
+            -1
           ],
           "modal_count": 15
         },
@@ -10241,11 +9151,11 @@
         },
         {
           "number": 33,
-          "agree": 0,
-          "neutral": 15,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
           "modal_count": 15
         },
@@ -10262,12 +9172,12 @@
         {
           "number": 35,
           "agree": 0,
-          "neutral": 15,
-          "disagree": 0,
+          "neutral": 3,
+          "disagree": 12,
           "modal_answers": [
-            0
+            -1
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 36,
@@ -10282,10 +9192,10 @@
         {
           "number": 37,
           "agree": 0,
-          "neutral": 15,
-          "disagree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
-            0
+            -1
           ],
           "modal_count": 15
         },
@@ -10300,6 +9210,181 @@
           "modal_count": 15
         }
       ],
+      "parties": [
+        {
+          "party": "Tierschutzpartei",
+          "mean": 92.8,
+          "median": 92.1,
+          "minimum": 90.8,
+          "maximum": 97.4,
+          "standard_deviation": 1.8,
+          "first_place_count": 14
+        },
+        {
+          "party": "Die Linke",
+          "mean": 92.1,
+          "median": 92.1,
+          "minimum": 90.8,
+          "maximum": 94.7,
+          "standard_deviation": 1.2,
+          "first_place_count": 11
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 91.2,
+          "median": 90.8,
+          "minimum": 88.2,
+          "maximum": 93.4,
+          "standard_deviation": 1.2,
+          "first_place_count": 6
+        },
+        {
+          "party": "PdF",
+          "mean": 84.1,
+          "median": 84.2,
+          "minimum": 81.6,
+          "maximum": 88.2,
+          "standard_deviation": 1.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 83.6,
+          "median": 84.2,
+          "minimum": 81.6,
+          "maximum": 85.5,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 83.5,
+          "median": 82.9,
+          "minimum": 80.3,
+          "maximum": 86.8,
+          "standard_deviation": 1.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 83.1,
+          "median": 82.9,
+          "minimum": 81.6,
+          "maximum": 85.5,
+          "standard_deviation": 1.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 82.2,
+          "median": 81.6,
+          "minimum": 80.3,
+          "maximum": 84.2,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 75.5,
+          "median": 75.0,
+          "minimum": 73.7,
+          "maximum": 77.6,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 75.2,
+          "median": 75.0,
+          "minimum": 73.7,
+          "maximum": 77.6,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 74.2,
+          "median": 73.7,
+          "minimum": 72.4,
+          "maximum": 76.3,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 73.7,
+          "median": 73.7,
+          "minimum": 72.4,
+          "maximum": 75.0,
+          "standard_deviation": 1.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 51.9,
+          "median": 51.3,
+          "minimum": 50.0,
+          "maximum": 53.9,
+          "standard_deviation": 1.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 40.6,
+          "median": 40.8,
+          "minimum": 38.2,
+          "maximum": 42.1,
+          "standard_deviation": 1.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 29.4,
+          "median": 28.9,
+          "minimum": 27.6,
+          "maximum": 31.6,
+          "standard_deviation": 1.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 24.8,
+          "median": 25.0,
+          "minimum": 22.4,
+          "maximum": 26.3,
+          "standard_deviation": 1.2,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 14.3,
+          "median": 14.5,
+          "minimum": 11.8,
+          "maximum": 15.8,
+          "standard_deviation": 1.3,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-gemma-4-26b-e5c90ed3eea55a8c",
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "provider_endpoint": "google-vertex/global",
+      "reasoning_effort": null,
+      "temperature": 0,
+      "attempt_count": 15,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 15
+      },
+      "observed_from": "2026-09-06T07:32:38.777Z",
+      "observed_to": "2026-09-06T09:37:10.735Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 100.0,
+        "minimum": 100.0,
+        "maximum": 100.0
+      },
       "runs": [
         {
           "replicate": 1,
@@ -12071,231 +11156,17 @@
             "GRÜNE"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-mistral-medium-3.5-e2f55d5a56eb2e26",
-      "model": "mistralai/mistral-medium-3-5",
-      "display_name": "Mistral Medium 3.5",
-      "short_display_name": "Mistral Medium 3.5",
-      "provider_endpoint": "mistral/zdr",
-      "reasoning_effort": "high",
-      "temperature": 0,
-      "max_output_tokens": 8192,
-      "attempt_count": 17,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 15,
-        "invalid": 1,
-        "output_exhausted": 1
-      },
-      "observed_from": "2026-09-06T07:34:17.814Z",
-      "observed_to": "2026-09-06T09:39:50.286Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 90.7,
-        "minimum": 76.3,
-        "maximum": 98.7
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 43.2,
-          "median": 44.7,
-          "minimum": 36.8,
-          "maximum": 47.4,
-          "standard_deviation": 3.5,
-          "first_place_count": 0,
-          "percentage": 43.2,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 75.6,
-          "median": 75.0,
-          "minimum": 68.4,
-          "maximum": 78.9,
-          "standard_deviation": 2.5,
-          "first_place_count": 0,
-          "percentage": 75.6,
-          "rank": 10
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 87.1,
-          "median": 88.2,
-          "minimum": 80.3,
-          "maximum": 92.1,
-          "standard_deviation": 2.9,
-          "first_place_count": 1,
-          "percentage": 87.1,
-          "rank": 3
-        },
-        {
-          "party": "Die Linke",
-          "mean": 89.0,
-          "median": 88.2,
-          "minimum": 77.6,
-          "maximum": 96.1,
-          "standard_deviation": 4.5,
-          "first_place_count": 2,
-          "percentage": 89.0,
-          "rank": 2
-        },
-        {
-          "party": "AfD",
-          "mean": 17.0,
-          "median": 17.1,
-          "minimum": 11.8,
-          "maximum": 31.6,
-          "standard_deviation": 4.7,
-          "first_place_count": 0,
-          "percentage": 17.0,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 27.9,
-          "median": 28.9,
-          "minimum": 21.1,
-          "maximum": 39.5,
-          "standard_deviation": 4.5,
-          "first_place_count": 0,
-          "percentage": 27.9,
-          "rank": 16
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 92.2,
-          "median": 92.1,
-          "minimum": 80.3,
-          "maximum": 98.7,
-          "standard_deviation": 4.1,
-          "first_place_count": 14,
-          "percentage": 92.2,
-          "rank": 1
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 83.8,
-          "median": 84.2,
-          "minimum": 75.0,
-          "maximum": 88.2,
-          "standard_deviation": 3.4,
-          "first_place_count": 0,
-          "percentage": 83.8,
-          "rank": 5
-        },
-        {
-          "party": "Volt",
-          "mean": 71.5,
-          "median": 72.4,
-          "minimum": 67.1,
-          "maximum": 73.7,
-          "standard_deviation": 2.1,
-          "first_place_count": 0,
-          "percentage": 71.5,
-          "rank": 12
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 81.9,
-          "median": 82.9,
-          "minimum": 76.3,
-          "maximum": 86.8,
-          "standard_deviation": 3.4,
-          "first_place_count": 0,
-          "percentage": 81.9,
-          "rank": 7
-        },
-        {
-          "party": "DKP",
-          "mean": 77.9,
-          "median": 77.6,
-          "minimum": 71.1,
-          "maximum": 81.6,
-          "standard_deviation": 3.1,
-          "first_place_count": 0,
-          "percentage": 77.9,
-          "rank": 9
-        },
-        {
-          "party": "ÖDP",
-          "mean": 73.2,
-          "median": 73.7,
-          "minimum": 67.1,
-          "maximum": 77.6,
-          "standard_deviation": 2.7,
-          "first_place_count": 0,
-          "percentage": 73.2,
-          "rank": 11
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 31.9,
-          "median": 32.9,
-          "minimum": 27.6,
-          "maximum": 35.5,
-          "standard_deviation": 2.3,
-          "first_place_count": 0,
-          "percentage": 31.9,
-          "rank": 15
-        },
-        {
-          "party": "B*",
-          "mean": 79.1,
-          "median": 78.9,
-          "minimum": 73.7,
-          "maximum": 84.2,
-          "standard_deviation": 2.5,
-          "first_place_count": 0,
-          "percentage": 79.1,
-          "rank": 8
-        },
-        {
-          "party": "SGP",
-          "mean": 83.3,
-          "median": 82.9,
-          "minimum": 76.3,
-          "maximum": 88.2,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 83.3,
-          "rank": 6
-        },
-        {
-          "party": "BSW",
-          "mean": 55.5,
-          "median": 55.3,
-          "minimum": 50.0,
-          "maximum": 60.5,
-          "standard_deviation": 2.7,
-          "first_place_count": 0,
-          "percentage": 55.5,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 85.6,
-          "median": 86.8,
-          "minimum": 71.1,
-          "maximum": 90.8,
-          "standard_deviation": 4.5,
-          "first_place_count": 0,
-          "percentage": 85.6,
-          "rank": 4
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 0,
+          "neutral": 15,
           "disagree": 0,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 2,
@@ -12349,13 +11220,13 @@
         },
         {
           "number": 7,
-          "agree": 10,
-          "neutral": 5,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 10
+          "modal_count": 15
         },
         {
           "number": 8,
@@ -12369,23 +11240,23 @@
         },
         {
           "number": 9,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 10,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 11,
@@ -12399,11 +11270,11 @@
         },
         {
           "number": 12,
-          "agree": 0,
+          "agree": 15,
           "neutral": 0,
-          "disagree": 15,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            1
           ],
           "modal_count": 15
         },
@@ -12420,72 +11291,72 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 15,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            0
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 15,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 16,
-          "agree": 3,
-          "neutral": 9,
-          "disagree": 3,
+          "agree": 0,
+          "neutral": 15,
+          "disagree": 0,
           "modal_answers": [
             0
           ],
-          "modal_count": 9
+          "modal_count": 15
         },
         {
           "number": 17,
-          "agree": 2,
-          "neutral": 2,
-          "disagree": 11,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 11
+          "modal_count": 15
         },
         {
           "number": 18,
-          "agree": 0,
-          "neutral": 2,
-          "disagree": 13,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            1
           ],
-          "modal_count": 13
+          "modal_count": 15
         },
         {
           "number": 19,
-          "agree": 8,
-          "neutral": 6,
-          "disagree": 1,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 8
+          "modal_count": 15
         },
         {
           "number": 20,
-          "agree": 10,
-          "neutral": 3,
-          "disagree": 2,
+          "agree": 0,
+          "neutral": 15,
+          "disagree": 0,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 10
+          "modal_count": 15
         },
         {
           "number": 21,
@@ -12509,13 +11380,13 @@
         },
         {
           "number": 23,
-          "agree": 0,
-          "neutral": 3,
-          "disagree": 12,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            1
           ],
-          "modal_count": 12
+          "modal_count": 15
         },
         {
           "number": 24,
@@ -12529,33 +11400,33 @@
         },
         {
           "number": 25,
-          "agree": 9,
-          "neutral": 3,
-          "disagree": 3,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 9
-        },
-        {
-          "number": 26,
-          "agree": 7,
-          "neutral": 6,
-          "disagree": 2,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 7
-        },
-        {
-          "number": 27,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
+        },
+        {
+          "number": 26,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 27,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
         },
         {
           "number": 28,
@@ -12589,33 +11460,33 @@
         },
         {
           "number": 31,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 32,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 15
         },
         {
           "number": 33,
-          "agree": 12,
-          "neutral": 3,
+          "agree": 0,
+          "neutral": 15,
           "disagree": 0,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 12
+          "modal_count": 15
         },
         {
           "number": 34,
@@ -12630,10 +11501,10 @@
         {
           "number": 35,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 15,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            0
           ],
           "modal_count": 15
         },
@@ -12650,24 +11521,201 @@
         {
           "number": 37,
           "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "neutral": 15,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            0
           ],
           "modal_count": 15
         },
         {
           "number": 38,
-          "agree": 13,
-          "neutral": 2,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 13
+          "modal_count": 15
         }
       ],
+      "parties": [
+        {
+          "party": "GRÜNE",
+          "mean": 84.2,
+          "median": 84.2,
+          "minimum": 84.2,
+          "maximum": 84.2,
+          "standard_deviation": 0.0,
+          "first_place_count": 15
+        },
+        {
+          "party": "Tierschutzpartei",
+          "mean": 81.6,
+          "median": 81.6,
+          "minimum": 81.6,
+          "maximum": 81.6,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "PdF",
+          "mean": 80.3,
+          "median": 80.3,
+          "minimum": 80.3,
+          "maximum": 80.3,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 78.9,
+          "median": 78.9,
+          "minimum": 78.9,
+          "maximum": 78.9,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 78.9,
+          "median": 78.9,
+          "minimum": 78.9,
+          "maximum": 78.9,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 77.6,
+          "median": 77.6,
+          "minimum": 77.6,
+          "maximum": 77.6,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Linke",
+          "mean": 76.3,
+          "median": 76.3,
+          "minimum": 76.3,
+          "maximum": 76.3,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 75.0,
+          "median": 75.0,
+          "minimum": 75.0,
+          "maximum": 75.0,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 71.1,
+          "median": 71.1,
+          "minimum": 71.1,
+          "maximum": 71.1,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 69.7,
+          "median": 69.7,
+          "minimum": 69.7,
+          "maximum": 69.7,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 67.1,
+          "median": 67.1,
+          "minimum": 67.1,
+          "maximum": 67.1,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 67.1,
+          "median": 67.1,
+          "minimum": 67.1,
+          "maximum": 67.1,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 56.6,
+          "median": 56.6,
+          "minimum": 56.6,
+          "maximum": 56.6,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 55.3,
+          "median": 55.3,
+          "minimum": 55.3,
+          "maximum": 55.3,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 40.8,
+          "median": 40.8,
+          "minimum": 40.8,
+          "maximum": 40.8,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 35.5,
+          "median": 35.5,
+          "minimum": 35.5,
+          "maximum": 35.5,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 25.0,
+          "median": 25.0,
+          "minimum": 25.0,
+          "maximum": 25.0,
+          "standard_deviation": 0.0,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-mistral-medium-3.5-e2f55d5a56eb2e26",
+      "model_id": "mistralai/mistral-medium-3-5",
+      "provider_endpoint": "mistral/zdr",
+      "reasoning_effort": "high",
+      "temperature": 0,
+      "attempt_count": 17,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 15,
+        "invalid": 1,
+        "output_exhausted": 1
+      },
+      "observed_from": "2026-09-06T07:34:17.814Z",
+      "observed_to": "2026-09-06T09:39:50.286Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 90.7,
+        "minimum": 76.3,
+        "maximum": 98.7
+      },
       "runs": [
         {
           "replicate": 1,
@@ -14441,219 +13489,6 @@
             "Tierschutzpartei"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-glm-5.3-flash-6d709efab3cb75c1",
-      "model": "z-ai/glm-5.3-flash",
-      "display_name": "GLM 5.3 Flash",
-      "short_display_name": "GLM 5.3 Flash",
-      "provider_endpoint": "z-ai/fp8",
-      "reasoning_effort": "high",
-      "temperature": 0,
-      "max_output_tokens": 4096,
-      "attempt_count": 15,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 4,
-        "complete_extracted": 11
-      },
-      "observed_from": "2026-09-06T07:39:29.316Z",
-      "observed_to": "2026-09-06T09:40:51.823Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 88.0,
-        "minimum": 75.0,
-        "maximum": 97.4
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 47.5,
-          "median": 47.4,
-          "minimum": 36.8,
-          "maximum": 57.9,
-          "standard_deviation": 5.1,
-          "first_place_count": 0,
-          "percentage": 47.5,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 74.7,
-          "median": 75.0,
-          "minimum": 69.7,
-          "maximum": 78.9,
-          "standard_deviation": 2.6,
-          "first_place_count": 0,
-          "percentage": 74.7,
-          "rank": 9
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 87.1,
-          "median": 88.2,
-          "minimum": 78.9,
-          "maximum": 92.1,
-          "standard_deviation": 3.6,
-          "first_place_count": 11,
-          "percentage": 87.1,
-          "rank": 1
-        },
-        {
-          "party": "Die Linke",
-          "mean": 83.8,
-          "median": 85.5,
-          "minimum": 72.4,
-          "maximum": 93.4,
-          "standard_deviation": 5.6,
-          "first_place_count": 2,
-          "percentage": 83.8,
-          "rank": 3
-        },
-        {
-          "party": "AfD",
-          "mean": 21.9,
-          "median": 21.1,
-          "minimum": 15.8,
-          "maximum": 35.5,
-          "standard_deviation": 6.1,
-          "first_place_count": 0,
-          "percentage": 21.9,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 33.3,
-          "median": 31.6,
-          "minimum": 23.7,
-          "maximum": 44.7,
-          "standard_deviation": 5.6,
-          "first_place_count": 0,
-          "percentage": 33.3,
-          "rank": 16
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 86.4,
-          "median": 88.2,
-          "minimum": 75.0,
-          "maximum": 93.4,
-          "standard_deviation": 5.2,
-          "first_place_count": 7,
-          "percentage": 86.4,
-          "rank": 2
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 78.3,
-          "median": 77.6,
-          "minimum": 71.1,
-          "maximum": 82.9,
-          "standard_deviation": 3.0,
-          "first_place_count": 0,
-          "percentage": 78.3,
-          "rank": 6
-        },
-        {
-          "party": "Volt",
-          "mean": 72.5,
-          "median": 72.4,
-          "minimum": 67.1,
-          "maximum": 77.6,
-          "standard_deviation": 2.8,
-          "first_place_count": 0,
-          "percentage": 72.5,
-          "rank": 11
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 75.1,
-          "median": 76.3,
-          "minimum": 65.8,
-          "maximum": 84.2,
-          "standard_deviation": 4.9,
-          "first_place_count": 0,
-          "percentage": 75.1,
-          "rank": 8
-        },
-        {
-          "party": "DKP",
-          "mean": 72.6,
-          "median": 72.4,
-          "minimum": 65.8,
-          "maximum": 78.9,
-          "standard_deviation": 3.3,
-          "first_place_count": 0,
-          "percentage": 72.6,
-          "rank": 10
-        },
-        {
-          "party": "ÖDP",
-          "mean": 70.6,
-          "median": 69.7,
-          "minimum": 67.1,
-          "maximum": 75.0,
-          "standard_deviation": 1.7,
-          "first_place_count": 0,
-          "percentage": 70.6,
-          "rank": 12
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 35.6,
-          "median": 36.8,
-          "minimum": 27.6,
-          "maximum": 43.4,
-          "standard_deviation": 4.1,
-          "first_place_count": 0,
-          "percentage": 35.6,
-          "rank": 15
-        },
-        {
-          "party": "B*",
-          "mean": 78.1,
-          "median": 78.9,
-          "minimum": 69.7,
-          "maximum": 81.6,
-          "standard_deviation": 2.8,
-          "first_place_count": 0,
-          "percentage": 78.1,
-          "rank": 7
-        },
-        {
-          "party": "SGP",
-          "mean": 79.1,
-          "median": 78.9,
-          "minimum": 68.4,
-          "maximum": 88.2,
-          "standard_deviation": 5.4,
-          "first_place_count": 0,
-          "percentage": 79.1,
-          "rank": 5
-        },
-        {
-          "party": "BSW",
-          "mean": 53.2,
-          "median": 53.9,
-          "minimum": 48.7,
-          "maximum": 57.9,
-          "standard_deviation": 2.4,
-          "first_place_count": 0,
-          "percentage": 53.2,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 82.8,
-          "median": 82.9,
-          "minimum": 77.6,
-          "maximum": 86.8,
-          "standard_deviation": 2.4,
-          "first_place_count": 1,
-          "percentage": 82.8,
-          "rank": 4
-        }
       ],
       "thesis_answers": [
         {
@@ -14718,43 +13553,43 @@
         },
         {
           "number": 7,
-          "agree": 8,
-          "neutral": 7,
+          "agree": 10,
+          "neutral": 5,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 8
+          "modal_count": 10
         },
         {
           "number": 8,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 9,
+          "agree": 14,
+          "neutral": 1,
+          "disagree": 0,
+          "modal_answers": [
+            1
           ],
           "modal_count": 14
         },
         {
-          "number": 9,
-          "agree": 13,
-          "neutral": 2,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 13
-        },
-        {
           "number": 10,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 14
         },
         {
           "number": 11,
@@ -14769,12 +13604,12 @@
         {
           "number": 12,
           "agree": 0,
-          "neutral": 2,
-          "disagree": 13,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 13
+          "modal_count": 15
         },
         {
           "number": 13,
@@ -14789,7 +13624,37 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 4,
+          "neutral": 1,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 15,
+          "agree": 14,
+          "neutral": 1,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 16,
+          "agree": 3,
+          "neutral": 9,
+          "disagree": 3,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 9
+        },
+        {
+          "number": 17,
+          "agree": 2,
+          "neutral": 2,
           "disagree": 11,
           "modal_answers": [
             -1
@@ -14797,64 +13662,34 @@
           "modal_count": 11
         },
         {
-          "number": 15,
-          "agree": 15,
-          "neutral": 0,
-          "disagree": 0,
+          "number": 18,
+          "agree": 0,
+          "neutral": 2,
+          "disagree": 13,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 13
+        },
+        {
+          "number": 19,
+          "agree": 8,
+          "neutral": 6,
+          "disagree": 1,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 8
         },
         {
-          "number": 16,
+          "number": 20,
           "agree": 10,
-          "neutral": 5,
-          "disagree": 0,
+          "neutral": 3,
+          "disagree": 2,
           "modal_answers": [
             1
           ],
           "modal_count": 10
-        },
-        {
-          "number": 17,
-          "agree": 1,
-          "neutral": 6,
-          "disagree": 8,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 8
-        },
-        {
-          "number": 18,
-          "agree": 0,
-          "neutral": 6,
-          "disagree": 9,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 9
-        },
-        {
-          "number": 19,
-          "agree": 12,
-          "neutral": 3,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 12
-        },
-        {
-          "number": 20,
-          "agree": 0,
-          "neutral": 8,
-          "disagree": 7,
-          "modal_answers": [
-            0
-          ],
-          "modal_count": 8
         },
         {
           "number": 21,
@@ -14879,10 +13714,10 @@
         {
           "number": 23,
           "agree": 0,
-          "neutral": 12,
-          "disagree": 3,
+          "neutral": 3,
+          "disagree": 12,
           "modal_answers": [
-            0
+            -1
           ],
           "modal_count": 12
         },
@@ -14898,53 +13733,53 @@
         },
         {
           "number": 25,
-          "agree": 13,
-          "neutral": 2,
-          "disagree": 0,
+          "agree": 9,
+          "neutral": 3,
+          "disagree": 3,
           "modal_answers": [
             1
           ],
-          "modal_count": 13
+          "modal_count": 9
         },
         {
           "number": 26,
-          "agree": 1,
-          "neutral": 8,
-          "disagree": 6,
+          "agree": 7,
+          "neutral": 6,
+          "disagree": 2,
           "modal_answers": [
-            0
+            1
           ],
-          "modal_count": 8
+          "modal_count": 7
         },
         {
           "number": 27,
-          "agree": 9,
-          "neutral": 6,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 9
+          "modal_count": 14
         },
         {
           "number": 28,
-          "agree": 9,
-          "neutral": 6,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 9
+          "modal_count": 15
         },
         {
           "number": 29,
-          "agree": 4,
-          "neutral": 2,
-          "disagree": 9,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 9
+          "modal_count": 15
         },
         {
           "number": 30,
@@ -14968,23 +13803,23 @@
         },
         {
           "number": 32,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 14
         },
         {
           "number": 33,
-          "agree": 9,
-          "neutral": 6,
+          "agree": 12,
+          "neutral": 3,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 9
+          "modal_count": 12
         },
         {
           "number": 34,
@@ -14998,24 +13833,23 @@
         },
         {
           "number": 35,
-          "agree": 1,
-          "neutral": 7,
-          "disagree": 7,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
-            -1,
-            0
+            -1
           ],
-          "modal_count": 7
+          "modal_count": 15
         },
         {
           "number": 36,
-          "agree": 13,
-          "neutral": 2,
+          "agree": 15,
+          "neutral": 0,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 13
+          "modal_count": 15
         },
         {
           "number": 37,
@@ -15029,15 +13863,191 @@
         },
         {
           "number": 38,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 13,
+          "neutral": 2,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 13
         }
       ],
+      "parties": [
+        {
+          "party": "Tierschutzpartei",
+          "mean": 92.2,
+          "median": 92.1,
+          "minimum": 80.3,
+          "maximum": 98.7,
+          "standard_deviation": 4.1,
+          "first_place_count": 14
+        },
+        {
+          "party": "Die Linke",
+          "mean": 89.0,
+          "median": 88.2,
+          "minimum": 77.6,
+          "maximum": 96.1,
+          "standard_deviation": 4.5,
+          "first_place_count": 2
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 87.1,
+          "median": 88.2,
+          "minimum": 80.3,
+          "maximum": 92.1,
+          "standard_deviation": 2.9,
+          "first_place_count": 1
+        },
+        {
+          "party": "PdF",
+          "mean": 85.6,
+          "median": 86.8,
+          "minimum": 71.1,
+          "maximum": 90.8,
+          "standard_deviation": 4.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 83.8,
+          "median": 84.2,
+          "minimum": 75.0,
+          "maximum": 88.2,
+          "standard_deviation": 3.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 83.3,
+          "median": 82.9,
+          "minimum": 76.3,
+          "maximum": 88.2,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 81.9,
+          "median": 82.9,
+          "minimum": 76.3,
+          "maximum": 86.8,
+          "standard_deviation": 3.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 79.1,
+          "median": 78.9,
+          "minimum": 73.7,
+          "maximum": 84.2,
+          "standard_deviation": 2.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 77.9,
+          "median": 77.6,
+          "minimum": 71.1,
+          "maximum": 81.6,
+          "standard_deviation": 3.1,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 75.6,
+          "median": 75.0,
+          "minimum": 68.4,
+          "maximum": 78.9,
+          "standard_deviation": 2.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 73.2,
+          "median": 73.7,
+          "minimum": 67.1,
+          "maximum": 77.6,
+          "standard_deviation": 2.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 71.5,
+          "median": 72.4,
+          "minimum": 67.1,
+          "maximum": 73.7,
+          "standard_deviation": 2.1,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 55.5,
+          "median": 55.3,
+          "minimum": 50.0,
+          "maximum": 60.5,
+          "standard_deviation": 2.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 43.2,
+          "median": 44.7,
+          "minimum": 36.8,
+          "maximum": 47.4,
+          "standard_deviation": 3.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 31.9,
+          "median": 32.9,
+          "minimum": 27.6,
+          "maximum": 35.5,
+          "standard_deviation": 2.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 27.9,
+          "median": 28.9,
+          "minimum": 21.1,
+          "maximum": 39.5,
+          "standard_deviation": 4.5,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 17.0,
+          "median": 17.1,
+          "minimum": 11.8,
+          "maximum": 31.6,
+          "standard_deviation": 4.7,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-glm-5.3-flash-6d709efab3cb75c1",
+      "model_id": "z-ai/glm-5.3-flash",
+      "provider_endpoint": "z-ai/fp8",
+      "reasoning_effort": "high",
+      "temperature": 0,
+      "attempt_count": 15,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 4,
+        "complete_extracted": 11
+      },
+      "observed_from": "2026-09-06T07:39:29.316Z",
+      "observed_to": "2026-09-06T09:40:51.823Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 88.0,
+        "minimum": 75.0,
+        "maximum": 97.4
+      },
       "runs": [
         {
           "replicate": 1,
@@ -16815,230 +15825,17 @@
             "GRÜNE"
           ]
         }
-      ]
-    },
-    {
-      "id": "openrouter-kimi-k3-6f77eb37951429ec",
-      "model": "moonshotai/kimi-k3",
-      "display_name": "Kimi K3",
-      "short_display_name": "Kimi K3",
-      "provider_endpoint": "moonshotai/mxfp4",
-      "reasoning_effort": "high",
-      "temperature": null,
-      "max_output_tokens": 4096,
-      "attempt_count": 15,
-      "evaluable_run_count": 15,
-      "status_counts": {
-        "complete_exact": 9,
-        "complete_extracted": 6
-      },
-      "observed_from": "2026-09-06T07:42:17.568Z",
-      "observed_to": "2026-09-06T09:44:28.340Z",
-      "stability": {
-        "pair_count": 105,
-        "mean": 89.7,
-        "minimum": 78.9,
-        "maximum": 98.7
-      },
-      "agreements": [
-        {
-          "party": "CDU",
-          "mean": 49.9,
-          "median": 51.3,
-          "minimum": 42.1,
-          "maximum": 55.3,
-          "standard_deviation": 3.6,
-          "first_place_count": 0,
-          "percentage": 49.9,
-          "rank": 14
-        },
-        {
-          "party": "SPD",
-          "mean": 81.0,
-          "median": 81.6,
-          "minimum": 71.1,
-          "maximum": 85.5,
-          "standard_deviation": 3.7,
-          "first_place_count": 0,
-          "percentage": 81.0,
-          "rank": 6
-        },
-        {
-          "party": "GRÜNE",
-          "mean": 86.8,
-          "median": 86.8,
-          "minimum": 82.9,
-          "maximum": 90.8,
-          "standard_deviation": 2.6,
-          "first_place_count": 8,
-          "percentage": 86.8,
-          "rank": 2
-        },
-        {
-          "party": "Die Linke",
-          "mean": 83.0,
-          "median": 81.6,
-          "minimum": 77.6,
-          "maximum": 90.8,
-          "standard_deviation": 3.6,
-          "first_place_count": 0,
-          "percentage": 83.0,
-          "rank": 3
-        },
-        {
-          "party": "AfD",
-          "mean": 20.3,
-          "median": 19.7,
-          "minimum": 13.2,
-          "maximum": 26.3,
-          "standard_deviation": 3.0,
-          "first_place_count": 0,
-          "percentage": 20.3,
-          "rank": 17
-        },
-        {
-          "party": "FDP",
-          "mean": 34.1,
-          "median": 35.5,
-          "minimum": 26.3,
-          "maximum": 39.5,
-          "standard_deviation": 3.6,
-          "first_place_count": 0,
-          "percentage": 34.1,
-          "rank": 15
-        },
-        {
-          "party": "Tierschutzpartei",
-          "mean": 87.7,
-          "median": 86.8,
-          "minimum": 82.9,
-          "maximum": 96.1,
-          "standard_deviation": 3.6,
-          "first_place_count": 11,
-          "percentage": 87.7,
-          "rank": 1
-        },
-        {
-          "party": "Die PARTEI",
-          "mean": 78.4,
-          "median": 77.6,
-          "minimum": 72.4,
-          "maximum": 85.5,
-          "standard_deviation": 3.6,
-          "first_place_count": 0,
-          "percentage": 78.4,
-          "rank": 7
-        },
-        {
-          "party": "Volt",
-          "mean": 82.1,
-          "median": 82.9,
-          "minimum": 75.0,
-          "maximum": 88.2,
-          "standard_deviation": 4.5,
-          "first_place_count": 6,
-          "percentage": 82.1,
-          "rank": 5
-        },
-        {
-          "party": "Die Urbane.",
-          "mean": 73.9,
-          "median": 72.4,
-          "minimum": 68.4,
-          "maximum": 81.6,
-          "standard_deviation": 3.8,
-          "first_place_count": 0,
-          "percentage": 73.9,
-          "rank": 10
-        },
-        {
-          "party": "DKP",
-          "mean": 69.0,
-          "median": 69.7,
-          "minimum": 63.2,
-          "maximum": 76.3,
-          "standard_deviation": 3.4,
-          "first_place_count": 0,
-          "percentage": 69.0,
-          "rank": 11
-        },
-        {
-          "party": "ÖDP",
-          "mean": 66.5,
-          "median": 65.8,
-          "minimum": 59.2,
-          "maximum": 75.0,
-          "standard_deviation": 3.8,
-          "first_place_count": 0,
-          "percentage": 66.5,
-          "rank": 12
-        },
-        {
-          "party": "HEIMAT",
-          "mean": 26.6,
-          "median": 26.3,
-          "minimum": 21.1,
-          "maximum": 31.6,
-          "standard_deviation": 3.0,
-          "first_place_count": 0,
-          "percentage": 26.6,
-          "rank": 16
-        },
-        {
-          "party": "B*",
-          "mean": 74.5,
-          "median": 73.7,
-          "minimum": 68.4,
-          "maximum": 81.6,
-          "standard_deviation": 3.9,
-          "first_place_count": 0,
-          "percentage": 74.5,
-          "rank": 9
-        },
-        {
-          "party": "SGP",
-          "mean": 77.8,
-          "median": 77.6,
-          "minimum": 73.7,
-          "maximum": 84.2,
-          "standard_deviation": 2.8,
-          "first_place_count": 0,
-          "percentage": 77.8,
-          "rank": 8
-        },
-        {
-          "party": "BSW",
-          "mean": 50.2,
-          "median": 50.0,
-          "minimum": 46.1,
-          "maximum": 56.6,
-          "standard_deviation": 2.9,
-          "first_place_count": 0,
-          "percentage": 50.2,
-          "rank": 13
-        },
-        {
-          "party": "PdF",
-          "mean": 82.9,
-          "median": 82.9,
-          "minimum": 76.3,
-          "maximum": 88.2,
-          "standard_deviation": 3.8,
-          "first_place_count": 1,
-          "percentage": 82.9,
-          "rank": 4
-        }
       ],
       "thesis_answers": [
         {
           "number": 1,
-          "agree": 3,
+          "agree": 14,
           "neutral": 1,
-          "disagree": 11,
+          "disagree": 0,
           "modal_answers": [
-            -1
+            1
           ],
-          "modal_count": 11
+          "modal_count": 14
         },
         {
           "number": 2,
@@ -17082,36 +15879,6 @@
         },
         {
           "number": 6,
-          "agree": 14,
-          "neutral": 1,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 14
-        },
-        {
-          "number": 7,
-          "agree": 12,
-          "neutral": 3,
-          "disagree": 0,
-          "modal_answers": [
-            1
-          ],
-          "modal_count": 12
-        },
-        {
-          "number": 8,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 15
-        },
-        {
-          "number": 9,
           "agree": 15,
           "neutral": 0,
           "disagree": 0,
@@ -17121,14 +15888,44 @@
           "modal_count": 15
         },
         {
-          "number": 10,
-          "agree": 9,
-          "neutral": 6,
+          "number": 7,
+          "agree": 8,
+          "neutral": 7,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 9
+          "modal_count": 8
+        },
+        {
+          "number": 8,
+          "agree": 0,
+          "neutral": 1,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 9,
+          "agree": 13,
+          "neutral": 2,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 13
+        },
+        {
+          "number": 10,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
         },
         {
           "number": 11,
@@ -17143,12 +15940,12 @@
         {
           "number": 12,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 2,
+          "disagree": 13,
           "modal_answers": [
             -1
           ],
-          "modal_count": 14
+          "modal_count": 13
         },
         {
           "number": 13,
@@ -17163,12 +15960,12 @@
         {
           "number": 14,
           "agree": 0,
-          "neutral": 5,
-          "disagree": 10,
+          "neutral": 4,
+          "disagree": 11,
           "modal_answers": [
             -1
           ],
-          "modal_count": 10
+          "modal_count": 11
         },
         {
           "number": 15,
@@ -17192,43 +15989,43 @@
         },
         {
           "number": 17,
-          "agree": 0,
-          "neutral": 0,
-          "disagree": 15,
+          "agree": 1,
+          "neutral": 6,
+          "disagree": 8,
           "modal_answers": [
             -1
           ],
-          "modal_count": 15
+          "modal_count": 8
         },
         {
           "number": 18,
           "agree": 0,
-          "neutral": 1,
-          "disagree": 14,
+          "neutral": 6,
+          "disagree": 9,
           "modal_answers": [
             -1
           ],
-          "modal_count": 14
+          "modal_count": 9
         },
         {
           "number": 19,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 12,
+          "neutral": 3,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 12
         },
         {
           "number": 20,
-          "agree": 10,
-          "neutral": 5,
-          "disagree": 0,
+          "agree": 0,
+          "neutral": 8,
+          "disagree": 7,
           "modal_answers": [
-            1
+            0
           ],
-          "modal_count": 10
+          "modal_count": 8
         },
         {
           "number": 21,
@@ -17253,12 +16050,12 @@
         {
           "number": 23,
           "agree": 0,
-          "neutral": 2,
-          "disagree": 13,
+          "neutral": 12,
+          "disagree": 3,
           "modal_answers": [
-            -1
+            0
           ],
-          "modal_count": 13
+          "modal_count": 12
         },
         {
           "number": 24,
@@ -17272,53 +16069,53 @@
         },
         {
           "number": 25,
-          "agree": 14,
-          "neutral": 1,
+          "agree": 13,
+          "neutral": 2,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 14
+          "modal_count": 13
         },
         {
           "number": 26,
           "agree": 1,
-          "neutral": 3,
-          "disagree": 11,
-          "modal_answers": [
-            -1
-          ],
-          "modal_count": 11
-        },
-        {
-          "number": 27,
-          "agree": 6,
           "neutral": 8,
-          "disagree": 1,
+          "disagree": 6,
           "modal_answers": [
             0
           ],
           "modal_count": 8
         },
         {
-          "number": 28,
-          "agree": 15,
-          "neutral": 0,
+          "number": 27,
+          "agree": 9,
+          "neutral": 6,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 9
+        },
+        {
+          "number": 28,
+          "agree": 9,
+          "neutral": 6,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 9
         },
         {
           "number": 29,
-          "agree": 1,
+          "agree": 4,
           "neutral": 2,
-          "disagree": 12,
+          "disagree": 9,
           "modal_answers": [
             -1
           ],
-          "modal_count": 12
+          "modal_count": 9
         },
         {
           "number": 30,
@@ -17332,13 +16129,13 @@
         },
         {
           "number": 31,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 14
         },
         {
           "number": 32,
@@ -17352,11 +16149,11 @@
         },
         {
           "number": 33,
-          "agree": 5,
-          "neutral": 9,
-          "disagree": 1,
+          "agree": 9,
+          "neutral": 6,
+          "disagree": 0,
           "modal_answers": [
-            0
+            1
           ],
           "modal_count": 9
         },
@@ -17372,47 +16169,222 @@
         },
         {
           "number": 35,
-          "agree": 5,
-          "neutral": 5,
-          "disagree": 5,
+          "agree": 1,
+          "neutral": 7,
+          "disagree": 7,
           "modal_answers": [
             -1,
-            0,
-            1
+            0
           ],
-          "modal_count": 5
+          "modal_count": 7
         },
         {
           "number": 36,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 13,
+          "neutral": 2,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 13
         },
         {
           "number": 37,
-          "agree": 2,
-          "neutral": 3,
-          "disagree": 10,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
           "modal_answers": [
             -1
           ],
-          "modal_count": 10
+          "modal_count": 15
         },
         {
           "number": 38,
-          "agree": 15,
-          "neutral": 0,
+          "agree": 14,
+          "neutral": 1,
           "disagree": 0,
           "modal_answers": [
             1
           ],
-          "modal_count": 15
+          "modal_count": 14
         }
       ],
+      "parties": [
+        {
+          "party": "GRÜNE",
+          "mean": 87.1,
+          "median": 88.2,
+          "minimum": 78.9,
+          "maximum": 92.1,
+          "standard_deviation": 3.6,
+          "first_place_count": 11
+        },
+        {
+          "party": "Tierschutzpartei",
+          "mean": 86.4,
+          "median": 88.2,
+          "minimum": 75.0,
+          "maximum": 93.4,
+          "standard_deviation": 5.2,
+          "first_place_count": 7
+        },
+        {
+          "party": "Die Linke",
+          "mean": 83.8,
+          "median": 85.5,
+          "minimum": 72.4,
+          "maximum": 93.4,
+          "standard_deviation": 5.6,
+          "first_place_count": 2
+        },
+        {
+          "party": "PdF",
+          "mean": 82.8,
+          "median": 82.9,
+          "minimum": 77.6,
+          "maximum": 86.8,
+          "standard_deviation": 2.4,
+          "first_place_count": 1
+        },
+        {
+          "party": "SGP",
+          "mean": 79.1,
+          "median": 78.9,
+          "minimum": 68.4,
+          "maximum": 88.2,
+          "standard_deviation": 5.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 78.3,
+          "median": 77.6,
+          "minimum": 71.1,
+          "maximum": 82.9,
+          "standard_deviation": 3.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 78.1,
+          "median": 78.9,
+          "minimum": 69.7,
+          "maximum": 81.6,
+          "standard_deviation": 2.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 75.1,
+          "median": 76.3,
+          "minimum": 65.8,
+          "maximum": 84.2,
+          "standard_deviation": 4.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "SPD",
+          "mean": 74.7,
+          "median": 75.0,
+          "minimum": 69.7,
+          "maximum": 78.9,
+          "standard_deviation": 2.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 72.6,
+          "median": 72.4,
+          "minimum": 65.8,
+          "maximum": 78.9,
+          "standard_deviation": 3.3,
+          "first_place_count": 0
+        },
+        {
+          "party": "Volt",
+          "mean": 72.5,
+          "median": 72.4,
+          "minimum": 67.1,
+          "maximum": 77.6,
+          "standard_deviation": 2.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 70.6,
+          "median": 69.7,
+          "minimum": 67.1,
+          "maximum": 75.0,
+          "standard_deviation": 1.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 53.2,
+          "median": 53.9,
+          "minimum": 48.7,
+          "maximum": 57.9,
+          "standard_deviation": 2.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 47.5,
+          "median": 47.4,
+          "minimum": 36.8,
+          "maximum": 57.9,
+          "standard_deviation": 5.1,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 35.6,
+          "median": 36.8,
+          "minimum": 27.6,
+          "maximum": 43.4,
+          "standard_deviation": 4.1,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 33.3,
+          "median": 31.6,
+          "minimum": 23.7,
+          "maximum": 44.7,
+          "standard_deviation": 5.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 21.9,
+          "median": 21.1,
+          "minimum": 15.8,
+          "maximum": 35.5,
+          "standard_deviation": 6.1,
+          "first_place_count": 0
+        }
+      ]
+    },
+    {
+      "experiment_id": "openrouter-kimi-k3-6f77eb37951429ec",
+      "model_id": "moonshotai/kimi-k3",
+      "provider_endpoint": "moonshotai/mxfp4",
+      "reasoning_effort": "high",
+      "temperature": null,
+      "attempt_count": 15,
+      "evaluable_run_count": 15,
+      "status_counts": {
+        "complete_exact": 9,
+        "complete_extracted": 6
+      },
+      "observed_from": "2026-09-06T07:42:17.568Z",
+      "observed_to": "2026-09-06T09:44:28.340Z",
+      "stability": {
+        "pair_count": 105,
+        "mean": 89.7,
+        "minimum": 78.9,
+        "maximum": 98.7
+      },
       "runs": [
         {
           "replicate": 1,
@@ -19194,6 +18166,545 @@
             "GRÜNE",
             "Tierschutzpartei"
           ]
+        }
+      ],
+      "thesis_answers": [
+        {
+          "number": 1,
+          "agree": 3,
+          "neutral": 1,
+          "disagree": 11,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 11
+        },
+        {
+          "number": 2,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 3,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 4,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 5,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 6,
+          "agree": 14,
+          "neutral": 1,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 7,
+          "agree": 12,
+          "neutral": 3,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 12
+        },
+        {
+          "number": 8,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 9,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 10,
+          "agree": 9,
+          "neutral": 6,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 9
+        },
+        {
+          "number": 11,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 12,
+          "agree": 0,
+          "neutral": 1,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 13,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 14,
+          "agree": 0,
+          "neutral": 5,
+          "disagree": 10,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 10
+        },
+        {
+          "number": 15,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 16,
+          "agree": 10,
+          "neutral": 5,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 10
+        },
+        {
+          "number": 17,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 18,
+          "agree": 0,
+          "neutral": 1,
+          "disagree": 14,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 19,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 20,
+          "agree": 10,
+          "neutral": 5,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 10
+        },
+        {
+          "number": 21,
+          "agree": 0,
+          "neutral": 0,
+          "disagree": 15,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 22,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 23,
+          "agree": 0,
+          "neutral": 2,
+          "disagree": 13,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 13
+        },
+        {
+          "number": 24,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 25,
+          "agree": 14,
+          "neutral": 1,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 14
+        },
+        {
+          "number": 26,
+          "agree": 1,
+          "neutral": 3,
+          "disagree": 11,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 11
+        },
+        {
+          "number": 27,
+          "agree": 6,
+          "neutral": 8,
+          "disagree": 1,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 8
+        },
+        {
+          "number": 28,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 29,
+          "agree": 1,
+          "neutral": 2,
+          "disagree": 12,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 12
+        },
+        {
+          "number": 30,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 31,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 32,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 33,
+          "agree": 5,
+          "neutral": 9,
+          "disagree": 1,
+          "modal_answers": [
+            0
+          ],
+          "modal_count": 9
+        },
+        {
+          "number": 34,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 35,
+          "agree": 5,
+          "neutral": 5,
+          "disagree": 5,
+          "modal_answers": [
+            -1,
+            0,
+            1
+          ],
+          "modal_count": 5
+        },
+        {
+          "number": 36,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        },
+        {
+          "number": 37,
+          "agree": 2,
+          "neutral": 3,
+          "disagree": 10,
+          "modal_answers": [
+            -1
+          ],
+          "modal_count": 10
+        },
+        {
+          "number": 38,
+          "agree": 15,
+          "neutral": 0,
+          "disagree": 0,
+          "modal_answers": [
+            1
+          ],
+          "modal_count": 15
+        }
+      ],
+      "parties": [
+        {
+          "party": "Tierschutzpartei",
+          "mean": 87.7,
+          "median": 86.8,
+          "minimum": 82.9,
+          "maximum": 96.1,
+          "standard_deviation": 3.6,
+          "first_place_count": 11
+        },
+        {
+          "party": "GRÜNE",
+          "mean": 86.8,
+          "median": 86.8,
+          "minimum": 82.9,
+          "maximum": 90.8,
+          "standard_deviation": 2.6,
+          "first_place_count": 8
+        },
+        {
+          "party": "Die Linke",
+          "mean": 83.0,
+          "median": 81.6,
+          "minimum": 77.6,
+          "maximum": 90.8,
+          "standard_deviation": 3.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "PdF",
+          "mean": 82.9,
+          "median": 82.9,
+          "minimum": 76.3,
+          "maximum": 88.2,
+          "standard_deviation": 3.8,
+          "first_place_count": 1
+        },
+        {
+          "party": "Volt",
+          "mean": 82.1,
+          "median": 82.9,
+          "minimum": 75.0,
+          "maximum": 88.2,
+          "standard_deviation": 4.5,
+          "first_place_count": 6
+        },
+        {
+          "party": "SPD",
+          "mean": 81.0,
+          "median": 81.6,
+          "minimum": 71.1,
+          "maximum": 85.5,
+          "standard_deviation": 3.7,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die PARTEI",
+          "mean": 78.4,
+          "median": 77.6,
+          "minimum": 72.4,
+          "maximum": 85.5,
+          "standard_deviation": 3.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "SGP",
+          "mean": 77.8,
+          "median": 77.6,
+          "minimum": 73.7,
+          "maximum": 84.2,
+          "standard_deviation": 2.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "B*",
+          "mean": 74.5,
+          "median": 73.7,
+          "minimum": 68.4,
+          "maximum": 81.6,
+          "standard_deviation": 3.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "Die Urbane.",
+          "mean": 73.9,
+          "median": 72.4,
+          "minimum": 68.4,
+          "maximum": 81.6,
+          "standard_deviation": 3.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "DKP",
+          "mean": 69.0,
+          "median": 69.7,
+          "minimum": 63.2,
+          "maximum": 76.3,
+          "standard_deviation": 3.4,
+          "first_place_count": 0
+        },
+        {
+          "party": "ÖDP",
+          "mean": 66.5,
+          "median": 65.8,
+          "minimum": 59.2,
+          "maximum": 75.0,
+          "standard_deviation": 3.8,
+          "first_place_count": 0
+        },
+        {
+          "party": "BSW",
+          "mean": 50.2,
+          "median": 50.0,
+          "minimum": 46.1,
+          "maximum": 56.6,
+          "standard_deviation": 2.9,
+          "first_place_count": 0
+        },
+        {
+          "party": "CDU",
+          "mean": 49.9,
+          "median": 51.3,
+          "minimum": 42.1,
+          "maximum": 55.3,
+          "standard_deviation": 3.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "FDP",
+          "mean": 34.1,
+          "median": 35.5,
+          "minimum": 26.3,
+          "maximum": 39.5,
+          "standard_deviation": 3.6,
+          "first_place_count": 0
+        },
+        {
+          "party": "HEIMAT",
+          "mean": 26.6,
+          "median": 26.3,
+          "minimum": 21.1,
+          "maximum": 31.6,
+          "standard_deviation": 3.0,
+          "first_place_count": 0
+        },
+        {
+          "party": "AfD",
+          "mean": 20.3,
+          "median": 19.7,
+          "minimum": 13.2,
+          "maximum": 26.3,
+          "standard_deviation": 3.0,
+          "first_place_count": 0
         }
       ]
     }
