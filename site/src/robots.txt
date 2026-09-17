@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wahl.ksmn.dev/sitemap.xml

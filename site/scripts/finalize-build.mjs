@@ -13,6 +13,12 @@ await copyFile(
   new URL("../../figures/berlin-wahllm-preview.png", import.meta.url),
   new URL("../dist/berlin-wahllm-preview.png", import.meta.url)
 );
+for (const file of ["favicon.ico", "robots.txt", "sitemap.xml"]) {
+  await copyFile(
+    new URL(`../src/${file}`, import.meta.url),
+    new URL(`../dist/${file}`, import.meta.url)
+  );
+}
 
 for (const {path, locale} of outputPaths) {
   const html = await readFile(path, "utf8");

@@ -45,6 +45,20 @@ test("piku-Konfiguration hält Hostname und Secrets aus dem Repository", async (
   assert.match(nginx, /set \$wahllm_robots_header "noindex, nofollow";/);
 });
 
+test("Crawler-Dateien und Favicon werden als Root-Assets ausgeliefert", async () => {
+  const [robots, sitemap, favicon, finalizer] = await Promise.all([
+    readFile(new URL("../src/robots.txt", import.meta.url), "utf8"),
+    readFile(new URL("../src/sitemap.xml", import.meta.url), "utf8"),
+    readFile(new URL("../src/favicon.ico", import.meta.url)),
+    readFile(new URL("../scripts/finalize-build.mjs", import.meta.url), "utf8")
+  ]);
+  assert.equal(robots, "User-agent: *\nAllow: /\n\nSitemap: https://wahl.ksmn.dev/sitemap.xml\n");
+  assert.match(sitemap, /<loc>https:\/\/wahl\.ksmn\.dev\/<\/loc>/);
+  assert.match(sitemap, /<loc>https:\/\/wahl\.ksmn\.dev\/en\/<\/loc>/);
+  assert.deepEqual([...favicon.subarray(0, 6)], [0, 0, 1, 0, 4, 0]);
+  assert.match(finalizer, /\["favicon\.ico", "robots\.txt", "sitemap\.xml"\]/);
+});
+
 test("automatische Pages-Prüfung deployt nicht und manueller Workflow hat beide Modi", async () => {
   const [checks, publish] = await Promise.all([
     readFile(new URL("../../.github/workflows/pages.yml", import.meta.url), "utf8"),

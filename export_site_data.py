@@ -20,9 +20,9 @@ SCHEMA_VERSION = 2
 
 MODEL_LABELS = {
     "x-ai/grok-4.5": "Grok 4.5",
-    "anthropic/claude-sonnet-4.6": "Sonnet 4.6",
+    "anthropic/claude-sonnet-4.6": "Claude Sonnet 4.6",
     "google/gemini-3.5-flash-lite": "Gemini 3.5 Flash-Lite",
-    "openai/gpt-5.6-terra": "GPT-5.6 Terra",
+    "openai/gpt-5.6-terra": "ChatGPT-5.6 Terra",
     "google/gemma-4-26b-a4b-it": "Gemma 4 26B",
     "mistralai/mistral-medium-3-5": "Mistral Medium 3.5",
     "z-ai/glm-5.3-flash": "GLM 5.3 Flash",

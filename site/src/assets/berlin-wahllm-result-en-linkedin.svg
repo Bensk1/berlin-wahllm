@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title description">
+  <title id="title">How do AI models align politically? 7 of 8 models: Greens or The Left. Grok: AfD (far right).</title>
+  <desc id="description">Highest mean agreement with a party across 38 Wahl-O-Mat Berlin questions and 15 repetitions per model.</desc>
+  <rect width="1080" height="1350" fill="#f3f8fa"/>
+  <circle cx="1032" cy="34" r="205" fill="#d9ebef"/>
+  <circle cx="1020" cy="1302" r="145" fill="#f3e1d5"/>
+  <rect x="38" y="38" width="1004" height="1274" rx="28" fill="#ffffff" stroke="#b9c5ce" stroke-width="2"/>
+  <rect x="38" y="38" width="12" height="1274" rx="6" fill="#075b71"/>
+  <style>
+    text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .linkedin-eyebrow { fill: #075b71; font-size: 34px; font-weight: 800; letter-spacing: .8px; }
+    .linkedin-headline { fill: #17212b; font-size: 57px; font-weight: 780; letter-spacing: -1.2px; }
+    .linkedin-accent { fill: #075b71; font-size: 63px; font-weight: 780; letter-spacing: -1.4px; }
+    .linkedin-contrast { fill: #b55117; font-size: 50px; font-weight: 780; letter-spacing: -1px; }
+    .linkedin-subhead { fill: #51606f; font-size: 25px; }
+    .linkedin-model { fill: #334452; font-size: 27px; font-weight: 700; }
+    .linkedin-party { font-size: 39px; font-weight: 800; }
+    .linkedin-value { fill: #51606f; font-size: 28px; font-weight: 650; }
+    .linkedin-footer { fill: #51606f; font-size: 23px; }
+    .linkedin-source { fill: #075b71; font-size: 29px; font-weight: 800; letter-spacing: .2px; }
+  </style>
+  <text x="90" y="112" class="linkedin-eyebrow">HOW DO AI MODELS ALIGN POLITICALLY?</text>
+  <text x="90" y="188" class="linkedin-headline">7 of 8 models:</text>
+  <text x="90" y="254" class="linkedin-accent">Greens or The Left</text>
+  <text x="90" y="318" class="linkedin-contrast">Grok:<tspan dx="10">AfD (far right)</tspan></text>
+  <text x="90" y="371" class="linkedin-subhead">Highest mean agreement with a party</text>
+
+    <g transform="translate(90 414)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#8f2862"/>
+      <text x="50" y="39" class="linkedin-model">Gemini 3.5 Flash-Lite</text>
+      <text x="24" y="101" class="linkedin-party" fill="#8f2862">The Left</text>
+      <text x="24" y="137" class="linkedin-value">91.4%</text>
+    </g>
+    <g transform="translate(550 414)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#8f2862"/>
+      <text x="50" y="39" class="linkedin-model">ChatGPT-5.6 Terra</text>
+      <text x="24" y="101" class="linkedin-party" fill="#8f2862">The Left</text>
+      <text x="24" y="137" class="linkedin-value">92.1%</text>
+    </g>
+    <g transform="translate(90 588)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#087358"/>
+      <text x="50" y="39" class="linkedin-model">Claude Sonnet 4.6</text>
+      <text x="24" y="101" class="linkedin-party" fill="#087358">Greens</text>
+      <text x="24" y="137" class="linkedin-value">86.9%</text>
+    </g>
+    <g transform="translate(550 588)">
+      <rect width="440" height="158" rx="18" fill="#fff5ee" stroke="#d5926d" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#a84616"/>
+      <text x="50" y="39" class="linkedin-model">Grok 4.5</text>
+      <text x="24" y="101" class="linkedin-party" fill="#a84616">AfD</text>
+      <text x="24" y="137" class="linkedin-value">84.6%</text>
+    </g>
+    <g transform="translate(90 762)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#087358"/>
+      <text x="50" y="39" class="linkedin-model">Gemma 4 26B</text>
+      <text x="24" y="101" class="linkedin-party" fill="#087358">Greens</text>
+      <text x="24" y="137" class="linkedin-value">84.2%</text>
+    </g>
+    <g transform="translate(550 762)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#087358"/>
+      <text x="50" y="39" class="linkedin-model">GLM 5.3 Flash</text>
+      <text x="24" y="101" class="linkedin-party" fill="#087358">Greens</text>
+      <text x="24" y="137" class="linkedin-value">87.1%</text>
+    </g>
+    <g transform="translate(90 936)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#087358"/>
+      <text x="50" y="39" class="linkedin-model">Kimi K3</text>
+      <text x="24" y="101" class="linkedin-party" fill="#087358">Greens</text>
+      <text x="24" y="137" class="linkedin-value">86.8%</text>
+    </g>
+    <g transform="translate(550 936)">
+      <rect width="440" height="158" rx="18" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="28" cy="31" r="8" fill="#8f2862"/>
+      <text x="50" y="39" class="linkedin-model">Mistral Medium 3.5</text>
+      <text x="24" y="101" class="linkedin-party" fill="#8f2862">The Left</text>
+      <text x="24" y="137" class="linkedin-value">89.0%</text>
+    </g>
+  <line x1="90" y1="1124" x2="990" y2="1124" stroke="#b9c5ce" stroke-width="2"/>
+  <text x="90" y="1167" class="linkedin-footer">38 Wahl-O-Mat Berlin questions · 15 repetitions per model</text>
+  <text x="90" y="1203" class="linkedin-footer">Parties compared: CDU · SPD · Greens · The Left · AfD</text>
+  <text x="90" y="1270" class="linkedin-source">wahl.ksmn.dev</text>
+</svg>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2880" height="1120" viewBox="0 0 1440 560" role="img" aria-labelledby="title description">
+  <title id="title">7 of 8 models: Greens or The Left Grok: AfD (far right)</title>
+  <desc id="description">38 Wahl-O-Mat theses · 15 repetitions per model · Parties included in the comparison: · CDU, SPD, Greens, The Left, AfD · All currently represented in Berlin’s parliament</desc>
+  <rect width="1440" height="560" fill="#f3f8fa"/>
+  <circle cx="1390" cy="10" r="210" fill="#d9ebef"/>
+  <circle cx="1370" cy="545" r="130" fill="#f3e1d5"/>
+  <rect x="28" y="28" width="1384" height="504" rx="22" fill="#ffffff" stroke="#b9c5ce" stroke-width="2"/>
+  <rect x="28" y="28" width="10" height="504" rx="5" fill="#075b71"/>
+  <style>
+    text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .eyebrow { fill: #075b71; font-size: 17px; font-weight: 800; letter-spacing: 1.1px; }
+    .headline { fill: #17212b; font-size: 42px; font-weight: 780; letter-spacing: -1px; }
+    .accent { fill: #075b71; font-size: 42px; font-weight: 780; letter-spacing: -1px; }
+    .contrast { fill: #b55117; font-size: 42px; font-weight: 780; letter-spacing: -1px; }
+    .subhead { fill: #51606f; font-size: 19px; }
+    .model { fill: #334452; font-size: 17px; font-weight: 700; }
+    .party { font-size: 23px; font-weight: 800; }
+    .value { fill: #51606f; font-size: 17px; font-weight: 650; }
+    .exception { fill: #8d441c; font-size: 11px; font-weight: 850; letter-spacing: .8px; }
+    .footer { fill: #51606f; font-size: 16px; }
+  </style>
+  <text x="78" y="91" class="eyebrow">WHO WOULD AI VOTE FOR?</text>
+  <text x="78" y="154" class="headline">7 of 8 models:</text>
+  <text x="78" y="201" class="accent">Greens or The Left</text>
+  <text x="78" y="248" class="contrast">Grok: AfD (far right)</text>
+  <text x="78" y="302" class="subhead">Highest mean agreement for each model</text>
+
+  <line x1="78" y1="350" x2="538" y2="350" stroke="#b9c5ce" stroke-width="2"/>
+  <text x="78" y="384" class="footer">38 Wahl-O-Mat theses · 15 repetitions per model</text>
+  <text x="78" y="415" class="footer">Parties included in the comparison:</text>
+  <text x="78" y="446" class="footer">CDU, SPD, Greens, The Left, AfD</text>
+  <text x="78" y="477" class="footer">All currently represented in Berlin’s parliament</text>
+
+
+    <g transform="translate(606 112)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#8f2862"/>
+
+      <text x="18" y="62" class="model">Gemini 3.5</text>
+      <text x="18" y="84" class="model">Flash-Lite</text>
+      <text x="18" y="122" class="party" fill="#8f2862">The Left</text>
+      <text x="18" y="146" class="value">91.4 %</text>
+    </g>
+    <g transform="translate(796 112)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#8f2862"/>
+
+      <text x="18" y="62" class="model">ChatGPT-5.6</text>
+      <text x="18" y="84" class="model">Terra</text>
+      <text x="18" y="122" class="party" fill="#8f2862">The Left</text>
+      <text x="18" y="146" class="value">92.1 %</text>
+    </g>
+    <g transform="translate(986 112)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#087358"/>
+
+      <text x="18" y="62" class="model">Claude Sonnet</text>
+      <text x="18" y="84" class="model">4.6</text>
+      <text x="18" y="122" class="party" fill="#087358">Greens</text>
+      <text x="18" y="146" class="value">86.9 %</text>
+    </g>
+    <g transform="translate(1176 112)">
+      <rect width="178" height="160" rx="14" fill="#fff5ee" stroke="#d5926d" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#a84616"/>
+
+      <text x="18" y="62" class="model">Grok 4.5</text>
+
+      <text x="18" y="122" class="party" fill="#a84616">AfD</text>
+      <text x="18" y="146" class="value">84.6 %</text>
+    </g>
+    <g transform="translate(606 286)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#087358"/>
+
+      <text x="18" y="62" class="model">Gemma 4</text>
+      <text x="18" y="84" class="model">26B</text>
+      <text x="18" y="122" class="party" fill="#087358">Greens</text>
+      <text x="18" y="146" class="value">84.2 %</text>
+    </g>
+    <g transform="translate(796 286)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#087358"/>
+
+      <text x="18" y="62" class="model">GLM 5.3</text>
+      <text x="18" y="84" class="model">Flash</text>
+      <text x="18" y="122" class="party" fill="#087358">Greens</text>
+      <text x="18" y="146" class="value">87.1 %</text>
+    </g>
+    <g transform="translate(986 286)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#087358"/>
+
+      <text x="18" y="62" class="model">Kimi K3</text>
+
+      <text x="18" y="122" class="party" fill="#087358">Greens</text>
+      <text x="18" y="146" class="value">86.8 %</text>
+    </g>
+    <g transform="translate(1176 286)">
+      <rect width="178" height="160" rx="14" fill="#f7fbfa" stroke="#b8d3cc" stroke-width="2"/>
+      <circle cx="24" cy="25" r="7" fill="#8f2862"/>
+
+      <text x="18" y="62" class="model">Mistral Medium</text>
+      <text x="18" y="84" class="model">3.5</text>
+      <text x="18" y="122" class="party" fill="#8f2862">The Left</text>
+      <text x="18" y="146" class="value">89.0 %</text>
+    </g>
+</svg>

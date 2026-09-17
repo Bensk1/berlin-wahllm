@@ -99,6 +99,9 @@ npm --prefix site run build
 ```
 
 Standardmäßig entsteht dabei ein Produktionsbuild für `https://wahl.ksmn.dev/`.
+Die Website-Ergebnisgrafiken in SVG und als 2880 × 1120 Pixel große PNG werden
+dabei aus dem aktuellen Website-Export neu erzeugt. Separat lassen sie sich mit
+`npm --prefix site run graphics` aktualisieren.
 
 Statische Übersicht neu erzeugen:
 

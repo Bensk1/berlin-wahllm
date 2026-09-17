@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
 import test from "node:test";
+import {fileURLToPath} from "node:url";
+import sharp from "sharp";
 
 import {
   firstPlaceCount,
@@ -14,6 +16,7 @@ import {
 import {formatDate, percent, runLabel} from "../src/components/lib.js";
 import {comparisonRunIds} from "../src/components/model-ranking.js";
 import {matrixValues, thesisCard} from "../src/components/response-matrix.js";
+import {heroResultData, heroResultSummary} from "../src/components/hero-result.js";
 import {translations} from "../src/components/i18n.js";
 import {validateResults} from "../src/components/schema.js";
 import siteConfig, {normalizeBasePath, normalizeSiteUrl} from "../observablehq.config.js";
@@ -34,8 +37,8 @@ test("Website-Export enthält die acht kontrollierten Modellkonfigurationen", ()
 
 test("Modelle werden nach sichtbaren Namen sortiert", () => {
   assert.deepEqual(selectFocusModels(repositoryResults.models).map(runLabel), [
-    "Gemini 3.5 Flash-Lite", "Gemma 4 26B", "GLM 5.3 Flash", "GPT-5.6 Terra",
-    "Grok 4.5", "Kimi K3", "Mistral Medium 3.5", "Sonnet 4.6"
+    "ChatGPT-5.6 Terra", "Claude Sonnet 4.6", "Gemini 3.5 Flash-Lite", "Gemma 4 26B",
+    "GLM 5.3 Flash", "Grok 4.5", "Kimi K3", "Mistral Medium 3.5"
   ]);
 });
 
@@ -48,6 +51,58 @@ test("Fünferauswahl bildet die ausgewiesene Kernaussage ab", () => {
   assert.equal([...winnerByModel.entries()].filter(([name]) => name !== "Grok 4.5").every(([, parties]) =>
     parties.every((party) => party === "GRÜNE" || party === "Die Linke")
   ), true);
+});
+
+test("Ergebnisgrafik bildet alle acht eindeutigen Spitzenwerte ab", () => {
+  const values = heroResultData(selectFocusModels(repositoryResults.models));
+  assert.equal(values.length, 8);
+  assert.deepEqual(values.slice(0, 4).map(({model: name}) => name), [
+    "Gemini 3.5 Flash-Lite", "ChatGPT-5.6 Terra", "Claude Sonnet 4.6", "Grok 4.5"
+  ]);
+  assert.equal(values.filter(({party}) => party === "Grüne" || party === "Die Linke").length, 7);
+  assert.deepEqual(values.find(({exception}) => exception), {
+    model: "Grok 4.5",
+    party: "AfD",
+    value: 84.6,
+    exception: true
+  });
+});
+
+test("Ergebnisgrafik berücksichtigt die übergebene Parteienauswahl", () => {
+  const candidate = model("example", [
+    {party: "SPD", mean: 75},
+    {party: "Volt", mean: 90}
+  ]);
+  assert.equal(heroResultData([candidate], ["SPD"])[0].party, "SPD");
+  assert.equal(heroResultData([candidate], ["SPD", "Volt"])[0].party, "Volt");
+});
+
+test("Ergebnisgrafik fasst die aktive Parteienauswahl korrekt zusammen", () => {
+  const models = selectFocusModels(repositoryResults.models);
+  const focusResults = heroResultData(models, focusParties);
+  const allResults = heroResultData(models, repositoryResults.parties);
+  assert.deepEqual(heroResultSummary(focusResults, focusParties), {
+    finding: "7 von 8",
+    detail: "Modelle: Grüne oder Linke."
+  });
+  assert.deepEqual(heroResultSummary(allResults, repositoryResults.parties), {
+    finding: "5 von 8",
+    detail: "Modelle: Tierschutzpartei."
+  });
+});
+
+test("Ergebnisgrafiken stehen als hochauflösende PNG bereit", async () => {
+  const paths = [
+    new URL("../src/assets/berlin-wahllm-ergebnis.png", import.meta.url),
+    new URL("../src/assets/berlin-wahllm-result-en.png", import.meta.url),
+    new URL("../src/assets/berlin-wahllm-result-en-linkedin.png", import.meta.url)
+  ];
+  const metadata = await Promise.all(paths.map((path) => sharp(fileURLToPath(path)).metadata()));
+  assert.deepEqual(metadata.map(({width, height, format}) => ({width, height, format})), [
+    {width: 2880, height: 1120, format: "png"},
+    {width: 2880, height: 1120, format: "png"},
+    {width: 1080, height: 1350, format: "png"}
+  ]);
 });
 
 test("Kurzbezeichnungen haben vor vollständigen Anzeigenamen Vorrang", () => {
@@ -146,13 +201,19 @@ test("englische UI-Texte und Formate werden lokalisiert", () => {
 });
 
 test("beide Sprachseiten und die Hreflang-Metadaten sind konfiguriert", async () => {
-  const englishPage = await readFile(new URL("../src/en/index.md", import.meta.url), "utf8");
+  const [germanPage, englishPage] = await Promise.all([
+    readFile(new URL("../src/index.md", import.meta.url), "utf8"),
+    readFile(new URL("../src/en/index.md", import.meta.url), "utf8")
+  ]);
   const germanHead = siteConfig.head({path: "/index"});
   const englishHead = siteConfig.head({path: "/en/index"});
   assert.match(englishPage, /locale: "en"/);
   assert.match(englishPage, /The thesis texts are reproduced as the original German source material\./);
+  assert.match(germanPage, /Unter den \*\*fünf vorausgewählten Parteien\*\*/);
+  assert.match(englishPage, /Among the \*\*five preselected parties\*\*/);
   assert.ok(siteConfig.pages.some(({path}) => path === "/en/"));
   assert.equal(siteConfig.base, "/");
+  assert.match(germanHead, /rel="icon" href="\/favicon\.ico"/);
   assert.match(germanHead, /canonical" href="https:\/\/wahl\.ksmn\.dev\/"/);
   assert.match(englishHead, /canonical" href="https:\/\/wahl\.ksmn\.dev\/en\/"/);
   assert.match(englishHead, /hreflang="de"/);
@@ -162,6 +223,8 @@ test("beide Sprachseiten und die Hreflang-Metadaten sind konfiguriert", async ()
   assert.match(germanHead, /og:image:height" content="630"/);
   assert.match(germanHead, /twitter:card" content="summary_large_image"/);
   assert.match(germanHead, /og:image" content="https:\/\/wahl\.ksmn\.dev\/berlin-wahllm-preview\.png"/);
+  assert.match(germanHead, /Unter den fünf vorausgewählten Parteien/);
+  assert.match(englishHead, /among the five preselected parties/);
 });
 
 test("Hosting-Buildparameter werden an der Konfigurationsgrenze validiert", () => {

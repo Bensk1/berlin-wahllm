@@ -1,5 +1,5 @@
 ---
-title: Berlin WahLLM – Acht Sprachmodelle zur Abgeordnetenhauswahl 2026
+title: Berlin WahLLM | Acht Sprachmodelle zur Abgeordnetenhauswahl 2026
 ---
 
 ```js
@@ -8,17 +8,19 @@ import {formatDate, runLabel} from "./components/lib.js";
 import {text} from "./components/i18n.js";
 import {validateResults} from "./components/schema.js";
 import {partiesForMode, selectFocusModels} from "./components/focus.js";
-import {winnerCards} from "./components/winner-cards.js";
 import {heatmap} from "./components/heatmap.js";
 import {comparisonSelector, detailControls, modelRanking} from "./components/model-ranking.js";
 import {responseMatrix} from "./components/response-matrix.js";
-import {compactStickyPartyToggle} from "./components/party-toggle.js";
+import {compactPartyToggle} from "./components/party-toggle.js";
+import {heroResult} from "./components/hero-result.js";
 
 const resultsAttachment = FileAttachment("data/results.json");
 const noticesAttachment = FileAttachment("THIRD_PARTY_NOTICES.txt");
+const heroResultAttachment = FileAttachment("assets/berlin-wahllm-ergebnis.png");
 const results = validateResults(await resultsAttachment.json());
 const resultsDownloadUrl = await resultsAttachment.url();
 const noticesUrl = await noticesAttachment.url();
+const heroResultDownloadUrl = await heroResultAttachment.url();
 const buildTimestamp = document.querySelector('meta[name="site-build-timestamp"]').content;
 const models = selectFocusModels(results.models);
 const modelsById = new Map(models.map((model) => [model.id, model]));
@@ -31,73 +33,72 @@ const selectedRunInput = Inputs.select(models.map((model) => model.id), {
 });
 const comparisonSelectionInput = comparisonSelector({runs: models, mainInput: selectedRunInput, locale: "de"});
 const detailControlsInput = detailControls(selectedRunInput, comparisonSelectionInput);
-```
-
-<nav class="language-switcher" aria-label="Sprache">
-  <a href="./" aria-current="page" lang="de">DE</a><a href="./en/" lang="en">EN</a>
-</nav>
-
-<header class="hero" id="ueberblick">
-  <p class="eyebrow">Berlin WahLLM</p>
-  <h1>Wen würde KI wählen?</h1>
-  <p class="lead">Acht Sprachmodelle beantworten die 38 Thesen (unten aufgeführt) des Wahl-O-Mat zur Berliner Abgeordnetenhauswahl 2026.</p>
-  <aside class="key-finding" aria-labelledby="kernergebnis">
-    <p class="key-finding-label" id="kernergebnis">Ergebnis auf einen Blick</p>
-    <p class="key-finding-text"><strong>Sieben von acht Modellen stimmen mit Thesen der Grünen oder Linken überein.</strong> Grok fällt mit der AfD deutlich aus dem Muster.</p>
-    <p class="key-finding-note">15 Wiederholungen pro Modell zeigen reproduzierte Muster für den dokumentierten Prompt, nicht unbedingt politischen Überzeugungen.</p>
-  </aside>
-  <p class="metrics">8 Modelle · 38 Thesen · 15 Wiederholungen je Modell</p>
-  <details class="notice">
-    <summary>Experiment, keine Wahlempfehlung</summary>
-    <div class="notice-details">
-      <p>Die Ergebnisse basieren auf wiederholten Modellantworten unter festgelegten Versuchsbedingungen auf die Thesen des Berliner <a href="https://www.wahl-o-mat.de/berlin2026/">Wahl-O-Mat</a> 2026. Sie sind weder feste politische Haltungen der Modelle oder Anbieter noch eine Empfehlung.</p>
-      <p>Die Prozentwerte messen nur die rechnerische Nähe der 38 Modellantworten zu den veröffentlichten Parteipositionen. Ein hoher Wert sollte nicht mit einer echten Wahlabsicht gleichgesetzt werden.</p>
-    </div>
-  </details>
-</header>
-
-<nav class="jump-nav" aria-label="Abschnitte" hidden>
-  <a href="#gewinner">Gewinner</a><a href="#heatmap">Heatmap</a><a href="#detail">Detail</a><a href="#antworten">Antworten</a><a href="#interpretation">Interpretation</a><a href="#methodik">Methodik</a><a href="#daten">Modelle, Quellen, Daten und Code</a>
-</nav>
-
-
-<p><strong>Parteienauswahl:</strong> Voreingestellt sind CDU, SPD, Grüne, Die Linke und AfD: die fünf Parteien, deren Fraktionen aktuell im Berliner Abgeordnetenhaus vertreten sind. In der <a href="https://presse.wdr.de/plounge/wdr/programm/2026/09/20260910_ard_vorwahlbefragung_berlin.html">jüngsten ARD-Vorwahlumfrage vom 10.09.2026</a> liegen sie zudem oberhalb der Fünfprozenthürde. Umfragen sind Momentaufnahmen und keine Prognosen.</p>
-
-```js
 const partyModeInput = Inputs.radio(["focus", "all"], {
   label: ui.parties,
   value: "focus",
   format: (mode) => mode === "focus" ? ui.selectedParties : ui.allParties
 });
 partyModeInput.classList.add("party-toggle");
-compactStickyPartyToggle(partyModeInput, [
+compactPartyToggle(partyModeInput, [
   {long: ui.selectedParties, compact: ui.selectedPartiesCompact},
   {long: ui.allParties, compact: ui.allPartiesCompact}
 ]);
-const partyMode = view(partyModeInput);
+```
+
+```js
+const pageControls = document.createElement("div");
+pageControls.className = "page-controls";
+const languageSwitcher = document.createElement("nav");
+languageSwitcher.className = "language-switcher";
+languageSwitcher.setAttribute("aria-label", "Sprache");
+languageSwitcher.innerHTML = '<a href="./" aria-current="page" lang="de">DE</a><a href="./en/" lang="en">EN</a>';
+pageControls.append(languageSwitcher);
+display(pageControls);
 ```
 
 ```js
 const visibleParties = partiesForMode(results.parties, partyMode);
 ```
 
-<span id="gewinner"></span>
-
-## Die Modelle auf einen Blick
-
-Die Boxen zeigen pro Modell die Partei mit der höchsten durchschnittlichen Übereinstimmung über 15 Wiederholungen. Beim Wechsel zu allen 17 Parteien kann sich die erstplatzierte Partei ändern.
+<header class="hero" id="ueberblick">
+  <p class="eyebrow">Berlin WahLLM</p>
+  <h1>Wen würde KI wählen?</h1>
+  <p class="lead">Acht Sprachmodelle beantworten die 38 Thesen des Wahl-O-Mat zur Berliner Abgeordnetenhauswahl 2026 – jeweils 15-mal.</p>
 
 ```js
-display(winnerCards(models, visibleParties, "de"));
+display(heroResult({
+  models,
+  parties: visibleParties,
+  downloadUrl: partyMode === "focus" ? heroResultDownloadUrl : undefined,
+  locale: "de"
+}));
 ```
 
-<p class="figure-note">Quelle: eigene Berechnung (äquivalent zur ungewichteten Berechnung im <a href="https://www.wahl-o-mat.de/berlin2026/">Wahl-O-Mat</a>) aus den dokumentierten Modellantworten und den bpb-Parteipositionen.</p>
+  <p class="notice-summary">Gemessen wird die rechnerische Antwortähnlichkeit – keine Wahlabsicht und keine feste politische Haltung der Modelle.</p>
+  <details class="notice">
+    <summary>Experiment, keine Wahlempfehlung</summary>
+    <div class="notice-details">
+      <p>Die Ergebnisse basieren auf wiederholten Modellantworten unter festgelegten Versuchsbedingungen auf die Thesen des Berliner <a href="https://www.wahl-o-mat.de/berlin2026/">Wahl-O-Mat</a> 2026. Sie sind weder feste politische Haltungen der Modelle noch der Anbieter und auch keine Empfehlung.</p>
+      <p>Die Prozentwerte messen nur die rechnerische Nähe der 38 Modellantworten zu den veröffentlichten Parteipositionen. Ein hoher Wert sollte nicht mit einer echten Wahlabsicht gleichgesetzt werden.</p>
+    </div>
+  </details>
+</header>
+
+```js
+const partyMode = view(partyModeInput);
+```
+
+<nav class="jump-nav" aria-label="Abschnitte" hidden>
+  <a href="#heatmap">Heatmap</a><a href="#detail">Detail</a><a href="#antworten">Antworten</a><a href="#interpretation">Interpretation</a><a href="#methodik">Methodik</a><a href="#daten">Anhang</a>
+</nav>
+
+<p><strong>Parteienauswahl:</strong> Voreingestellt sind die fünf aktuell im Berliner Abgeordnetenhaus vertretenen Parteien. In der <a href="https://presse.wdr.de/plounge/wdr/programm/2026/09/20260910_ard_vorwahlbefragung_berlin.html">ARD-Vorwahlumfrage vom 10. September 2026</a> liegen sie ebenfalls über fünf Prozent. Umfragen sind Momentaufnahmen, keine Prognosen.</p>
 
 <span id="heatmap"></span>
 
 ## Wie nah liegen die Modelle an den Parteien?
 
-Jede Zeile steht für eines der acht Modelle, jede Spalte für eine Partei. Die Zellen zeigen die mittlere rechnerische Übereinstimmung aus 15 wiederholten Anfragen. Dunklere Zellen bedeuten höhere Werte. Die Farbskala bleibt in beiden Parteienmodi fest bei 0 bis 100 Prozent, löst Unterschiede ab 60 Prozent aber bewusst feiner auf.
+Jede Zeile steht für eines der acht Modelle, jede Spalte für eine Partei. Die Zellen zeigen die mittlere rechnerische Übereinstimmung aus 15 wiederholten Anfragen. Dunklere Zellen bedeuten eine höhere Übereinstimmung.
 
 Die Ergebnisse für xAIs **Grok unterscheiden sich über alle Wiederholungen deutlich** von den übrigen Modellen. Das macht einen einzelnen Zufallslauf als Erklärung unplausibel. Welchen Anteil **Trainingsdaten, Systemanweisungen, Modellausrichtung, Prompt** und API-Konfiguration an dem Unterschied haben, beantwortet dieses Experiment nicht.
 
@@ -114,13 +115,13 @@ display(heatmap({
 }));
 ```
 
-<p class="figure-note">Quelle: eigene Berechnung (äquivalent zur ungewichteten Berechnung im <a href="https://www.wahl-o-mat.de/berlin2026/">Wahl-O-Mat</a>) aus den dokumentierten Modellantworten und den bpb-Parteipositionen.</p>
+<p class="figure-note">Die Farbskala reicht in beiden Parteienmodi von 0 bis 100 Prozent und löst Unterschiede ab 60 Prozent feiner auf. Quelle: eigene Berechnung (äquivalent zur ungewichteten Berechnung im <a href="https://www.wahl-o-mat.de/berlin2026/">Wahl-O-Mat</a>) aus den dokumentierten Modellantworten und den bpb-Parteipositionen.</p>
 
 <span id="detail"></span>
 
 ## Die Modelle im Detail
 
-Hier lassen sich Mittelwerte und Schwankungen genauer untersuchen. Der Punkt zeigt den Mittelwert des Modells, die Linie dessen Minimum und Maximum und der senkrechte Strich den Median. Bis zu drei Vergleichsmodelle erscheinen als zusätzliche Mittelwertpunkte. Kennzahlen und Einzelläufe in den Tabellen beziehen sich auf das Hauptmodell.
+Der Punkt zeigt den Mittelwert aus 15 Läufen, die Linie den niedrigsten und höchsten Wert, der Strich den Median. Bis zu drei weitere Modelle lassen sich vergleichen. Kennzahlen und Einzelläufe in den Tabellen beziehen sich auf das Hauptmodell.
 
 ```js
 const detailSelection = view(detailControlsInput);
@@ -132,7 +133,7 @@ const comparisonModels = detailSelection.comparisonRunIds.map((id) => modelsById
 display(modelRanking(selectedModel, visibleParties, "de", comparisonModels));
 ```
 
-<p class="figure-note">Jeder Parteienwert fasst 38 Antworten zusammen. Mittelwert, Median und Spannweite beziehn sich auf 15 Wiederholungen.</p>
+<p class="figure-note">Jeder Parteienwert fasst 38 Antworten zusammen. Mittelwert, Median und Spannweite beziehen sich auf 15 Wiederholungen.</p>
 
 <span id="antworten"></span>
 
@@ -150,19 +151,17 @@ display(responseMatrix({models, theses: results.theses, locale: "de"}));
 
 ## Wie lässt sich das Muster interpretieren?
 
-Bei **sieben der acht Modelle** erreichen innerhalb der voreingestellten Parteien **Grüne oder Linke** die höchste mittlere Übereinstimmung. Bei Grok liegt die AfD vorn. Dieses Grundmuster wiederholt sich über 15 auswertbare Läufe je Modell und lässt sich daher nicht plausibel als Besonderheit eines einzelnen Zufallslaufs erklären.
+Unter den **fünf vorausgewählten Parteien** liegen bei **sieben der acht Modelle** **Grüne oder Linke** vorn, bei **Grok die AfD**. Dieses Muster zeigt sich über 15 Wiederholungen je Modell und ist daher kaum durch einen einzelnen Zufallslauf zu erklären.
 
 Grundsätzlich ist die **Interpretation** solcher Ergebnisse **schwierig**: Die Antworten bilden keine politischen Überzeugungen im menschlichen Sinn ab, sondern entstehen aus statistisch erlernten Sprachmustern, die durch Prompt, Trainingsdaten, Nachtraining und Systemanweisungen geprägt werden.
 
-Eine mögliche Erklärung liegt bereits im [Prompt](https://github.com/Bensk1/berlin-wahllm/blob/main/PROMPT.md). Er beschreibt eine wahlberechtigte Person in Berlin und verlangt Antworten gemäß deren Charakter und politischen Ansichten, ohne diese Person näher zu bestimmen. Das Modell muss die fehlende Identität selbst ergänzen. Dabei können sowohl eine gelernte Assistentenpersona als auch statistische Assoziationen mit Berlin in die Antworten einfließen.
+Bereits der [Prompt](https://github.com/Bensk1/berlin-wahllm/blob/main/PROMPT.md) lässt offen, welche Art von Berliner Person das Modell darstellen soll. Das Modell muss diese Identität selbst ergänzen. Dabei können sowohl eine gelernte Assistentenpersona als auch statistische Assoziationen mit Berlin in die Antworten einfließen. Auch der Fragebogen beeinflusst das Ergebnis: Die knappen Thesen enthalten selten Kosten oder Zielkonflikte und erlauben weder Begründungen noch Bedingungen.
 
-Auch Trainingsdaten und die nachträgliche Ausrichtung der Modelle können eine Rolle spielen. Moderne Sprachmodelle werden mit menschlichen Bewertungen, Verhaltensregeln und Systemanweisungen auf hilfreiche und möglichst schadensvermeidende Antworten abgestimmt. Eine mögliche, in diesem Experiment nicht geprüfte Hypothese ist, dass dadurch Werte wie Gleichbehandlung, Inklusion, öffentliche Unterstützung und Umweltschutz in abstrakten Entscheidungssituationen besonders häufig befürwortet werden. Frühere Untersuchungen fanden bei einigen entsprechend trainierten Modellen links-liberale Tendenzen, zugleich aber starke Unterschiede zwischen Prompts und Messverfahren. Sie belegen jedoch nicht die Ursache des hier beobachteten Musters. Siehe dazu die wissenschaftlichen Veröffentlichungen zu [„Whose Opinions Do Language Models Reflect?“](https://proceedings.mlr.press/v202/santurkar23a.html) und [„Political Compass or Spinning Arrow?“](https://aclanthology.org/2024.acl-long.816/).
+Auch Trainingsdaten und die nachträgliche Ausrichtung der Modelle können relevant sein. Moderne Sprachmodelle werden mit menschlichen Bewertungen, Verhaltensregeln und Systemanweisungen auf hilfreiche und möglichst schadensvermeidende Antworten abgestimmt. Eine mögliche, in diesem Experiment nicht geprüfte Hypothese ist, dass dadurch Werte wie Gleichbehandlung, Inklusion, öffentliche Unterstützung und Umweltschutz in abstrakten Entscheidungssituationen besonders häufig befürwortet werden. Frühere Untersuchungen fanden bei einigen Modellen links-liberale Tendenzen, zugleich aber starke Unterschiede zwischen Prompts und Messverfahren. Sie belegen jedoch nicht die Ursache des hier beobachteten Musters. Siehe dazu die wissenschaftlichen Veröffentlichungen zu [„Whose Opinions Do Language Models Reflect?“](https://proceedings.mlr.press/v202/santurkar23a.html) und [„Political Compass or Spinning Arrow?“](https://aclanthology.org/2024.acl-long.816/).
 
-Hinzu kommt der Fragebogen selbst. Die knappen Thesen nennen meistens weder Kosten noch Zielkonflikte, und das erzwungene Format lässt keine Begründungen oder Bedingungen zu. Die berechnete Parteinähe kann deshalb ebenso ein Produkt aus Formulierung, Antwortformat und Parteipositionen sein wie ein Ausdruck eines allgemeinen politischen Antwortmusters.
+Modelle verschiedener Anbieter können Trainingsdaten und Vorstellungen hilfreichen Verhaltens teilen. Die Ergebnisse gelten daher nur für die getesteten Modellversionen, den Prompt, die Provider-Endpunkte und Einstellungen; ihre Übertragbarkeit wurde nicht geprüft.
 
-Modelle verschiedener Anbieter können Trainingsdaten und Vorstellungen von hilfreichem Assistentenverhalten teilen. Belastbar ist das Ergebnis deshalb zunächst für die getesteten Modellversionen, den dokumentierten Prompt, die festgelegten Provider-Endpunkte und die jeweiligen Einstellungen. Ob es bei anderen Prompts, Systemanweisungen, Providern oder Modellversionen bestehen bleibt, wurde nicht geprüft.
-
-**Das Experiment zeigt unter diesen Bedingungen ein reproduziertes grün-linkes Antwortmuster bei sieben Modellen und ein deutlich anderes Muster bei Grok, erklärt aber nicht dessen Ursache.** Ob dabei von einem Bias gesprochen werden kann, hängt außerdem vom Vergleichsmaßstab ab: Der Prompt legt nicht fest, ob ein Modell die Berliner Bevölkerung, einen Durchschnitt der Parteien oder eine neutrale Antwortverteilung abbilden soll.
+**Unter diesen Bedingungen und bezogen auf die fünf vorausgewählten Parteien zeigen sieben Modelle ein reproduzierbares grün-linkes Antwortmuster, Grok ein deutlich anderes. Die Ursache bleibt offen.** Ob dies als Bias interpretiert werden kann, hängt vom Vergleichsmaßstab ab – doch der Prompt definiert keinen: weder die Berliner Bevölkerung noch einen Parteiendurchschnitt oder eine neutrale Antwortverteilung.
 
 <details>
   <summary>Wie ließe sich das prüfen? Ideen für weitere Untersuchungen:</summary>
@@ -179,34 +178,46 @@ Modelle verschiedener Anbieter können Trainingsdaten und Vorstellungen von hilf
 
 ## Methodik
 
-Alle Modelle erhielten denselben dokumentierten [Prompt](https://github.com/Bensk1/berlin-wahllm/blob/main/PROMPT.md). Jede Anfrage begann als neue Unterhaltung und enthielt nur diesen Prompt. Die Modelle sollten nicht als Person mit wohldefinierten sozioökonomischen Merkmalen antworten, sondern jede These mit `1` für Zustimmung, `0` für neutral oder `-1` für Ablehnung bewerten. Alle 38 Thesen zählen gleich viel.
+Alle Modelle erhielten denselben dokumentierten [Prompt](https://github.com/Bensk1/berlin-wahllm/blob/main/PROMPT.md), jede Anfrage begann als neue Unterhaltung. Pro Modell wurden 15 auswertbare Läufe untersucht. Alle 38 Thesen zählen gleich viel.
+
+<details>
+<summary>Berechnung</summary>
+
+Die Modelle bewerteten jede These mit `1` für Zustimmung, `0` für neutral oder `-1` für Ablehnung.
 
 <pre data-copy="none" aria-label="Formel für die Parteienübereinstimmung">Übereinstimmung = 100 × (1 - Σ|Modellantwortᵢ - Parteipositionᵢ| / 76)</pre>
 
-### Berechnung
-
 Die Ergebnisse sind eigene Berechnungen, äquivalent zur ungewichteten Berechnung im [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/), auf Grundlage der dokumentierten Modellantworten und der Parteipositionen aus dem bpb-Datensatz. Primäre Kennzahl ist die mittlere Parteienübereinstimmung aus 15 auswertbaren Wiederholungen pro Modell. Median, Minimum, Maximum und Populationsstandardabweichung beschreiben zusätzlich die beobachtete Verteilung. Bei Gleichständen werden alle erstplatzierten Parteien gezählt.
+</details>
 
+<details>
+<summary>Kontrollierte Wiederholungsexperimente</summary>
 
-### Kontrollierte Wiederholungs-Experimente
+[Die kontrollierten Wiederholungsexperimente](https://github.com/Bensk1/berlin-wahllm/tree/main/responses/api_experiments) enthalten ${results.summary.attempt_count} Versuche. Davon sind ${results.summary.evaluable_run_count} (15 pro Modell) auswertbar: ${results.summary.status_counts.complete_exact} Antworten entsprachen exakt dem verlangten Format, bei ${results.summary.status_counts.complete_extracted} war die eindeutige Folge von 38 Werten in zusätzlichem Text enthalten. Fünf ausschließlich neutrale Antworten, vier Verweigerungen, eine ungültige und eine wegen des Ausgabelimits unvollständige Antwort werden dokumentiert, aber fachlich nicht ausgewertet. Bei ChatGPT-5.6 Terra und Mistral waren deshalb zusätzliche Versuche nötig, um jeweils 15 auswertbare Läufe zu erhalten. Die Aussagen gelten damit ausdrücklich für auswertbare, nicht ausschließlich neutrale Antworten.
+</details>
 
-[Die kontrollierten Wiederholungs-Experimente](https://github.com/Bensk1/berlin-wahllm/tree/main/responses/api_experiments) enthalten ${results.summary.attempt_count} Versuche. Davon sind ${results.summary.evaluable_run_count} (15 pro Modell) auswertbar: ${results.summary.status_counts.complete_exact} Antworten entsprachen exakt dem verlangten Format, bei ${results.summary.status_counts.complete_extracted} war die eindeutige Folge von 38 Werten in zusätzlichem Text enthalten. Fünf ausschließlich neutrale Antworten, vier Verweigerungen, eine ungültige und eine wegen des Ausgabelimits unvollständige Antwort werden dokumentiert, aber fachlich nicht ausgewertet. Bei GPT-5.6 Terra und Mistral waren deshalb zusätzliche Versuche nötig, um jeweils 15 auswertbare Läufe zu erhalten. Die Aussagen gelten damit ausdrücklich für auswertbare, nicht ausschließlich neutrale Antworten.
+<details>
+<summary>Technische Details</summary>
 
-### Technische Details
+Die Anfragen liefen über OpenRouter mit festgelegtem Provider-Endpunkt, ohne Fallback, jeweils mit Zero Data Retention und untersagter Datensammlung, um eine möglichst anonyme bzw. nicht vorbelastete Modellantwort zu gewährleisten. Soweit unterstützt, waren Reasoning auf `high` und Temperatur auf `0` gesetzt. Die ausgewählten Endpunkte für Gemini, ChatGPT-5.6 Terra und Kimi erlaubten keine explizite Temperatur und nutzten den Provider-Standard; Gemma bot keine Reasoning-Steuerung. Diese Unterschiede gehören zu den jeweiligen getesteten Modellkonfigurationen.
+</details>
 
-Die Anfragen liefen über OpenRouter mit festgelegtem Provider-Endpunkt, ohne Fallback, jeweils mit Zero Data Retention und untersagter Datensammlung um eine möglichst anonyme bzw. nicht vorbelastete Modellantwort zu gewährleisten. Soweit unterstützt, waren Reasoning auf `high` und Temperatur auf `0` gesetzt. Die ausgewählten Endpunkte für Gemini, GPT-5.6 Terra und Kimi erlaubten keine explizite Temperatur und nutzten den Provider-Standard; Gemma bot keine Reasoning-Steuerung. Diese Unterschiede gehören zu den jeweiligen getesteten Modellkonfigurationen.
-
-### Aussagekraft
+<details>
+<summary>Aussagekraft</summary>
 
 Die 15 Läufe sind weiterhin eine Stichprobe möglicher Antworten, keine vollständige Erfassung des Modellverhaltens. Die Wiederholungen zeigen unter den getesteten Bedingungen deutliche und teilweise sehr stabile Unterschiede, erlauben aber keine uneingeschränkte Aussage über die Modelle unabhängig von Prompt und Ausführungsumgebung. Die Auswertung verwendet keine Signifikanztests, prüft nicht die sachliche Richtigkeit der Antworten und bewertet Parteien nicht politisch.
+</details>
 
 <span id="daten"></span>
 
-## Modelle, Quellen, Daten und Code
+## Modelle, Quellen, Daten & Code
 
-### Modelle
+Verglichen wurden acht festgelegte Modellkonfigurationen. Modellantworten, Auswertung, Quellen und Code sind für die Nachvollziehbarkeit dokumentiert.
 
-Verglichen wurden acht festgelegte Kombinationen aus Modell und Provider-Endpunkt. Jede Anfrage war zustandslos; Provider-Fallbacks waren deaktiviert.
+<details>
+<summary>Modelle</summary>
+
+Jede Modellkonfiguration besteht aus einem Modell und einem festgelegten Provider-Endpunkt. Jede Anfrage war zustandslos; Provider-Fallbacks waren deaktiviert.
 
 ```js
 const comparedModels = document.createElement("table");
@@ -235,7 +246,10 @@ comparedModelsWrapper.append(comparedModels);
 display(comparedModelsWrapper);
 ```
 
-### Quellen, Daten und Code
+</details>
+
+<details>
+<summary>Quellen, Daten und Code</summary>
 
 - [Exakter Prompt](https://github.com/Bensk1/berlin-wahllm/blob/main/PROMPT.md)
 - [Kontrollierte API-Experimente](https://github.com/Bensk1/berlin-wahllm/tree/main/responses/api_experiments)
@@ -255,6 +269,8 @@ display(downloadLink);
 Grundlage ist der Wahl-O-Mat-Datensatz zur Berliner Abgeordnetenhauswahl 2026. Berlin WahLLM ist eine unabhängige Analyse und wurde weder von der Bundeszentrale für politische Bildung noch von der Berliner Landeszentrale für politische Bildung erstellt, beauftragt oder unterstützt. Die Seite nimmt keine Antworten von Besucherinnen und Besuchern entgegen und ist kein Ersatz für den Wahl-O-Mat.
 
 Die Nutzung des Wahl-O-Mat-Datensatzes ist grundsätzlich untersagt. Veröffentlicht wird ausschließlich eine *wissenschaftliche* Analyse und daraus abgeleitete Ergebnisse; der Originaldatensatz wird hier nicht angeboten.
+
+</details>
 
 ## Lizenz
 

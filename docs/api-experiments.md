@@ -54,9 +54,9 @@ von Git ausgeschlossen und nicht Bestandteil des öffentlichen Datensatzes.
 | Vergleichsname | OpenRouter-Modell | festgelegter ZDR-Endpunkt |
 | --- | --- | --- |
 | Grok 4.5 fast | `x-ai/grok-4.5` | `xai/priority` |
-| Sonnet 4.6 | `anthropic/claude-sonnet-4.6` | `amazon-bedrock/global` |
+| Claude Sonnet 4.6 | `anthropic/claude-sonnet-4.6` | `amazon-bedrock/global` |
 | Gemini 3.5 Flash-Lite | `google/gemini-3.5-flash-lite` | `google-vertex/global` |
-| GPT-5.6 Terra | `openai/gpt-5.6-terra` | `azure` |
+| ChatGPT-5.6 Terra | `openai/gpt-5.6-terra` | `azure` |
 | Gemma 4 26B | `google/gemma-4-26b-a4b-it` | `google-vertex/global` |
 | Mistral Medium 3.5 | `mistralai/mistral-medium-3-5` | `mistral/zdr` |
 | GLM 5.3 Flash | `z-ai/glm-5.3-flash` | `z-ai/fp8` |
